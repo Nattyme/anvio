@@ -1,11 +1,28 @@
 .header__nav {
 }
 .nav {
-	font-size: 18px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
+
 .nav__list {
 	display: flex;
-	column-gap: 30px;
+	column-gap: 26px;
 }
+
+.nav__item:nth-child(-n+2) {
+    padding-right: 27px;
+    position: relative;
+
+    & > svg {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+
 .active {
 }

@@ -1,16 +1,36 @@
 <header class="header">
     <div class="container">
         <div class="header__row">
-            <div class="logo">ВебКадеми</div>
+            <div class="header-logo">
+                <img class="logo" src="./../../img/logo.png" alt="logo" class="logo">
+            </div>
             <nav class="header__nav nav">
                 <ul class="nav__list">
-                    <li><a href="index.html" class="active">Главная</a></li>
-		            <li><a href="docs.html">Документация</a></li>
+                    <li class="nav__item">
+                        Развлечения
+                        <svg class="icon icon--arrow-bottom">
+                            <use href="./img/svgsprite/sprite.symbol.svg#arrow-bottom"></use>
+                        </svg>
+                    </li>
+		            <li class="nav__item">
+                        Праздники
+                        <svg class="icon icon--arrow-bottom">
+                            <use href="./img/svgsprite/sprite.symbol.svg#arrow-bottom"></use>
+                        </svg>
+                    </li>
+		            <li class="nav__item">
+                        <a href="#!" class="nav__link">Сертификаты</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#!" class="nav__link">Контакты</a>
+                    </li>
                 </ul>
             </nav>
-            <button class="mobile-nav-btn">
-                <div class="nav-icon"></div>
+            <button class="header__btn">
+                <button class="btn-solid">КУПИТЬ БИЛЕТ</button>
             </button>
+
+            <div class="header__user">user</div>
         </div>
     </div>
 </header>
