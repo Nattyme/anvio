@@ -12,21 +12,21 @@
 	</head>
 
 	<body>
-		<header class="header">
+		<header class="header-top">
 			<div class="container">
-				<div class="header__nav">
+				<div class="header-top__nav">
 					<nav class="nav">
 						<div class="nav__logo">
 							<picture>
 								<source srcset="./img/logo-horizontal-red.webp 1x, ./img/logo-horizontal-red@2x.webp 2x" type="image/webp" />
 								<source srcset="./img/logo-horizontal-red.png 1x, ./img/logo-horizontal-red@2x.png 2x" type="image/png" />
-								<img class="logo" src="./img/logo-horizontal-red.png" alt="logo" class="logo" />
+								<img class="logo" src="./img/logo-horizontal-red.png" srcset="./img/logo-horizontal-red@2x.png" alt="logo" class="logo" />
 							</picture>
 						</div>
 
 						<ul class="nav-list">
 							<li class="nav-list__item">
-								<a href="#!" class="nav-list__link nav-list__link--dropdown">Развлечения</a>
+								<a href="#!" class="nav-list__link arrow-dropdown">Развлечения</a>
 
 								<!-- sub-nav -->
 								<div class="nav-list__sub-nav">
@@ -96,7 +96,7 @@
 								<!-- sub-nav -->
 							</li>
 							<li class="nav-list__item">
-								<a href="#!" class="nav-list__link nav-list__link--dropdown">Праздники</a>
+								<a href="#!" class="nav-list__link arrow-dropdown">Праздники</a>
 
 								<!-- sub-nav -->
 								<div class="nav-list__sub-nav nav-list__sub-nav--less">
@@ -149,10 +149,18 @@
 						</ul>
 
 						<button class="nav__btn">
-							<button class="btn-solid">КУПИТЬ БИЛЕТ</button>
+							<button class="btn-buy">КУПИТЬ БИЛЕТ</button>
 						</button>
 
-						<div class="nav__user">user</div>
+						<div class="nav-user">
+							<a class="nav-user__phone" href="tel:74951330243">+7&#160;495&#160;133-02-43</a>
+
+							<a class="nav-user__city arrow-dropdown">МОСКВА</a>
+
+							<button class="btn-login">ВОЙТИ</button>
+
+							<button class="btn-lang arrow-dropdown">RU</button>
+						</div>
 					</nav>
 				</div>
 			</div>
@@ -164,12 +172,17 @@
 			</ul>
 		</div>
 
-		<main class="docs">
-			<section>
-				<div class="container">
-					<h1 class="title-1">Gulp сборка для верстки сайтов</h1>
-					<p>Понятная Gulp сборка которая ускорит твою верстку в&#160;разы.</p>
-					<p>Документация по&#160;возможностям с&#160;примерами использования <a href="./docs.html">здесь</a>.</p>
+		<main class="main-page">
+			<section class="header">
+				<div class="header__row">
+					<div class="header__text"></div>
+					<div class="header__video">
+						<picture>
+							<source srcset="./img/header/video-img.webp 1x, ./img/header/video-img@2x.webp 2x" type="image/webp" />
+							<source srcset="./img/header/video-img.jpg 1x, ./img/header/video-img@2x.jpg 2x" type="image/jpeg" />
+							<img src="./img/header/video-img.jpg" srcset="./img/header/video-img@2x.jpg" alt="video" />
+						</picture>
+					</div>
 				</div>
 			</section>
 		</main>

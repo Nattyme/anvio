@@ -1,10 +1,18 @@
 .header {
-	padding-top: 15px;
-    padding-bottom: 15px;
+    position: relative;
+    padding-top: 70px;
 }
 
-.header__nav {
-	@include tablet {
-		// display: none;
-	}
+.header__video {
+    position: absolute;
+    top: 0;
+    right: 0px;
+   img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 863px;
+    height: 863px;
+    // clip-path: inset(0 219px 0 219px);
+   }
 }
+

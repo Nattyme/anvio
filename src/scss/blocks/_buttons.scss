@@ -1,0 +1,14 @@
+.btn-buy {
+    display: inline-block;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border-radius: 30px;
+    background-color: var(--btn-solid-bg);
+
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: var(--btn-solid-text);
+}
