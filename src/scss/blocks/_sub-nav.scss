@@ -7,16 +7,23 @@
 }
 
 .sub-nav__item {
-    position: relative;
     width: 222px;
     height: 100px;
+}
 
+.sub-nav__link {
+    position: relative;
+    
     img {
         border-radius: 10px;
     }
 
     &::before {
         @extend %overlay;
+    }
+
+    &:hover::before {
+        opacity: 0.2;
     }
 }
 
