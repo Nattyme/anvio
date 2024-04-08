@@ -1,0 +1,38 @@
+.sub-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.sub-nav__item {
+    position: relative;
+    width: 222px;
+    height: 100px;
+
+    img {
+        border-radius: 10px;
+    }
+
+    &::before {
+        @extend %overlay;
+    }
+}
+
+.sub-nav__text {
+    padding: 10px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    width: 100%;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-color-light);
+}

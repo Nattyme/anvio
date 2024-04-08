@@ -14,35 +14,104 @@
 	<body>
 		<header class="header">
 			<div class="container">
-				<div class="header__row">
-					<div class="header-logo">
-						<picture>
-							<source srcset="./img/logo.webp 1x, ./img/logo@2x.webp 2x" type="image/webp" />
-							<source srcset="./img/logo.png 1x, ./img/logo@2x.png 2x" type="image/png" />
-							<img class="logo" src="./img/logo.png" alt="logo" class="logo" />
-						</picture>
-					</div>
-					<nav class="header__nav nav">
-						<ul class="nav__list">
-							<li class="nav__item">
-								<a href="#!" class="nav__link nav__link--dropdown">Развлечения</a>
+				<div class="header__nav">
+					<nav class="nav">
+						<div class="nav__logo">
+							<picture>
+								<source srcset="./img/logo-horizontal-red.webp 1x, ./img/logo-horizontal-red@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/logo-horizontal-red.png 1x, ./img/logo-horizontal-red@2x.png 2x" type="image/png" />
+								<img class="logo" src="./img/logo-horizontal-red.png" alt="logo" class="logo" />
+							</picture>
+						</div>
+
+						<ul class="nav-list">
+							<li class="nav-list__item">
+								<a href="#!" class="nav-list__link nav-list__link--dropdown">Развлечения</a>
+
+								<!-- sub-nav -->
+								<div class="nav-list__sub-nav">
+									<ul class="sub-nav">
+										<li class="sub-nav__item">
+											<a href="#!" class="sub-nav__link">
+												<span class="sub-nav__text">Арена</span>
+												<picture>
+													<source srcset="./img/header-nav/img-01.webp 1x, ./img/header-nav/img-01@2x.webp 2x" type="image/webp" />
+													<source srcset="./img/header-nav/img-01.jpg 1x, ./img/header-nav/img-01@2x.jpg 2x" type="image/jpeg" />
+													<img src="./img/header-nav/img-01.jpg" srcset="./img/header-nav/img-01@2x.jpg" alt="arena" />
+												</picture>
+											</a>
+										</li>
+										<li class="sub-nav__item">
+											<a href="#!" class="sub-nav__link">
+												<span class="sub-nav__text">Куб</span>
+												<picture>
+													<source srcset="./img/header-nav/img-02.webp 1x, ./img/header-nav/img-02@2x.webp 2x" type="image/webp" />
+													<source srcset="./img/header-nav/img-02.jpg 1x, ./img/header-nav/img-02@2x.jpg 2x" type="image/jpeg" />
+													<img src="./img/header-nav/img-02.jpg" srcset="./img/header-nav/img-02@2x.jpg" alt="arena" />
+												</picture>
+											</a>
+										</li>
+										<li class="sub-nav__item">
+											<a href="#!" class="sub-nav__link">
+												<span class="sub-nav__text">Атракционы</span>
+												<picture>
+													<source srcset="./img/header-nav/img-03.webp 1x, ./img/header-nav/img-03@2x.webp 2x" type="image/webp" />
+													<source srcset="./img/header-nav/img-03.jpg 1x, ./img/header-nav/img-03@2x.jpg 2x" type="image/jpeg" />
+													<img src="./img/header-nav/img-03.jpg" srcset="./img/header-nav/img-03@2x.jpg" alt="arena" />
+												</picture>
+											</a>
+										</li>
+										<li class="sub-nav__item">
+											<a href="#!" class="sub-nav__link">
+												<span class="sub-nav__text">Стенды</span>
+												<picture>
+													<source srcset="./img/header-nav/img-04.webp 1x, ./img/header-nav/img-04@2x.webp 2x" type="image/webp" />
+													<source srcset="./img/header-nav/img-04.jpg 1x, ./img/header-nav/img-04@2x.jpg 2x" type="image/jpeg" />
+													<img src="./img/header-nav/img-04.jpg" srcset="./img/header-nav/img-04@2x.jpg" alt="arena" />
+												</picture>
+											</a>
+										</li>
+										<li class="sub-nav__item">
+											<a href="#!" class="sub-nav__link">
+												<span class="sub-nav__text">PvP-соревнования</span>
+												<picture>
+													<source srcset="./img/header-nav/img-05.webp 1x, ./img/header-nav/img-05@2x.webp 2x" type="image/webp" />
+													<source srcset="./img/header-nav/img-05.jpg 1x, ./img/header-nav/img-05@2x.jpg 2x" type="image/jpeg" />
+													<img src="./img/header-nav/img-05.jpg" srcset="./img/header-nav/img-05@2x.jpg" alt="arena" />
+												</picture>
+											</a>
+										</li>
+										<li class="sub-nav__item">
+											<a href="#!" class="sub-nav__link">
+												<span class="sub-nav__text">Билет в&#160;парк</span>
+												<picture>
+													<source srcset="./img/header-nav/img-06.webp 1x, ./img/header-nav/img-06@2x.webp 2x" type="image/webp" />
+													<source srcset="./img/header-nav/img-06.jpg 1x, ./img/header-nav/img-06@2x.jpg 2x" type="image/jpeg" />
+													<img src="./img/header-nav/img-06.jpg" srcset="./img/header-nav/img-06@2x.jpg" alt="arena" />
+												</picture>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<!-- sub-nav -->
 							</li>
-							<li class="nav__item">
-								<a href="#!" class="nav__link nav__link--dropdown">Праздники</a>
+							<li class="nav-list__item">
+								<a href="#!" class="nav-list__link nav-list__link--dropdown">Праздники</a>
 							</li>
-							<li class="nav__item">
-								<a href="#!" class="nav__link">Сертификаты</a>
+							<li class="nav-list__item">
+								<a href="#!" class="nav-list__link">Сертификаты</a>
 							</li>
-							<li class="nav__item">
-								<a href="#!" class="nav__link">Контакты</a>
+							<li class="nav-list__item">
+								<a href="#!" class="nav-list__link">Контакты</a>
 							</li>
 						</ul>
-					</nav>
-					<button class="header__btn">
-						<button class="btn-solid">КУПИТЬ БИЛЕТ</button>
-					</button>
 
-					<div class="header__user">user</div>
+						<button class="nav__btn">
+							<button class="btn-solid">КУПИТЬ БИЛЕТ</button>
+						</button>
+
+						<div class="nav__user">user</div>
+					</nav>
 				</div>
 			</div>
 		</header>
