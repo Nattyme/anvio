@@ -11,17 +11,24 @@
 	column-gap: 26px;
 }
 
-.nav__item:nth-child(-n+2) {
-    padding-right: 27px;
-    position: relative;
+.nav__link--dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    
+    &::after {
+        content: "";
+        width: 17px;
+        height: 8.5px;
 
-    & > svg {
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='18' height='10' viewBox='0 0 18 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0.492767 0.75L8.99277 9.25L17.4928 0.75' stroke='black'/%3e%3c/svg%3e");
+        background-position: center center; // x y
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
+
 
 
 .active {
