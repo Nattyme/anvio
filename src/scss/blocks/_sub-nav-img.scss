@@ -1,4 +1,4 @@
-.sub-nav {
+.sub-nav-img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,12 +6,12 @@
     gap: 5px;
 }
 
-.sub-nav__item {
+.sub-nav-img__item {
     width: 222px;
     height: 100px;
 }
 
-.sub-nav__link {
+.sub-nav-img__link {
     position: relative;
     
     img {
@@ -27,7 +27,7 @@
     }
 }
 
-.sub-nav__text {
+.sub-nav-img__text {
     padding: 10px;
 
     position: absolute;
