@@ -12,7 +12,7 @@ const webpack = require('webpack-stream');
 const babel = require('gulp-babel');
 const imagemin = require('gulp-imagemin');
 const changed = require('gulp-changed');
-const typograf = require('gulp-typograf');
+// const typograf = require('gulp-typograf');
 const svgsprite = require('gulp-svg-sprite');
 const replace = require('gulp-replace');
 const webpHTML = require('gulp-webp-retina-html');
@@ -61,16 +61,16 @@ gulp.task('html:dev', function () {
 				'$1./$4$5$7$1'
 			)
 		)
-		.pipe(
-			typograf({
-				locale: ['ru', 'en-US'],
-				htmlEntity: { type: 'digit' },
-				safeTags: [
-					['<\\?php', '\\?>'],
-					['<no-typography>', '</no-typography>'],
-				],
-			})
-		)
+		// .pipe(
+		// 	typograf({
+		// 		locale: ['ru', 'en-US'],
+		// 		htmlEntity: { type: 'digit' },
+		// 		safeTags: [
+		// 			['<\\?php', '\\?>'],
+		// 			['<no-typography>', '</no-typography>'],
+		// 		],
+		// 	})
+		// )
 		.pipe(
 			webpHTML({
 				extensions: ['jpg', 'jpeg', 'png', 'gif', 'webp'],
