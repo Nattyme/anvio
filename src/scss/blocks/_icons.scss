@@ -53,6 +53,16 @@
     fill: #000;
 }
 
+.icon--slider-arrow {
+    width: 10px;
+    height: 20px;
+    stroke: #000;
+}
+
+.slider-arrow__next .icon--slider-arrow {
+    transform: rotate(180deg);
+}
+
 .icon--action {
     width: 64px;
     height: 64px;

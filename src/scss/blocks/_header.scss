@@ -1,14 +1,13 @@
 .header {
     position: relative;
     padding-bottom: 149px;
-    padding-right: 30px;
     
     &::after {
         position: absolute;
         z-index: 1;
         content: "";
         bottom: 44px;
-        right: 409px;
+        right: 430px;
 
         width: 2262px;
         height: 2291px;
@@ -22,6 +21,8 @@
 }
 
 .header__row {
+    padding-right: 30px;
+    
     position: relative;
     z-index: 2;
 
@@ -33,7 +34,7 @@
     position: absolute;
     z-index: -1;
     top: 160px;
-    left: 187px;
+    left: 157px;
 
     width: 884px;
     height: 662px;
@@ -58,6 +59,8 @@
 }
 
 .header__slider {
+    display: inline-block;
+    position: relative;
 }
 
 .header__video {

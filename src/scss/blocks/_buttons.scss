@@ -12,3 +12,42 @@
     letter-spacing: 0.05em;
     color: var(--btn-solid-text);
 }
+
+.slider__buttons {
+ 
+}
+
+.slider-arrow {
+    position: absolute;
+    top: 66px;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+
+    background-color: #fff;
+    border-radius: 50%;
+
+    position: absolute;
+
+    &__prev {
+        left: 0;
+        transform: translateX(-50%);
+    }
+
+    &__next {
+        right: 0;
+        transform: translateX(50%);
+    }
+}
+
+.icon {
+}
+.icon--slider-arrow {
+}
+.slider-arrow--next {
+}
