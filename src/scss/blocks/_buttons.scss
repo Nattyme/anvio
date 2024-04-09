@@ -45,9 +45,26 @@
     }
 }
 
-.icon {
+.slider__pagination {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+    display: flex;
 }
-.icon--slider-arrow {
-}
-.slider-arrow--next {
+
+.pagination {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    &--active {
+        background-color: #fff;
+    }
+
+    &:not(:first-child) {
+        margin-left: 10px;
+    }
 }
