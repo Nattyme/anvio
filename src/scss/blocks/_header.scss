@@ -1,18 +1,43 @@
 .header {
     position: relative;
     padding-top: 70px;
+    padding-bottom: 102px;
+    padding-right: 30px;
+    
+    &::after {
+        position: absolute;
+        z-index: 1;
+        content: "";
+        bottom: 0;
+        right: 409px;
+
+        width: 2262px;
+        height: 2291px;
+        
+        background-image: url('./../../img/header/anvio-bg.svg');
+        background-position: center bottom; // x y
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+}
+
+.header__row {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header__video {
-    position: absolute;
-    top: 0;
-    right: 0px;
-   img {
-    border-radius: 50%;
-    object-fit: cover;
-    width: 863px;
-    height: 863px;
-    // clip-path: inset(0 219px 0 219px);
-   }
+
+    img {
+        border-radius: 50%;
+        object-fit: cover;
+        width: 858px;
+        height: 858px;
+        // clip-path: inset(0 219px 0 219px);
+    }
 }
 
