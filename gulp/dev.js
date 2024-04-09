@@ -196,6 +196,13 @@ gulp.task('files:dev', function () {
 		.pipe(gulp.dest('./build/files/'));
 });
 
+gulp.task('libs:dev', function () {
+	return gulp
+		.src('./src/libs/**/*')
+		.pipe(changed('./build/libs/'))
+		.pipe(gulp.dest('./build/libs/'));
+});
+
 gulp.task('js:dev', function () {
 	return gulp
 		.src('./src/js/*.js')

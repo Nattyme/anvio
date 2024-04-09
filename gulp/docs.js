@@ -212,6 +212,13 @@ gulp.task('files:docs', function () {
 		.pipe(gulp.dest('./docs/files/'));
 });
 
+gulp.task('libs:docs', function () {
+	return gulp
+		.src('./src/libs/**/*')
+		.pipe(changed('./docs/libs/'))
+		.pipe(gulp.dest('./docs/libs/'));
+});
+
 gulp.task('js:docs', function () {
 	return gulp
 		.src('./src/js/*.js')

@@ -10,6 +10,10 @@
 
 	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
 	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+
+    <!-- youtubelightbox style -->
+    <link rel="stylesheet" href="./libs/youtubeLightbox/youtubeLightbox.css">
+    <!--// youtubelightbox style -->
 </head>
 
 <body>
@@ -18,6 +22,20 @@
 		@@include('blocks/section-header.html')
 	</main>
 	@@include('blocks/footer.html')
+
+     <!--=== libs ===-->
+    <!-- Youtube LightBox -->
+    <div id="youtubelightbox" class="youtubelightbox">
+        <div class="youtubelightbox__centeredchild">
+            <div class="youtubelightbox__videowrapper">
+                <div id="youtubelightboxPlayer"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./libs/youtubeLightbox/youtubeLightbox.js"></script>
+    <!--=== libs ===-->
+
 	<script src="./js/index.bundle.js"></script>
 </body>
 

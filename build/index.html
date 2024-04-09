@@ -9,6 +9,10 @@
 
 		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
 		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+
+		<!-- youtubelightbox style -->
+		<link rel="stylesheet" href="./libs/youtubeLightbox/youtubeLightbox.css" />
+		<!--// youtubelightbox style -->
 	</head>
 
 	<body>
@@ -223,12 +227,14 @@
 
 						<!-- video circle -->
 						<div class="header__video">
-							<a href="#!" class="header__video-link">
+							<a href="https://www.youtube.com/watch?v=T0lvn-mJu1A" class="header__video-link" data-youtubelightbox>
 								<picture>
 									<source srcset="./img/header/video-img.webp 1x, ./img/header/video-img@2x.webp 2x" type="image/webp" />
 									<source srcset="./img/header/video-img.jpg 1x, ./img/header/video-img@2x.jpg 2x" type="image/jpeg" />
 									<img src="./img/header/video-img.jpg" srcset="./img/header/video-img@2x.jpg" alt="video" />
 								</picture>
+
+								<!-- fake play btn -->
 								<div class="header__pulse-dot">
 									<div class="pulse-dot">
 										<div class="pulse-dot__circle">
@@ -239,6 +245,7 @@
 										<div class="pulse-dot__radius"></div>
 									</div>
 								</div>
+								<!-- fake play btn -->
 							</a>
 						</div>
 						<!--// circle -->
@@ -294,6 +301,19 @@
 				</div>
 			</div>
 		</footer>
+
+		<!--=== libs ===-->
+		<!-- Youtube LightBox -->
+		<div id="youtubelightbox" class="youtubelightbox">
+			<div class="youtubelightbox__centeredchild">
+				<div class="youtubelightbox__videowrapper">
+					<div id="youtubelightboxPlayer"></div>
+				</div>
+			</div>
+		</div>
+
+		<script src="./libs/youtubeLightbox/youtubeLightbox.js"></script>
+		<!--=== libs ===-->
 
 		<script src="./js/index.bundle.js"></script>
 	</body>
