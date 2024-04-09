@@ -63,9 +63,22 @@
     transform: rotate(180deg);
 }
 
-.icon--percent {
+.slider-offers__item .icon--percent {
     width: 332px;
     height: 334px;
+    fill: var(--accent);
+}
+
+.slider-offers__item .icon--cheers {
+    width: 248px;
+    height: 248px;
+    fill: var(--accent);
+    stroke: transparent;
+}
+
+.slider-offers__item .icon--crowd {
+    width: 209px;
+    height: 196px;
     fill: var(--accent);
 }
 
