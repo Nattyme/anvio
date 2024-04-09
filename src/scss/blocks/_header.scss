@@ -1,14 +1,13 @@
 .header {
     position: relative;
     padding-top: 70px;
-    padding-bottom: 102px;
     padding-right: 30px;
     
     &::after {
         position: absolute;
         z-index: 1;
         content: "";
-        bottom: 0;
+        bottom: 44px;
         right: 409px;
 
         width: 2262px;
@@ -31,7 +30,7 @@
 }
 
 .header__video {
-
+    margin-bottom: 149px;
     img {
         border-radius: 50%;
         object-fit: cover;
@@ -39,5 +38,12 @@
         height: 858px;
         // clip-path: inset(0 219px 0 219px);
     }
+}
+
+.header__placement {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 

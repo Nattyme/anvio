@@ -1,0 +1,42 @@
+.metro-circle {
+    padding-top: 50px;
+    width: 483px;
+    height: 452px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+
+    border-radius: 50%;
+    background-color: #fff;
+}
+.metro-circle__img {
+    
+}
+
+.metro-circle__title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.metro-circle__distance {
+    width: 70%;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.metro-circle__line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.metro-circle__text {
+    margin-left: 10px;
+}
