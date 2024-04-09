@@ -8,14 +8,14 @@
 @font-face {
 	font-family: EuclidCircularA;
 	font-display: swap;
-	src: url("../fonts/EuclidCircularA-BoldItalic.woff2") format("woff2"), url("../fonts/EuclidCircularA-BoldItalic.woff") format("woff");
+	src: url("../fonts/EuclidCircularA-Italic.woff2") format("woff2"), url("../fonts/EuclidCircularA-Italic.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: EuclidCircularA;
 	font-display: swap;
-	src: url("../fonts/EuclidCircularA-Italic.woff2") format("woff2"), url("../fonts/EuclidCircularA-Italic.woff") format("woff");
+	src: url("../fonts/EuclidCircularA-BoldItalic.woff2") format("woff2"), url("../fonts/EuclidCircularA-BoldItalic.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -24,6 +24,13 @@
 	font-display: swap;
 	src: url("../fonts/EuclidCircularA-LightItalic.woff2") format("woff2"), url("../fonts/EuclidCircularA-LightItalic.woff") format("woff");
 	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: EuclidCircularA;
+	font-display: swap;
+	src: url("../fonts/EuclidCircularA-Light.woff2") format("woff2"), url("../fonts/EuclidCircularA-Light.woff") format("woff");
+	font-weight: 300;
 	font-style: normal;
 }
 @font-face {
@@ -43,8 +50,8 @@
 @font-face {
 	font-family: EuclidCircularA;
 	font-display: swap;
-	src: url("../fonts/EuclidCircularA-Light.woff2") format("woff2"), url("../fonts/EuclidCircularA-Light.woff") format("woff");
-	font-weight: 300;
+	src: url("../fonts/EuclidCircularA-Regular.woff2") format("woff2"), url("../fonts/EuclidCircularA-Regular.woff") format("woff");
+	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
@@ -57,7 +64,14 @@
 @font-face {
 	font-family: EuclidCircularA;
 	font-display: swap;
-	src: url("../fonts/EuclidCircularA-Regular.woff2") format("woff2"), url("../fonts/EuclidCircularA-Regular.woff") format("woff");
+	src: url("../fonts/EuclidCircularA-SemiBoldItalic.woff2") format("woff2"), url("../fonts/EuclidCircularA-SemiBoldItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: FirasansBook;
+	font-display: swap;
+	src: url("../fonts/FirasansBook.woff2") format("woff2"), url("../fonts/FirasansBook.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -69,16 +83,9 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: FirasansBook;
+	font-family: Montserrat;
 	font-display: swap;
-	src: url("../fonts/FirasansBook.woff2") format("woff2"), url("../fonts/FirasansBook.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: EuclidCircularA;
-	font-display: swap;
-	src: url("../fonts/EuclidCircularA-SemiBoldItalic.woff2") format("woff2"), url("../fonts/EuclidCircularA-SemiBoldItalic.woff") format("woff");
+	src: url("../fonts/Montserrat-BoldItalic.woff2") format("woff2"), url("../fonts/Montserrat-BoldItalic.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -86,13 +93,6 @@
 	font-family: Montserrat;
 	font-display: swap;
 	src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: Montserrat;
-	font-display: swap;
-	src: url("../fonts/Montserrat-BoldItalic.woff2") format("woff2"), url("../fonts/Montserrat-BoldItalic.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }

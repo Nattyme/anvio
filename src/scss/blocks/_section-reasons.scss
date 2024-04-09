@@ -1,10 +1,17 @@
 .reasons {
+    padding-top: 187px;
+    padding-bottom: 110px;
+
+    background-image: url('./../../img/benefits/scheme.svg');
+    background-size: fill;
+    background-position: top -161px right; // x y
+    background-repeat: no-repeat;
 }
 
-.reasons__title {
+.reasons__header {
     margin-bottom: 75px;
     width: 1060px;
-    
+
     font-weight: 600;
     font-size: 64px;
     line-height: 1;
