@@ -1,9 +1,9 @@
-.benefit-row {
+.benefit-list {
     display: flex;
     color: #fff;
 }
 
-.benefit-item {
+.benefit-list__item {
     width: 231px;
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@
     }
 }
 
-.benefit-item__text {
+.benefit-list__text {
     margin-left: 15px;
 
     font-weight: 600;

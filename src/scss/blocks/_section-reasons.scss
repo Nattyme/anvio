@@ -1,0 +1,50 @@
+.reasons {
+}
+
+.reasons__title {
+    margin-bottom: 75px;
+    width: 1060px;
+    
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1;
+}
+
+.reasons-list {
+    width: 700px;
+}
+
+.reasons-list__item {
+    display: flex;
+
+    &:not(:last-child) {
+        margin-bottom: 50px;
+    }
+}
+
+.reasons-list__img {
+    flex-shrink: 0;
+}
+
+.reasons-list__desc {
+    margin-left: 30px;
+}
+
+.reasons-list__title {
+    margin-bottom: 20px;
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.reasons-list__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.icon--square {
+}
+.icon--three-men {
+}
