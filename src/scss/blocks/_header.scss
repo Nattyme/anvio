@@ -1,6 +1,6 @@
 .header {
     position: relative;
-    padding-top: 70px;
+    padding-bottom: 149px;
     padding-right: 30px;
     
     &::after {
@@ -29,8 +29,39 @@
     justify-content: flex-end;
 }
 
+.header__text {
+    position: absolute;
+    z-index: -1;
+    top: 160px;
+    left: 187px;
+
+    width: 884px;
+    height: 662px;
+
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.25;
+    
+    color: #fff;
+}
+
+.header__title {
+    margin-bottom: 10px;
+}
+
+.header__desc {
+    margin-bottom: 70px;
+}
+
+.header__benefits {
+    margin-bottom: 70px;
+}
+
+.header__slider {
+}
+
 .header__video {
-    margin-bottom: 149px;
+    margin-top: 67px;
     img {
         border-radius: 50%;
         object-fit: cover;
@@ -42,6 +73,7 @@
 
 .header__placement {
     position: absolute;
+    z-index: 5;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);

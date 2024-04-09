@@ -1,0 +1,21 @@
+.benefit-row {
+    display: flex;
+    color: #fff;
+}
+
+.benefit-item {
+    width: 231px;
+    display: flex;
+    align-items: center;
+    
+    &:not(:first-child) {
+        margin-left: 40px;
+    }
+}
+
+.benefit-item__text {
+    margin-left: 15px;
+
+    font-weight: 600;
+    font-size: 20px;
+}
