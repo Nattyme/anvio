@@ -20,14 +20,32 @@
 
 .network__row {
     display: flex;
-}
-.network__stat {
+    align-items: center;
+    justify-content: space-between;
 }
 
-.network__value {
+.network__stat {
+    display: flex;
+}
+
+.network__value p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+   
+    &:first-child {
+        font-size: 96px;
+    }
+
+}
+
+.network__value + .network__value  {
+    margin-left: 50px;
 }
 
 .network__text {
+    width: 1070px;
 }
 
 .network__header {
@@ -39,5 +57,13 @@
 .h2 {
 
 }
+
 .network__desc {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+
+    p + p {
+        margin-top: 10px;
+    }
 }
