@@ -53,7 +53,7 @@
     margin-bottom: 70px;
 }
 
-.header__benefits {
+.header__benefit-row {
     margin-bottom: 70px;
 }
 
@@ -62,6 +62,7 @@
 
 .header__video {
     margin-top: 67px;
+    
     img {
         border-radius: 50%;
         object-fit: cover;
@@ -69,6 +70,32 @@
         height: 858px;
         // clip-path: inset(0 219px 0 219px);
     }
+}
+
+.header__video-link {
+    position: relative;
+
+    // &::before {
+    //     content: "";
+
+    //     position: absolute;
+    //     top: 50%;
+    //     left: 50%;
+    //     transform: translate(-50%, -50%);
+
+    //     width: 150px;
+    //     height: 150px;
+    //     border-radius: 50%;
+    //     border: 28px solid red;
+    //     background-color: #fff;
+    // }
+}
+
+.header__pulse-dot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .header__placement {

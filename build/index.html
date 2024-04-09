@@ -223,11 +223,23 @@
 
 						<!-- video circle -->
 						<div class="header__video">
-							<picture>
-								<source srcset="./img/header/video-img.webp 1x, ./img/header/video-img@2x.webp 2x" type="image/webp" />
-								<source srcset="./img/header/video-img.jpg 1x, ./img/header/video-img@2x.jpg 2x" type="image/jpeg" />
-								<img src="./img/header/video-img.jpg" srcset="./img/header/video-img@2x.jpg" alt="video" />
-							</picture>
+							<a href="#!" class="header__video-link">
+								<picture>
+									<source srcset="./img/header/video-img.webp 1x, ./img/header/video-img@2x.webp 2x" type="image/webp" />
+									<source srcset="./img/header/video-img.jpg 1x, ./img/header/video-img@2x.jpg 2x" type="image/jpeg" />
+									<img src="./img/header/video-img.jpg" srcset="./img/header/video-img@2x.jpg" alt="video" />
+								</picture>
+								<div class="header__pulse-dot">
+									<div class="pulse-dot">
+										<div class="pulse-dot__circle">
+											<svg class="icon icon--play">
+												<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
+											</svg>
+										</div>
+										<div class="pulse-dot__radius"></div>
+									</div>
+								</div>
+							</a>
 						</div>
 						<!--// circle -->
 					</div>
