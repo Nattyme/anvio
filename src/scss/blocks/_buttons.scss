@@ -93,3 +93,38 @@
     text-align: center;
     color: #000;
 }
+
+.button-solid-small {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    height: 40px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: var(--accent);
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.button-outline-small {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    height: 40px;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background-color: transparent;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+}
