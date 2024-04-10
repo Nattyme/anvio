@@ -41,6 +41,23 @@
     animation: pulse 1s infinite alternate;
 }
 
+.pulse-dot--small {
+    .pulse-dot__circle {
+        width: 48.7px;
+        height: 48.7px;
+    }
+
+    .pulse-dot__radius {
+        width: 60px;
+        height: 60px;
+    }
+    
+    svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
 .pulse-dot:hover .pulse-dot__radius {
     animation: pulse 1s infinite paused;
 }
