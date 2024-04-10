@@ -5,3 +5,13 @@
     text-transform: uppercase;
     letter-spacing: 0.01em;
 }
+
+.h2 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1;
+}
+
+.network__header .h2 {
+    line-height: 1.5;
+}
