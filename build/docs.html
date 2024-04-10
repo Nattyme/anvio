@@ -16,52 +16,52 @@
 			<section>
 				<div class="container">
 					<h1 class="title-1">Документация</h1>
-					<p>Документация и возможности сборки и стартового шаблона</p>
+					<p>Документация и&#160;возможности сборки и&#160;стартового шаблона</p>
 
 					<p>
-						Запуск в режиме разработки: <code>gulp</code><br />
+						Запуск в&#160;режиме разработки: <code>gulp</code><br />
 						Сборка оптимизированной версии для продакшена: <code>gulp docs</code>
 					</p>
 
 					<h3 class="title-3">Возможности стартового шаблона</h3>
 					<ul>
-						<li>Готовые стили для CSS контейнеров на все случаи жизни.</li>
-						<li>Миксины и сниппеты для адаптива.</li>
-						<li>Миксин и сниппет для CSS retina фоновых изображений.</li>
+						<li>Готовые стили для CSS контейнеров на&#160;все случаи жизни.</li>
+						<li>Миксины и&#160;сниппеты для адаптива.</li>
+						<li>Миксин и&#160;сниппет для CSS retina фоновых изображений.</li>
 					</ul>
 
 					<h3 class="title-3">Возможности сборки</h3>
 
 					<ul>
 						<li>
-							Автоисправление путей. Смело используйте подсказки редактора при указании пути к файлу. Сборка сама удалит лишние поднятия на уровень вверх
-							<code>../../</code> в src HTML и background-image в SCSS.
+							Автоисправление путей. Смело используйте подсказки редактора при указании пути к&#160;файлу. Сборка сама удалит лишние поднятия на&#160;уровень вверх
+							<code>../../</code> в&#160;src HTML и background-image в&#160;SCSS.
 						</li>
-						<li>Автоматическая генерация SVG спрайтов. Подробнее см. ниже.</li>
+						<li>Автоматическая генерация SVG спрайтов. Подробнее см.&#160;ниже.</li>
 					</ul>
 
 					<h3 class="title-3">Особенности сборки для продакшена gulp docs</h3>
 					<ul>
 						<li>Автоматическое сжатие jpg изображений</li>
-						<li>Автоматическая генерация webp графики и указания webp формата в HTML.</li>
+						<li>Автоматическая генерация webp графики и&#160;указания webp формата в&#160;HTML.</li>
 						<li>
-							При прописывании тега img не обязательно прописывать srcset с 2x. Плагин 'gulp-webp-retina-html' в таске 'html:dev' автоматически добавляет тег picture и
-							source для 2x изображений. Обязательно сохранять картинки в @2x разрешении.
+							При прописывании тега img не&#160;обязательно прописывать srcset с&#160;2x. Плагин 'gulp-webp-retina-html' в&#160;таске 'html: dev' автоматически
+							добавляет тег picture и&#160;source для 2x изображений. Обязательно сохранять картинки в&#160;@2x разрешении.
 						</li>
 					</ul>
 				</div>
 			</section>
 			<section>
 				<div class="container">
-					<h2 class="title-2">Автогенерация шрифтов и CSS подключения</h2>
+					<h2 class="title-2">Автогенерация шрифтов и&#160;CSS подключения</h2>
 
 					<ol>
-						<li>Размещаем TTF и OTF шрифты в <code>src/fonts/</code></li>
-						<li>При запуске сборки OTF конвертируется в TTF внутри <code>src/fonts/</code>.</li>
-						<li>Затем TTF в WOFF и WOFF2 из <code>src/fonts/</code> в <code>build/fonts/</code>.</li>
+						<li>Размещаем TTF и&#160;OTF шрифты в&#160;<code>src/fonts/</code></li>
+						<li>При запуске сборки OTF конвертируется в&#160;TTF внутри <code>src/fonts/</code>.</li>
+						<li>Затем TTF в&#160;WOFF и&#160;WOFF2 из&#160;<code>src/fonts/</code> в&#160;<code>build/fonts/</code>.</li>
 						<li>
 							Генерируются CSS стили подключения внутри <code>src/scss/base/_fontsAutoGen.scss</code>.<br />
-							Важно! Этот файл генерируется и перезаписывается автоматически.
+							Важно! Этот файл генерируется и&#160;перезаписывается автоматически.
 						</li>
 					</ol>
 
@@ -76,8 +76,8 @@
 			<section>
 				<div class="container">
 					<h2 class="title-2">Полезные сниппеты</h2>
-					<p>Сниппеты хранятся в папке <code>.vscode</code> в файле <code>webCademy.code-snippets</code></p>
-					<h4 class="title-4">SCSS cниппеты для медиазапросов</h4>
+					<p>Сниппеты хранятся в&#160;папке <code>.vscode</code> в&#160;файле <code>webCademy.code-snippets</code></p>
+					<h4 class="title-4">SCSS сниппеты для медиазапросов</h4>
 
 					<p>Код вызова: <code>tablet</code></p>
 					<pre class="code">@include tablet { ... }</pre>
@@ -99,7 +99,7 @@ background-image: image-set(
 	url('./../img/bg@2x.jpg') 2x);</pre
 					>
 
-					<h4 class="title-4">HTML cниппет для svg иконок из спрайта</h4>
+					<h4 class="title-4">HTML сниппет для svg иконок из&#160;спрайта</h4>
 					<p>Код вызова: <code>svgIcon</code></p>
 					<pre class="code">
 &lt;svg class="icon icon--heart-line"&gt;
@@ -129,8 +129,8 @@ background-image: image-set(
 						</svg>
 					</div>
 
-					<p>Иконки размещаем в папку: <code>src/img/svgicons</code></p>
-					<p>Готовый файл со спрайтом собирается в: <code>build/img/svgsprite/sprite.symbol.svg</code></p>
+					<p>Иконки размещаем в&#160;папку: <code>src/img/svgicons</code></p>
+					<p>Готовый файл со&#160;спрайтом собирается в: <code>build/img/svgsprite/sprite.symbol.svg</code></p>
 
 					<h4 class="title-4">HTML код</h4>
 					<pre class="code">
@@ -171,7 +171,7 @@ background-image: image-set(
 					<h2 class="title-2">Шпаргалка gulp-file-include</h2>
 					<p>
 						<a href="https://opalescent-side-463.notion.site/Gulp-file-include-ae5885e857cc4658987dd30f40b77e74?pvs=4" target="_blank">
-							Ссылка на шпаргалку.
+							Ссылка на&#160;шпаргалку.
 						</a>
 					</p>
 				</div>
@@ -182,15 +182,15 @@ background-image: image-set(
 
 					<h4 class="title-4">Русский язык</h4>
 					<p>
-						Раздобудь к утру ковёр - Шитый золотом узор!.. Государственное дело, - Расшибись, а будь добёр! Чтоб на ём была видна, Как на карте, вся страна, Потому как
-						мне с балкону Нет обзору ни хрена! Леонид Филатов "Про Федота-стрельца".
+						Раздобудь к&#160;утру ковёр&#160;&#8212; Шитый золотом узор!.. Государственное дело,&#160;&#8212; Расшибись, а&#160;будь добёр! Чтоб на&#160;ём&#160;была
+						видна, Как на&#160;карте, вся страна, Потому как мне с&#160;балкону Нет обзору ни&#160;хрена! Леонид Филатов &#171;Про Федота-стрельца&#187;.
 					</p>
 
 					<h4 class="title-4">Английский язык</h4>
 
 					<p>
-						Get a carpet by morning - A pattern embroidered in gold! So that the whole country can be seen on it, Like on a map, Because from the balcony I have no view
-						of anything! Leonid Filatov "About Fedot the Sagittarius"
+						Get a&#160;carpet by&#160;morning&#160;&#8212; A&#160;pattern embroidered in&#160;gold! So&#160;that the whole country can be&#160;seen on&#160;it, Like
+						on&#160;a&#160;map, Because from the balcony I&#160;have no&#160;view of&#160;anything! Leonid Filatov &#171;About Fedot the Sagittarius&#187;
 					</p>
 				</div>
 			</section>
@@ -204,47 +204,47 @@ background-image: image-set(
 					<div class="content-demo">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit obcaecati, nesciunt, nam illum nemo, quod hic tenetur velit quae animi tempore
-							error at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
+							error&#160;at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
 						</p>
 					</div>
 				</div>
 
 				<div class="container-full">
-					<p>Контейнер на всю ширину<code>.container-full</code></p>
+					<p>Контейнер на&#160;всю ширину<code>.container-full</code></p>
 					<div class="content-demo">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit obcaecati, nesciunt, nam illum nemo, quod hic tenetur velit quae animi tempore
-							error at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
+							error&#160;at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
 						</p>
 					</div>
 				</div>
 
 				<div class="container-left-50">
-					<p>Контейнер слева на 50%<code>.container-left-50</code></p>
+					<p>Контейнер слева на&#160;50%<code>.container-left-50</code></p>
 					<div class="content-demo">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit obcaecati, nesciunt, nam illum nemo, quod hic tenetur velit quae animi tempore
-							error at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
+							error&#160;at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
 						</p>
 					</div>
 				</div>
 
 				<div class="container-right-50">
-					<p>Контейнер справа на 50%<code>.container-right-50</code></p>
+					<p>Контейнер справа на&#160;50%<code>.container-right-50</code></p>
 					<div class="content-demo">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit obcaecati, nesciunt, nam illum nemo, quod hic tenetur velit quae animi tempore
-							error at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
+							error&#160;at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
 						</p>
 					</div>
 				</div>
 
 				<div class="container-left">
-					<p>Контейнер слева до размера контейнера <code>.container-left</code></p>
+					<p>Контейнер слева до&#160;размера контейнера <code>.container-left</code></p>
 					<div class="content-demo">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit obcaecati, nesciunt, nam illum nemo, quod hic tenetur velit quae animi tempore
-							error at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
+							error&#160;at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
 						</p>
 					</div>
 				</div>
@@ -254,27 +254,27 @@ background-image: image-set(
 					<div class="content-demo">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit obcaecati, nesciunt, nam illum nemo, quod hic tenetur velit quae animi tempore
-							error at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
+							error&#160;at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
 						</p>
 					</div>
 				</div>
 
 				<div class="container-half-left">
-					<p>Контейнер на половину слева <code>.container-half-left</code></p>
+					<p>Контейнер на&#160;половину слева <code>.container-half-left</code></p>
 					<div class="content-demo">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit obcaecati, nesciunt, nam illum nemo, quod hic tenetur velit quae animi tempore
-							error at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
+							error&#160;at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
 						</p>
 					</div>
 				</div>
 
 				<div class="container-half-right">
-					<p>Контейнер на половину справа <code>.container-half-right</code></p>
+					<p>Контейнер на&#160;половину справа <code>.container-half-right</code></p>
 					<div class="content-demo">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit obcaecati, nesciunt, nam illum nemo, quod hic tenetur velit quae animi tempore
-							error at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
+							error&#160;at. Cumque, nisi. Laudantium deserunt quis vitae voluptas?
 						</p>
 					</div>
 				</div>
@@ -283,7 +283,7 @@ background-image: image-set(
 		<footer class="footer">
 			<div class="container">
 				<div class="footer__copyright">
-					<p>Сборка сделана в школе <a href="https://webcademy.ru" target="_blank">webcademy.ru</a></p>
+					<p>Сборка сделана в&#160;школе <a href="https://webcademy.ru" target="_blank">webcademy.ru</a></p>
 				</div>
 			</div>
 		</footer>

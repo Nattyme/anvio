@@ -1,0 +1,17 @@
+.events-infobox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.events-infobox__item {
+    display: flex;
+    align-items: center;
+}
+
+.event-infobox__text {
+    margin-left: 15px;
+
+    font-weight: 600;
+    font-size: 24px;
+}
