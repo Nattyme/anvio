@@ -58,13 +58,11 @@
     }
 }
 
-.pulse-dot:hover .pulse-dot__radius {
+.pulse-dot:hover .pulse-dot__radius,
+.card:hover .pulse-dot__radius {
     animation: pulse 1s infinite paused;
 }
 
-.pulse-dot:hover .pulse-dot__circle {
-    background-color: var(--ui-orange);
-}
 
 @keyframes pulse {
     0% {

@@ -1,5 +1,7 @@
 .cards-wrapper {
     display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .cards-wrapper + .cards-wrapper {
@@ -16,10 +18,14 @@
     &::before {
         @extend %card-overlay;
     }
-}
 
-.card + .card {
-    margin-left: 30px;
+    &--50vw {
+        width: 816px;
+
+        .card__img {
+            width: 816px;  
+        }
+    }
 }
 
 .card__img {
@@ -36,6 +42,7 @@
 
 .card__pulse-dot {
     position: absolute;
+    z-index: 2;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -45,6 +52,7 @@
     width: 474px;
 
     position: absolute;
+    z-index: 2;
     left: 50%;
     bottom: 30px;
     transform: translateX(-50%);
@@ -139,6 +147,7 @@
         margin-left: 20px;
     }
 }
+
 
 
 
