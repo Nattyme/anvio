@@ -3,6 +3,33 @@
     cursor: pointer;
 }
 
+.pulse-dot--small {
+    .pulse-dot__circle {
+        width: 48.7px;
+        height: 48.7px;
+    }
+
+    .pulse-dot__radius {
+        width: 60px;
+        height: 60px;
+    }
+    
+    svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.pulse-dot--red  {
+    .pulse-dot__circle {
+        background-color: var(--accent);
+    }
+
+    .pulse-dot__radius {
+        background-color: rgba(206, 33, 39, 0.6);
+    }
+}
+
 .pulse-dot__circle {
     position: absolute;
     z-index: 1;
@@ -35,27 +62,10 @@
     height: 150px;
 
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(4px);
 
     animation: pulse 1s infinite alternate;
-}
-
-.pulse-dot--small {
-    .pulse-dot__circle {
-        width: 48.7px;
-        height: 48.7px;
-    }
-
-    .pulse-dot__radius {
-        width: 60px;
-        height: 60px;
-    }
-    
-    svg {
-        width: 24px;
-        height: 24px;
-    }
 }
 
 .pulse-dot:hover .pulse-dot__radius,
@@ -70,6 +80,6 @@
     }
 
     100% {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 }

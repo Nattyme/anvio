@@ -1,0 +1,14 @@
+.emotions {
+    padding-top: 131px;
+    padding-bottom: 99px;
+}
+
+.emotions__row {
+    display: flex;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+

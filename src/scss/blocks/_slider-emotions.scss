@@ -1,0 +1,62 @@
+.slider-emotions {
+    width: 1860px;
+    height: 460px;
+}
+
+.slider__item {
+    width: 100%;
+}
+
+.slider-emotions__figure {
+    position: relative;
+}
+
+.slider-emotions__list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.slider-emotions__figure img { 
+    width: 285px;
+    height: auto;
+    
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.slider-emotions__figure:nth-child(odd) {
+    width: 285px;
+}
+
+.slider-emotions__figure:nth-child(even) {
+    width: 251px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .slider-emotions__link:first-child {
+        margin-right: 40px;
+        margin-bottom: 40px;
+        width: 211px;
+        height: 211px;
+    }
+
+    .slider-emotions__link:last-child {
+        margin-left: 42px;
+        width: 209px;
+        height: 209px;
+    }
+
+}
+
+.slider-emotions__link {
+    position: relative;
+}
+
+.slider-emotions__pulse-dot {
+    z-index: 1;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
