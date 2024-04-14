@@ -1,0 +1,17 @@
+.impress {
+    padding-top: 94px;
+    padding-bottom: 18px;
+}
+
+.impress__header {
+    
+}
+
+.impress__row {
+    display: flex;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+        margin-bottom: 50px;
+    }
+}
