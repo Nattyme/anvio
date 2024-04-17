@@ -1,9 +1,12 @@
 
 .slider-stars {
+    margin-left: unset;
+    width: 1856px;
+    height: 578px;
 }
 
-.slider-stars__item {
-    max-width: 440px;
+.slider-stars__item .swiper-slide {
+    width: 440px;
     height: 578px;
 }
 

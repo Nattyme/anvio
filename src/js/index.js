@@ -10,6 +10,8 @@ Fancybox.bind('[data-fancybox]', {
 // import mobileNav from './modules/mobile-nav.js';
 // mobileNav();
 
-// Swiper-offers
+// sliders
 import sliderOffers from './modules/slider-offers.js';
+import sliderStars from './modules/slider-stars.js';
 sliderOffers();
+sliderStars();
