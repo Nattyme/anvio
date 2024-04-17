@@ -4,3 +4,47 @@
     height: 502px;
     background-color: green;
 }
+
+.slider-feedbacks__item {
+    padding: 50px;
+
+    width: 443px;
+    height: 502px;
+
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+}
+
+.slider-feedbacks__hero {
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-feedbacks__text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.slider-feedbacks__column {
+    background-color: red;
+}
+
+.slider-feedbacks__img {
+}
+.slider-feedbacks__name {
+}
+.slider-feedbacks__meta {
+}
+.slider-feedbacks__rate {
+}
+.slider-feedbacks__date {
+}
+.slider-feedbacks__logo {
+}
+.icon {
+}
+.icon--yandex {
+}
