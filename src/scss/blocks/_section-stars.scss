@@ -10,8 +10,9 @@
 .stars__row {
     display: flex;
     justify-content: space-between;
+}
 
-    &:not(:last-child) {
-        margin-bottom: 50px;
-    }
+.stars__slider {
+    margin-top: 50px;
+    position: relative;
 }

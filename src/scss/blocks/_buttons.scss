@@ -13,10 +13,6 @@
     color: var(--btn-solid-text);
 }
 
-.slider__buttons {
- 
-}
-
 .slider-arrow {
     position: absolute;
     top: 66px;
@@ -43,6 +39,11 @@
         right: 0;
         transform: translateX(50%);
     }
+}
+
+.stars__slider .slider-arrow {
+    top: 42%;
+    transform: translateY(-50%);
 }
 
 .pagination {
