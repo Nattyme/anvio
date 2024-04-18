@@ -30,7 +30,6 @@
 .slider-feedbacks__img {
     margin-right: 9px;
     
-    background-color: red;
     width: 50px;
     height: 50px;
 
@@ -43,32 +42,43 @@
     }
 }
 
-.slider__hero {
-    background-color: yellow;
+.slider-feedbacks__hero {
+    margin-right: 7px;
 }
+
 .slider-feedbacks__name {
+    margin-bottom: 9px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
 }
+
 .slider-feedbacks__meta {
+    display: flex;
 }
+
 .slider-feedbacks__rate {
+    margin-right: 20px;
+
+    display: flex;
+    column-gap: 5px;
 }
+
 .slider-feedbacks__date {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .slider-feedbacks__logo {
-    width: 51px;
-    height: 51px;
+    width: 50px;
+    height: 50px;
 
     img {
         width: 100%;
-        height: auto;
+        height: 100%;
         object-fit: cover;
         border-radius: 50%;
         overflow: hidden;
     }
-}
-
-.icon {
-}
-.icon--yandex {
 }
