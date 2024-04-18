@@ -36,4 +36,14 @@
     }
 }
 
+.text-fade {
+    background-image: linear-gradient(
+        currentColor 70%,
+        transparent 100%
+    );
+    background-clip: text;
 
+    p {
+        color: transparent;
+    }
+}
