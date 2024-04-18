@@ -76,7 +76,7 @@
     transform: rotate(180deg);
 }
 
-.slider-offers__item .icon--percent {
+.slider-offers__item .icon--percent-surround {
     width: 332px;
     height: 334px;
     fill: var(--accent);
@@ -119,6 +119,12 @@
     width: 15px;
     height: 15px;
     fill: #c4c4c4;
+}
+
+.icon--percent {
+    width: 29px;
+    height: 23px;
+    fill: var(--accent);
 }
 
 .icon--action {

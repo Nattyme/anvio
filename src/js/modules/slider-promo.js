@@ -23,4 +23,4 @@ const swiper = new Swiper('#slider-promo', {
 
 }
 
-  export default sliderPromo;
+export default sliderPromo;

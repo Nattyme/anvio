@@ -14,6 +14,8 @@ Fancybox.bind('[data-fancybox]', {
 import sliderOffers from './modules/slider-offers.js';
 import sliderStars from './modules/slider-stars.js';
 import sliderFeedbacks from './modules/slider-feedbacks.js';
+import sliderPromo from './modules/slider-promo.js';
 sliderOffers();
 sliderStars();
 sliderFeedbacks();
+sliderPromo();
