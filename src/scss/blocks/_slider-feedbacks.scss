@@ -1,11 +1,15 @@
 .slider-feedbacks {
-    position: relative;
-    top: -40px;
     height: 502px;
+    width: 100%;
     background-color: green;
 }
 
-.slider-feedbacks__item {
+.swiper-wrapper.slider-feedbacks {
+    transform: translateY(-50%);
+} 
+
+.swiper-slide.slider-feedbacks__item {
+    flex-shrink: 1;
     padding: 50px;
 
     width: 443px;
@@ -13,6 +17,9 @@
     background-color: #fff;
     border-radius: 30px;
     box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.15);
+
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .slider-feedbacks__item:hover {
@@ -69,6 +76,7 @@
 
 .slider-feedbacks__hero {
     margin-right: 7px;
+    flex-grow: 1;
 }
 
 .slider-feedbacks__name {
@@ -81,11 +89,11 @@
 
 .slider-feedbacks__meta {
     display: flex;
+    justify-content: space-between;
 }
 
 .slider-feedbacks__rate {
-    margin-right: 20px;
-
+    margin-right: 5px;
     display: flex;
     column-gap: 5px;
 }
