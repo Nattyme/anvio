@@ -12,6 +12,10 @@ const swiper = new Swiper('#slider-stars', {
       nextEl: '#slider-stars-next',
       prevEl: '#slider-stars-prev',
     },
+
+    keyboard: {
+        enabled: true,
+      },
   });
 
 }

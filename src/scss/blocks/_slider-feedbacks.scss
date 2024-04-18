@@ -1,7 +1,6 @@
 .slider-feedbacks {
-    height: 502px;
+    height: 554px;
     width: 100%;
-    background-color: green;
 }
 
 .swiper-wrapper.slider-feedbacks {
@@ -20,9 +19,10 @@
 
     top: 50%;
     transform: translateY(-50%);
+    transition: all 0.2s ease;
 }
 
-.slider-feedbacks__item:hover {
+.slider-feedbacks__item.swiper-slide-active {
     width: 443px;
     height: 502px;
 

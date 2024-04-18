@@ -4,10 +4,15 @@ const swiper = new Swiper('#slider-feedbacks', {
     direction: 'horizontal',
     speed: 1800,
     slidesPerView: 4,
-    slidesPerGroup: 2,
+    slidesPerGroup: 1,
+    centeredSlides: true,
     loop: true,
     spaceBetween: 30,
     grabCursor: true,
+
+    keyboard: {
+        enabled: true,
+      },
   
     // Navigation arrows
     navigation: {

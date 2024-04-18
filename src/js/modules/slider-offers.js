@@ -11,6 +11,10 @@ const swiper = new Swiper('#slider-offers', {
     pagination: {
       el: '.slider-offers__pagination',
     },
+    
+    keyboard: {
+        enabled: true,
+      },
   
     // Navigation arrows
     navigation: {
