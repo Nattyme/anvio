@@ -1,22 +1,49 @@
 <section class="cta">
     <div class="container">
-        <div class="cta__content">
+        <div class="cta__row">
             <!-- background img -->
             <div class="cta__img">
                 <img src="./../../img/cta/bg-img.jpg" alt="image">
             </div>
             <!--// background img -->
 
-            <!-- text absolute -->
-            <div class="cta__text">
-                <div class="cta__title">
-                    <div class="cta__header">header</div>
-                    <div class="cta__contact">phone</div>
+            <!-- absolute -->
+            <div class="cta__content">
+                <div class="cta__column">
+                    <div class="cta__text">
+                        <!-- header -->
+                        <div class="cta__header">
+                            <h2 class="h2">Остались вопросы?</h2>
+                        </div>
+                        <!--// header -->
+
+                        <div class="cta__desc">
+                            <p>Задайте вопрос нашему менеджеру Виктории</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="cta__contact">
+                        <div class="cta__tip">
+                            <p>Или позвоните по номеру</p>
+                        </div>
+
+                        <div class="cta__phone">
+                            <span class="cta__phone-img">
+                                <svg class="icon icon--phone">
+                                    <use href="./img/svgsprite/sprite.symbol.svg#phone"></use>
+                                </svg>
+                            </span>
+                            <a class="cta__phone-link" href="tel:74996819529">+7 (499) 681-95-29</a>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="cta__form">form</div>
+                <div class="cta__form">
+                    @@include('cta-form.html')
+                </div>
             </div>
-            <!--// text absolute -->
+            <!--// absolute -->
         </div>
     </div>
 </section>

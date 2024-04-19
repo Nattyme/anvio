@@ -24,7 +24,7 @@
 		<main class="main-page">
 			<section class="cta">
 				<div class="container">
-					<div class="cta__content">
+					<div class="cta__row">
 						<!-- background img -->
 						<div class="cta__img">
 							<picture>
@@ -35,16 +35,61 @@
 						</div>
 						<!--// background img -->
 
-						<!-- text absolute -->
-						<div class="cta__text">
-							<div class="cta__title">
-								<div class="cta__header">header</div>
-								<div class="cta__contact">phone</div>
+						<!-- absolute -->
+						<div class="cta__content">
+							<div class="cta__column">
+								<div class="cta__text">
+									<!-- header -->
+									<div class="cta__header">
+										<h2 class="h2">Остались вопросы?</h2>
+									</div>
+									<!--// header -->
+
+									<div class="cta__desc">
+										<p>Задайте вопрос нашему менеджеру Виктории</p>
+									</div>
+								</div>
+
+								<div class="cta__contact">
+									<div class="cta__tip">
+										<p>Или позвоните по&#160;номеру</p>
+									</div>
+
+									<div class="cta__phone">
+										<span class="cta__phone-img">
+											<svg class="icon icon--phone">
+												<use href="./img/svgsprite/sprite.symbol.svg#phone"></use>
+											</svg>
+										</span>
+										<a class="cta__phone-link" href="tel:74996819529">+7&#160;499&#160;681-95-29</a>
+									</div>
+								</div>
 							</div>
 
-							<div class="cta__form">form</div>
+							<div class="cta__form">
+								<form class="cta-form">
+									<h3 class="form__title">Задать вопрос</h3>
+									<fieldset class="form__group">
+										<div class="form__input-wrapper">
+											<input type="text" placeholder="Телефон" />
+										</div>
+
+										<div class="form__textarea-wrapper">
+											<textarea name="" id="" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
+										</div>
+									</fieldset>
+
+									<div class="form__button">
+										<button class="button-solid">Отправить</button>
+									</div>
+
+									<div class="form__user-agreement">
+										<p>Нажимая на&#160;кнопку вы&#160;соглашаетесь с&#160;<a href="#!">условиями пользовательского соглашения</a></p>
+									</div>
+								</form>
+							</div>
 						</div>
-						<!--// text absolute -->
+						<!--// absolute -->
 					</div>
 				</div>
 			</section>

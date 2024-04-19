@@ -1,0 +1,47 @@
+.cta-form {
+    padding: 50px;
+
+    width: 443px;
+    height: 514px;
+
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.form__title {
+    margin-bottom: 20px;
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.form__group {
+}
+
+.form__input-wrapper {
+}
+.form__textarea-wrapper {
+}
+
+.form__button {
+    margin-bottom: 20px;
+
+    & > * {
+        width: 100%;
+    }
+}
+
+.button-solid {
+}
+
+.form__user-agreement {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.5);
+
+    a {
+        text-decoration: underline;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
