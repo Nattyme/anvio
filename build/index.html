@@ -23,20 +23,17 @@
 	<body>
 		<main class="main-page">
 			<section class="cta">
-				<div class="container">
-					<div class="cta__row">
-						<!-- background img -->
+				<div class="cta__container">
+					<div class="cta__content">
 						<div class="cta__img">
 							<picture>
 								<source srcset="./img/cta/bg-img.webp 1x, ./img/cta/bg-img@2x.webp 2x" type="image/webp" />
 								<source srcset="./img/cta/bg-img.jpg 1x, ./img/cta/bg-img@2x.jpg 2x" type="image/jpeg" />
-								<img src="./img/cta/bg-img.jpg" alt="image" />
+								<img src="./img/cta/bg-img.jpg" alt="img" />
 							</picture>
 						</div>
-						<!--// background img -->
 
-						<!-- absolute -->
-						<div class="cta__content">
+						<div class="cta__row">
 							<div class="cta__column">
 								<div class="cta__text">
 									<!-- header -->
@@ -68,28 +65,27 @@
 
 							<div class="cta__form">
 								<form class="cta-form">
-									<h3 class="form__title">Задать вопрос</h3>
-									<fieldset class="form__group">
-										<div class="form__input-wrapper">
-											<input type="text" placeholder="Телефон" />
+									<h3 class="cta-form__title">Задать вопрос</h3>
+									<fieldset class="cta-form__group">
+										<div class="cta-form__input-wrapper">
+											<input class="cta-form__input" type="text" placeholder="Телефон" />
 										</div>
 
-										<div class="form__textarea-wrapper">
-											<textarea name="" id="" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
+										<div class="cta-form__textarea-wrapper">
+											<textarea class="cta-form__textarea" name="" id="" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
 										</div>
 									</fieldset>
 
-									<div class="form__button">
+									<div class="cta-form__button">
 										<button class="button-solid">Отправить</button>
 									</div>
 
-									<div class="form__user-agreement">
+									<div class="cta-form__user-agreement">
 										<p>Нажимая на&#160;кнопку вы&#160;соглашаетесь с&#160;<a href="#!">условиями пользовательского соглашения</a></p>
 									</div>
 								</form>
 							</div>
 						</div>
-						<!--// absolute -->
 					</div>
 				</div>
 			</section>

@@ -2,13 +2,12 @@
     padding: 50px;
 
     width: 443px;
-    height: 514px;
 
     border-radius: 50px;
     background-color: #fff;
 }
 
-.form__title {
+.cta-form__title {
     margin-bottom: 20px;
 
     font-weight: 600;
@@ -16,15 +15,60 @@
     line-height: 1;
 }
 
-.form__group {
+.cta-form__group {
+    margin-bottom: 20px;
 }
 
-.form__input-wrapper {
-}
-.form__textarea-wrapper {
+.cta-form__input-wrapper:not(:last-child) {
+    margin-bottom: 10px;
 }
 
-.form__button {
+.cta-form__input {
+    padding: 20px;
+
+    width: 343px;
+    height: 60px;
+
+    border: 2px solid #eee;
+    border-radius: 50px;
+
+    &::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: rgba(0, 0, 0, 0.45);
+    }
+
+    &:focus {
+        border-color: var(--accent);
+    }
+} 
+
+.cta-form__textarea-wrapper:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.cta-form__textarea {
+    padding: 20px;
+
+    width: 343px;
+    height: 150px;
+
+    border: 2px solid #eee;
+    border-radius: 25px;
+
+    &::placeholder {
+        font-size: 16px;
+        line-height: 1.5;
+        color: rgba(0, 0, 0, 0.45);
+    }
+
+    &:focus {
+        border-color: var(--accent);
+    }
+}
+
+.cta-form__button {
     margin-bottom: 20px;
 
     & > * {
@@ -32,10 +76,7 @@
     }
 }
 
-.button-solid {
-}
-
-.form__user-agreement {
+.cta-form__user-agreement {
     font-size: 14px;
     line-height: 1.5;
     color: rgba(0, 0, 0, 0.5);

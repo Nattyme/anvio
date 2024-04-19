@@ -1,8 +1,17 @@
 .cta {
     padding-top: 97px;
-    padding-bottom: 30px;
+    padding-bottom: 30px; 
+}
 
-    background-color: yellow;  
+.cta__container {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 1545px;
+}
+
+.cta__content {
+    position: relative;
 }
 
 .cta__img {
@@ -15,36 +24,30 @@
     img {
         width: 100%;
         height: 100%;
-        border-radius: 50%;
-
         object-fit: cover;
         overflow: hidden;
+        border-radius: 50%;
     }
 }
 
 .cta__row {
-    margin-left: auto;
-    margin-right: auto;
-
-    width: 1545px;
-    background-color: red;
-
-    position: relative;
-}
-
-.cta__content {
-    width: 100%;
-
     position: absolute;
     top: 50%;
+    left: 0;
     transform: translateY(-50%);
+    width: 100%;
 
     display: flex;
     justify-content: space-between;
 }
 
+.cta__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .cta__text {
-    margin-bottom: 182px;
     width: 353px;
 }
 
@@ -68,7 +71,7 @@
 
 .cta__phone {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .cta__phone-link {
@@ -77,15 +80,15 @@
 }
 
 .cta__phone-img {
-    width: 50px;
+    margin-right: 10px;
+
+    width: 40px;
     height: 40px;
     border-radius: 50%;
 
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.cta__form {
-    margin-left: auto;
+    background-color: var(--accent);
 }
