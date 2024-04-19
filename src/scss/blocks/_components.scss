@@ -37,7 +37,7 @@
 }
 
 .text-fade {
-    transition: all 0.2s ease;
+    transition: all 0.2s ease-in;
 
     background-image: linear-gradient(
         currentColor 88%,

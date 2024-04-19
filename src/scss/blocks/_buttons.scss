@@ -47,7 +47,8 @@
 }
 
 .feedbacks__slider .slider-arrow,
-.promo__slider .slider-arrow {
+.promo__slider .slider-arrow,
+.news__slider .slider-arrow {
     top: 50%;
     transform: translateY(-50%);
 }
@@ -99,6 +100,10 @@
     letter-spacing: 0.05em;
     text-align: center;
     color: #000;
+
+    &--light {
+        border-color: #fff;
+    }
 }
 
 .button-solid-small {
@@ -124,7 +129,7 @@
 
     height: 40px;
     display: inline-block;
-    border: 2px solid #fff;
+    border: 2px solid var(--accent);
     border-radius: 50px;
     background-color: transparent;
 
@@ -133,7 +138,12 @@
     line-height: 38px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
+
+    &--light {
+        border-color: #fff;
+        color: #fff;
+    }
 }
 
 .button-outline-slider {

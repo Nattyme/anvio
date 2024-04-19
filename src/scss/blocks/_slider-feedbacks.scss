@@ -19,7 +19,7 @@
 
     top: 50%;
     transform: translateY(-50%);
-    transition: all 0.2s ease;
+    transition: all 0.2s ease-in;
 }
 
 .slider-feedbacks__item.swiper-slide-active {

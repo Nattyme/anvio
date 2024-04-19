@@ -29,7 +29,10 @@
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
-    color: #fff;
+
+    &--light {
+        color: #fff;
+    }
 }
 
 

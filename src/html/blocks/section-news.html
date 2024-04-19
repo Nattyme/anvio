@@ -1,0 +1,33 @@
+<section class="news">
+    <div class="container">
+
+        <div class="news__row">
+            <!-- header -->
+            <div class="news__header">
+                <h2 class="h2">Новости</h2>
+            </div>
+            <!-- header -->
+            
+            <a href="#!" class="button-outline">Все новости</a>
+
+        </div>
+    </div>
+
+    <div class="news__slider">
+        <!-- swiper controls -->
+        <button class="slider-arrow slider-arrow__prev" id="slider-news-prev">
+            <svg class="icon icon--slider-arrow">
+                <use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
+            </svg>
+        </button>
+        <button class="slider-arrow slider-arrow__next" id="slider-news-next">
+            <svg class="icon icon--slider-arrow">
+                <use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
+            </svg>
+        </button>
+
+        <div class="container-right">
+            @@include('slider-news.html')
+        </div>
+    </div>
+</section>
