@@ -12,11 +12,13 @@ Fancybox.bind('[data-fancybox]', {
 
 // sliders
 import sliderOffers from './modules/slider-offers.js';
+import sliderOffersWide from './modules/slider-offers-wide.js';
 import sliderStars from './modules/slider-stars.js';
 import sliderFeedbacks from './modules/slider-feedbacks.js';
 import sliderPromo from './modules/slider-promo.js';
 import sliderNews from './modules/slider-news.js';
 sliderOffers();
+sliderOffersWide();
 sliderStars();
 sliderFeedbacks();
 sliderPromo();

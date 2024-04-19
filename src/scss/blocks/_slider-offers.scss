@@ -14,12 +14,12 @@
     justify-content: center;
 }
 
-.slider-offers__item {
+.swiper-slide.slider-offers__item {
     overflow: hidden;
     position: relative;
 
     padding: 30px 50px;
-    width: 100%;
+    width: 500px;
     height: 200px;
     border-radius: 30px;
 
@@ -31,7 +31,7 @@
         z-index: -1;
     }
 
-    .icon--surround {
+    .icon--percent-surround {
         top: -10px;
         right: -95px;
     }
@@ -47,6 +47,11 @@
     }
 }
 
+.swiper-slide.slider-offers__item--wide {
+    flex-grow: 1;
+    width: 600px;
+}
+
 .slider-offers__title {
     margin-bottom: 20px;
     width: 310px;
@@ -54,6 +59,7 @@
     font-weight: 400;
     font-size: 24px;
     letter-spacing: 0.05em;
+    color: #fff;
     text-transform: uppercase;
 
     span {
