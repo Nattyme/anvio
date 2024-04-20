@@ -15,9 +15,10 @@
 
 .footer-top__column:first-child {
     margin-right: 30px;
-
     padding-right: 53px;
-    width: 548px;
+
+    width: 495px;
+    flex-shrink: 0;
 }
 
 .footer-top__logo {
@@ -52,4 +53,37 @@
     background-size: 150%;
     background-position: center;
 }
+
+.footer-bottom {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    font-size: 16px;
+    color: #fff;
+    background-color: #1e1e1e;
+
+    a {
+        color: #fff;
+        transition: color 0.2s ease-in;
+
+        &:hover {
+            color: var(--accent);
+        }
+    }
+}
+
+.footer-bottom__row {
+    width: 1550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom__terms {
+    display: flex;
+}
+
+.footer-bottom__terms li + li {
+    margin-left: 30px;
+}
+
 
