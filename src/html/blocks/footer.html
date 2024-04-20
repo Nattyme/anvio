@@ -1,8 +1,10 @@
 <footer class="footer">
     <div class="footer-top">
         <div class="container">
+            <!-- row -->
             <div class="footer-top__row">
-                <div class="footer__column">
+                <!-- column -->
+                <div class="footer-top__column">
                     <div class="footer-top__logo">
                         <img src="./../../img/logo-horizontal-red.png" alt="" class="logo">
                     </div>
@@ -13,11 +15,22 @@
                     </div>
                     <!--// nav -->
                 </div>
-        
-                <div class="footer__column">
-                    Колонка справа
+                 <!-- column -->
+
+                <!-- column -->
+                <div class="footer-top__column">
+                    <!-- row -->
+                    @@include('footer-widgets.html')
+                    <!--// row -->
+
+                    <!-- row -->
+                    <div class="footer-top__row">ряд</div>
+                    <!--// row -->
                 </div>
+                 <!-- column -->
             </div>
+            <!-- row -->
+
         </div>
         
     </div>

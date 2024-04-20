@@ -18,14 +18,28 @@
 
 .nav-footer__link {
     color: #fff;
+
+    &:hover {
+        color: var(--accent);
+        transition: color 0.2s ease-in;
+    }
 }
 
 .nav-footer__sub-nav {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
     li {
         padding-top: 20px;
     }
 
     a {
         color: rgba(255, 255, 255, 0.5);
+        transition: color 0.2s ease-in;
+
+        &:hover {
+            color: var(--accent);
+        }
     }
 }
