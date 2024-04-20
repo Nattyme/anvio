@@ -44,7 +44,38 @@
     color: #fff;
 }
 
-.socials-list {
+.footer-widgets__cta {
+    padding-top: 10px;
+    text-transform: uppercase;
 }
-.socials-list__item {
+
+.footer-widgets__form-footer {
+    padding-top: 10px;
+}
+
+.form-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+
+    width: 495px;
+    height: 60px;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-footer__input::placeholder {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.button-solid {
+}
+.button-solid-small {
 }
