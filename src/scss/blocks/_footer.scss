@@ -9,6 +9,10 @@
     display: flex;
 }
 
+.footer-top__row + .footer-top__row {
+    margin-top: 48px;
+}
+
 .footer-top__column:first-child {
     margin-right: 30px;
 
@@ -28,5 +32,24 @@
         object-fit: cover;
         overflow: hidden;
     }
+}
+
+.footer__map {
+    width: 1020px;
+    height: 400px;
+
+    border-radius: 30px;
+
+    background-color: #999;
+    background-image: image-set("./../../img/footer/map-img.jpg" 1x, "./../../img/footer/map-img@2x.jpg" 2x);
+    background-position: center; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer__map:hover {
+    transition: all 1s ease;
+    background-size: 150%;
+    background-position: center;
 }
 
