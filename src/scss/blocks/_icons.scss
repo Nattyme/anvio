@@ -119,6 +119,10 @@
     width: 15px;
     height: 15px;
     fill: #c4c4c4;
+
+    &--fill {
+        fill: var(--accent);
+    }
 }
 
 .icon--percent {
@@ -160,11 +164,16 @@
 }
 
 .icon--vk {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 25px;
+    fill: #fff;
 }
 
 .icon--telegram {
     width: 60px;
     height: 60px;
+
+    path.tg-bg {
+        fill: #37AEE2;
+    }
 }

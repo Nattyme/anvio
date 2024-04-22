@@ -9,10 +9,6 @@ const swiper = new Swiper('#slider-feedbacks', {
     loop: true,
     spaceBetween: 30,
     grabCursor: true,
-
-    keyboard: {
-        enabled: true,
-      },
   
     // Navigation arrows
     navigation: {
