@@ -11,8 +11,8 @@ Fancybox.bind('[data-fancybox]', {
 // mobileNav();
 
 // tabs
-import tabs from './modules/tabs.js';
-tabs();
+import tab from './modules/tab.js';
+tab();
 
 // sliders
 import sliderOffers from './modules/slider-offers.js';
