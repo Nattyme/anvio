@@ -10,6 +10,10 @@ Fancybox.bind('[data-fancybox]', {
 // import mobileNav from './modules/mobile-nav.js';
 // mobileNav();
 
+// tabs
+import tabs from './modules/tabs.js';
+tabs();
+
 // sliders
 import sliderOffers from './modules/slider-offers.js';
 import sliderOffersWide from './modules/slider-offers-wide.js';
@@ -23,3 +27,4 @@ sliderStars();
 sliderFeedbacks();
 sliderPromo();
 sliderNews();
+

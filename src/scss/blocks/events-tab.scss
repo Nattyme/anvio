@@ -24,15 +24,6 @@
         margin-left: 5px;
     }
 
-    &:hover, &:active {
-        background-color: #fff;
-        color: #000;
-    }
-
-    &:hover::after {
-        display: block;
-    }
-
     &::after {
         display: none;
 
@@ -50,9 +41,23 @@
         transform: translate(-50%, 100%);
         
     }
+
+    &--active {
+        background-color: #fff;
+        color: #000;
+    
+        &::after {
+            display: block;
+        }
+    }
 }
 
 .events-tab-block {
+    display: none;
+}
+
+.events-tab-block.events-tab-block--active {
+    display: block;
     padding: 0 99px 102px;
     border-radius: 50px;
     background-color: #fff;
