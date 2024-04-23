@@ -1,4 +1,5 @@
 .slider-emotions {
+    margin-left: unset;
     width: 1860px;
     height: 460px;
 }
@@ -6,6 +7,7 @@
 .slider-emotions__item {
     position: relative;
 }
+
 
 .slider-emotions__list {
     display: flex;
