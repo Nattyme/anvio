@@ -16,7 +16,20 @@
         <div class="tab__block tab__block--active activity-tab" data-control="tab-block">
             <div class="activity-tab__content">
                 <div class="activity-tab__text">ТЕКСТ</div>
-                <div class="activity-tab__slider">CЛАЙДЕР</div>
+                <div class="activity-tab__slider">
+                     <!-- swiper controls -->
+                    <button class="slider-arrow slider-arrow__prev" id="slider-activity-prev">
+                        <svg class="icon icon--slider-arrow">
+                            <use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
+                        </svg>
+                    </button>
+                    <button class="slider-arrow slider-arrow__next" id="slider-activity-next">
+                        <svg class="icon icon--slider-arrow">
+                            <use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
+                        </svg>
+                    </button>
+                    @@include('slider-activity.html')
+                </div>
             </div>
         </div>
         <!--// tab block -->
