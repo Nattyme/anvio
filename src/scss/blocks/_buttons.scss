@@ -33,11 +33,19 @@
     &__prev {
         left: 0;
         transform: translateX(-50%);
+
+        svg {
+            transform: rotate(90deg);
+        }
     }
 
     &__next {
         right: 0;
         transform: translateX(50%);
+        
+        svg {
+            transform: rotate(-90deg);
+        }
     }
 }
 
@@ -49,7 +57,8 @@
 .feedbacks__slider .slider-arrow,
 .promo__slider .slider-arrow,
 .news__slider .slider-arrow,
-.emotions__slider .slider-arrow {
+.emotions__slider .slider-arrow,
+.activity-tab__slider .slider-arrow {
     top: 50%;
     transform: translateY(-50%);
 }

@@ -6,7 +6,6 @@ const swiper = new Swiper('#slider-activity', {
     slidesPerView: 1,
     slidesPerGroup: 1,
     centeredSlides: true,
-    loop: true,
     grabCursor: true,
   
     // Navigation arrows
