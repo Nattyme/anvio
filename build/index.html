@@ -22,892 +22,810 @@
 
 	<body>
 		<main class="main-page">
-			<section class="header">
-				<div class="container">
-					<div class="header__row">
-						<div class="header__text">
-							<div class="header__title">
-								<h1 class="h1">VR-клуб &#171;Anvio&#187;</h1>
-							</div>
-							<div class="header__desc">
-								<p>парк цифровых развлечений для всей семьи</p>
-							</div>
-
-							<div class="header__benefit-list">
-								<ul class="benefit-list">
-									<li class="benefit-list__item">
-										<svg class="icon icon--square">
-											<use href="./img/svgsprite/sprite.symbol.svg#square"></use>
-										</svg>
-
-										<div class="benefit-list__text">
-											<p>Площадь парка 2100&#160;м&#178;</p>
-										</div>
-									</li>
-
-									<li class="benefit-list__item">
-										<svg class="icon icon--target">
-											<use href="./img/svgsprite/sprite.symbol.svg#target"></use>
-										</svg>
-
-										<div class="benefit-list__text">
-											<p>Командные игры</p>
-										</div>
-									</li>
-
-									<li class="benefit-list__item">
-										<svg class="icon icon--action">
-											<use href="./img/svgsprite/sprite.symbol.svg#action"></use>
-										</svg>
-
-										<div class="benefit-list__text">
-											<p>Свобода передвижений</p>
-										</div>
-									</li>
-								</ul>
-							</div>
-
-							<div class="header__slider">
-								<!-- swiper controls -->
-								<button class="slider-arrow slider-arrow__prev" id="slider-offers-prev">
-									<svg class="icon icon--slider-arrow">
-										<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-									</svg>
-								</button>
-								<button class="slider-arrow slider-arrow__next" id="slider-offers-next">
-									<svg class="icon icon--slider-arrow">
-										<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-									</svg>
-								</button>
-
-								<div class="swiper slider-offers" id="slider-offers">
-									<!-- Additional required wrapper -->
-									<div class="swiper-wrapper">
-										<!-- Slides -->
-
-										<!-- slide -->
-										<div class="swiper-slide slider-offers__item">
-											<div class="slider-offers__title">
-												<p><span>скидка&#160;50%</span> на&#160;второй сеанс</p>
-											</div>
-
-											<a href="#!" class="slider-offers__link">Получить скидку</a>
-
-											<svg class="icon icon--percent-surround">
-												<use href="./img/svgsprite/sprite.symbol.svg#percent-surround"></use>
-											</svg>
-										</div>
-										<!--// slide -->
-
-										<!-- slide -->
-										<div class="swiper-slide slider-offers__item">
-											<div class="slider-offers__title">
-												<p>День&#160;рождения<span> от&#160;1490 ₽</span></p>
-											</div>
-
-											<a href="#!" class="slider-offers__link">рассчитать стоимость</a>
-
-											<svg class="icon icon--cheers">
-												<use href="./img/svgsprite/sprite.symbol.svg#cheers"></use>
-											</svg>
-										</div>
-										<!--// slide -->
-
-										<!-- slide -->
-										<div class="swiper-slide slider-offers__item">
-											<div class="slider-offers__title">
-												<p>Командный&#160;бонус <span>1000 ₽</span></p>
-											</div>
-
-											<a href="#!" class="slider-offers__link">Забрать бонус</a>
-
-											<svg class="icon icon--crowd">
-												<use href="./img/svgsprite/sprite.symbol.svg#crowd"></use>
-											</svg>
-										</div>
-										<!--// slide -->
-									</div>
-
-									<!-- slider pagination -->
-									<div class="slider-offers__pagination">
-										<button class="pagination"></button>
-										<button class="pagination pagination--active"></button>
-										<button class="pagination"></button>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- video circle -->
-						<div class="header__video">
-							<a href="https://www.youtube.com/watch?v=T0lvn-mJu1A" class="header__video-link" data-youtubelightbox>
-								<picture>
-									<source srcset="./img/header/video-img.webp 1x, ./img/header/video-img@2x.webp 2x" type="image/webp" />
-									<source srcset="./img/header/video-img.jpg 1x, ./img/header/video-img@2x.jpg 2x" type="image/jpeg" />
-									<img src="./img/header/video-img.jpg" srcset="./img/header/video-img@2x.jpg" alt="video" />
-								</picture>
-
-								<!-- fake play btn -->
-								<div class="header__pulse-dot">
-									<div class="pulse-dot">
-										<div class="pulse-dot__circle">
-											<svg class="icon icon--play">
-												<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-											</svg>
-										</div>
-										<div class="pulse-dot__radius"></div>
-									</div>
-								</div>
-								<!-- fake play btn -->
-							</a>
-						</div>
-						<!--// circle -->
-					</div>
-
-					<!-- metro circle -->
-					<div class="header__placement">
-						<div class="metro-circle">
-							<div class="metro-circle__img">
-								<picture>
-									<source srcset="./img/header/cdm_logo.webp 1x, ./img/header/cdm_logo@2x.webp 2x" type="image/webp" />
-									<source srcset="./img/header/cdm_logo.jpg 1x, ./img/header/cdm_logo@2x.jpg 2x" type="image/jpeg" />
-									<img src="./img/header/cdm_logo.jpg" srcset="./img/header/cdm_logo@2x.jpg" alt="цдм" />
-								</picture>
-							</div>
-
-							<h3 class="metro-circle__title">В&#160;центре Москвы в&#160;ЦДМ</h3>
-
-							<div class="metro-circle__distance">
-								<div class="metro-line metro-line--red">
-									<svg class="icon icon--metro">
-										<use href="./img/svgsprite/sprite.symbol.svg#metro"></use>
-									</svg>
-									<div class="metro-line__text">
-										<p>Лубянка&#160;&#8212; 200&#160;м</p>
-									</div>
-								</div>
-								<div class="metro-line metro-line--violet">
-									<svg class="icon icon--metro">
-										<use href="./img/svgsprite/sprite.symbol.svg#metro"></use>
-									</svg>
-									<div class="metro-line__text">
-										<p>Кузнецкий мост&#160;&#8212; 120&#160;м</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="metro-circle__point">
-								<svg class="icon icon--point">
-									<use href="./img/svgsprite/sprite.symbol.svg#point"></use>
-								</svg>
-							</div>
-						</div>
-					</div>
-					<!--// metro circle -->
-				</div>
-			</section>
-			<section class="reasons">
+			<section class="activity">
 				<div class="container">
 					<!-- header -->
-					<div class="reasons__header">
-						<p class="h2">Причины, по&#160;которым&#160;вы&#160;будете в&#160;восторге</p>
-					</div>
-					<!--// header -->
-
-					<!-- list -->
-					<ul class="reasons-list">
-						<!-- li -->
-						<li class="reasons-list__item">
-							<div class="reasons-list__img">
-								<svg class="icon icon--gamepad">
-									<use href="./img/svgsprite/sprite.symbol.svg#gamepad"></use>
-								</svg>
-							</div>
-							<div class="reasons-list__desc">
-								<div class="reasons-list__title">
-									<p>Мы&#160;разрабатываем игры!</p>
-								</div>
-								<div class="reasons-list__text">
-									<p>
-										Игры создаю наши гейм дизайнеры, и&#160;нигде, кроме ANVIO, в&#160;них не&#160;сыграть. Поучаствуй в&#160;спецоперации по&#160;спасению
-										Москва-Сити. Зомби и&#160;боссы ждут вас! (Игра City Z)
-									</p>
-								</div>
-							</div>
-						</li>
-						<!-- li -->
-
-						<!-- li -->
-						<li class="reasons-list__item">
-							<div class="reasons-list__img">
-								<svg class="icon icon--square">
-									<use href="./img/svgsprite/sprite.symbol.svg#square"></use>
-								</svg>
-							</div>
-							<div class="reasons-list__desc">
-								<div class="reasons-list__title">
-									<p>100&#160;м&#178; локация&#160;свободного перемещения</p>
-								</div>
-								<div class="reasons-list__text">
-									<p>
-										Полное погружение в&#160;виртуальную реальность со&#160;свободой перемещения, через пару минут вы&#160;уже забываете, что вы&#160;в&#160;игре
-										и&#160;погружаетесь в&#160;экшн.
-									</p>
-								</div>
-							</div>
-						</li>
-						<!-- li -->
-
-						<!-- li -->
-						<li class="reasons-list__item">
-							<div class="reasons-list__img">
-								<svg class="icon icon--three-men">
-									<use href="./img/svgsprite/sprite.symbol.svg#three-men"></use>
-								</svg>
-							</div>
-							<div class="reasons-list__desc">
-								<div class="reasons-list__title">
-									<p>Свободное перемещение по&#160;игровой зоне без проводов</p>
-								</div>
-								<div class="reasons-list__text">
-									<p>
-										Не&#160;стоите на&#160;месте, а&#160;по-настоящему движетесь, как участник кино, стреляете в&#160;монстров и&#160;с&#160;криками убегаете
-										от&#160;них.
-									</p>
-								</div>
-							</div>
-						</li>
-						<!-- li -->
-					</ul>
-					<!--// list -->
-				</div>
-			</section>
-			<section class="network">
-				<div class="container">
-					<div class="network__block">
-						<!-- logo -->
-						<div class="network__logo">
-							<picture>
-								<source srcset="./img/anvio-logo-horizontal-red-big.webp 1x, ./img/anvio-logo-horizontal-red-big@2x.webp 2x" type="image/webp" />
-								<source srcset="./img/anvio-logo-horizontal-red-big.png 1x, ./img/anvio-logo-horizontal-red-big@2x.png 2x" type="image/png" />
-								<img src="./img/anvio-logo-horizontal-red-big.png" srcset="./img/anvio-logo-horizontal-red-big@2x.png" alt="" />
-							</picture>
-						</div>
-						<!--// logo -->
-
-						<div class="network__row">
-							<div class="network__stat">
-								<div class="network__value">
-									<p>12</p>
-									<p>стран</p>
-								</div>
-
-								<div class="network__value">
-									<p>26</p>
-									<p>клубов</p>
-								</div>
-							</div>
-							<div class="network__text">
-								<div class="network__header">
-									<h2 class="h2">Международная сеть VR&#160;клубов</h2>
-								</div>
-
-								<div class="network__desc">
-									<p>
-										Мы&#160;открыли парк цифровых развлечений для всей семьи в&#160;самом центре Москвы в&#160;Цетральном дестком магазине.
-										На&#160;2100&#160;м&#178; мы&#160;выстроили абсолютно новое игровое пространство, объединяюющее в&#160;себе VR-арены, стенды, игровые автоматы
-										и&#160;аттракционы.
-									</p>
-									<p>
-										Anvio VR&#160;&#8212; это международная сеть клубов виртуальной реальности расположенных по&#160;всему миру более чем в&#160;26 странах: США,
-										Канада, Франция, Израиль, Германия, Китай, Бразилия, Колумбия, Россия, Киргизстан.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="events">
-				<div class="container">
-					<!-- header -->
-					<header class="events__header">
-						<h2 class="h2">Наши развлечения</h2>
+					<header class="activity__header">
+						<h2 class="h2">Наши мероприятия</h2>
 					</header>
 					<!--// header -->
 
 					<!-- tab wrapper -->
-					<div class="tab events-tab" data-control="tab">
+					<div class="tab" data-control="tab">
 						<!-- tab -->
 						<div class="tab__nav" data-control="tab-nav">
-							<button class="tab__nav-btn tab__nav-btn--active events-tab__btn" type="button" data-control="tab-button">АРЕНЫ</button>
-							<button class="tab__nav-btn events-tab__btn" type="button" data-control="tab-button">АТТРАКЦИОНЫ</button>
-							<button class="tab__nav-btn events-tab__btn" type="button" data-control="tab-button">СТЕНДЫ</button>
-							<button class="tab__nav-btn events-tab__btn" type="button" data-control="tab-button">КУБЫ</button>
+							<button class="tab__nav-btn tab__nav-btn--active events-tab__btn" type="button" data-control="tab-button">Детские дни рождения</button>
+							<button class="tab__nav-btn" type="button" data-control="tab-button">Взрослые дни рождения</button>
+							<button class="tab__nav-btn" type="button" data-control="tab-button">Корпоративы</button>
+							<button class="tab__nav-btn" type="button" data-control="tab-button">Нестандартное мроприятие</button>
+							<button class="tab__nav-btn" type="button" data-control="tab-button">Подарочные сертификаты</button>
 						</div>
 
 						<!-- tab content -->
 						<div class="tab__content" data-control="tab-content">
 							<!-- tab block -->
-							<div class="tab__block tab__block--active events-tab-block" data-control="tab-block">
-								<div class="events-tab-block__row">
+							<div class="tab__block tab__block--active activity-tab" data-control="tab-block">
+								<div class="activity-tab__content">
 									<!-- text -->
-									<div class="events-tab-block__text">
-										<!-- header -->
-										<div class="events-tab-block__header">
-											<h3 class="h3">Арена</h3>
+									<div class="activity-tab__text">
+										<div class="activity-tab__title">
+											<h3 class="h3">Подарите ребёнку лучший и&#160;самый незабываемый день рождения!</h3>
 										</div>
-										<!--// header -->
 
-										<!-- flex row -->
-										<div class="events-tab-block__infobox">
-											<ul class="events-infobox">
-												<li class="events-infobox__item">
-													<svg class="icon icon--gamepad">
-														<use href="./img/svgsprite/sprite.symbol.svg#gamepad"></use>
-													</svg>
-
-													<div class="event-infobox__text">
-														<p>2-12</p>
-													</div>
-												</li>
-
-												<li class="events-infobox__item">
-													<svg class="icon icon--clock">
-														<use href="./img/svgsprite/sprite.symbol.svg#clock"></use>
-													</svg>
-
-													<div class="event-infobox__text">
-														<p>40 мин.</p>
-													</div>
-												</li>
-
-												<li class="events-infobox__item">
-													<svg class="icon icon--pay">
-														<use href="./img/svgsprite/sprite.symbol.svg#pay"></use>
-													</svg>
-
-													<div class="event-infobox__text">
-														<p>от&#160;500 ₽</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<!--// flex row -->
-
-										<div class="events-tab-block__desc">
+										<div class="activity-tab__desc">
 											<p>В&#160;нашем парке можно устроить праздник, который не&#160;забудется ни&#160;имененниками, ни&#160;их&#160;гостями.</p>
 										</div>
 
-										<div class="events-tab-block__buttons">
-											<a href="#!" class="button-solid">ЦЕНЫ</a>
-											<a href="#!" class="button-outline">ПОДРОБНЕЕ</a>
+										<div class="activity-tab__button">
+											<a href="#!" class="button-solid" title="Перейти к расчету стоимости">РАССЧИТАТЬ СТОИМОСТЬ</a>
+											<svg class="icon icon--arrow-round">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-round"></use>
+											</svg>
+										</div>
+
+										<div class="activity-tab__link-row">
+											<a class="activity-tab__link" href="#!" title="Как организовать?">Как организовать?</a>
+											<a class="activity-tab__link" href="#!" title="Сколько стоит?">Сколько стоит?</a>
+											<a class="activity-tab__link" href="#!" title="А чем кормят?">А&#160;чем кормят?</a>
 										</div>
 									</div>
-									<!-- text -->
+									<!--// text -->
 
-									<!-- schema -->
-									<div class="events-tab-block__schema"></div>
-									<!-- schema -->
-								</div>
+									<!-- slider -->
+									<div class="activity-tab__slider">
+										<!-- swiper controls -->
+										<button class="slider-arrow slider-arrow__prev" id="slider-activity-prev">
+											<svg class="icon icon--arrow-half">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
+											</svg>
+										</button>
+										<button class="slider-arrow slider-arrow__next" id="slider-activity-next">
+											<svg class="icon icon--arrow-half">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
+											</svg>
+										</button>
 
-								<!-- cards -->
-								<div class="events-tab-block__row">
-									<div class="cards-wrapper">
-										<!-- card -->
-										<div class="card">
-											<a href="https://www.youtube.com/watch?v=Coe9Pdsu_48" class="link-absolute" data-youtubelightbox>
-												<!-- img -->
-												<div class="card__img">
-													<picture>
-														<source srcset="./img/events/game-01.webp 1x, ./img/events/game-01@2x.webp 2x" type="image/webp" />
-														<source srcset="./img/events/game-01.jpg 1x, ./img/events/game-01@2x.jpg 2x" type="image/jpeg" />
-														<img src="./img/events/game-01.jpg" srcset="./img/events/game-01@2x.jpg" alt="citi-z" />
-													</picture>
-												</div>
-												<!--// img -->
-											</a>
-
-											<!-- fake play btn -->
-											<div class="card__pulse-dot">
-												<div class="pulse-dot pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
+										<div class="swiper slider-activity" id="slider-activity">
+											<!-- Additional required wrapper -->
+											<div class="swiper-wrapper">
+												<!-- slide -->
+												<a href="#!" title="Перейти к отзыву в инстаграм" class="swiper-slide slider-activity__item">
+													<!-- img -->
+													<div class="slider-activity__img">
+														<picture>
+															<source srcset="./img/sliders/activity/img-01.webp 1x, ./img/sliders/activity/img-01@2x.webp 2x" type="image/webp" />
+															<source srcset="./img/sliders/activity/img-01.jpg 1x, ./img/sliders/activity/img-01@2x.jpg 2x" type="image/jpeg" />
+															<img src="./img/sliders/activity/img-01.jpg" alt="Дети празднуют День Рождения" />
+														</picture>
 													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-											<!-- fake play btn -->
+													<!--// img -->
 
-											<!-- text -->
-											<div class="card__text">
-												<div class="card__title">
-													<h4>City Z</h4>
-												</div>
+													<!-- text -->
+													<div class="slider-activity__text">
+														<div class="slider-activity__header">
+															<h4 class="slider-activity__title">ДЕНЬ РОЖДЕНИЯ САШИ, 13 ЛЕТ В&#160;ПРОШЛУЮ СУББОТУ</h4>
+														</div>
 
-												<ul class="card__details">
-													<li>Шутер</li>
-													<li>30 мин.</li>
-													<li>1-4 чел.</li>
-													<li>12+</li>
-												</ul>
+														<div class="slider-activity__desc">
+															<p>Отличное развлечение для всей компании. Лучший корпоратив в&#160;жизни&#8230;</p>
+														</div>
 
-												<div class="card__buttons">
-													<a href="#!" class="button-solid-small">Забронировать</a>
-													<a href="#!" class="button-outline-small">Подробнее</a>
-												</div>
-											</div>
-											<!--// text -->
-										</div>
-										<!--// card -->
+														<div class="slider-activity__feedback">
+															<div class="slider-activity__user">
+																<div class="slider-activity__user-img">
+																	<picture>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.webp 1x, ./img/sliders/activity/user-img-01@2x.webp 2x"
+																			type="image/webp"
+																		/>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.jpg 1x, ./img/sliders/activity/user-img-01@2x.jpg 2x"
+																			type="image/jpeg"
+																		/>
+																		<img src="./img/sliders/activity/user-img-01.jpg" alt="Фото автора комментария" />
+																	</picture>
+																</div>
+																<div class="slider-activity__user-name">
+																	<p>Александр Александров</p>
+																</div>
+															</div>
 
-										<!-- card -->
-										<div class="card">
-											<a href="https://www.youtube.com/watch?v=WKYqeufKq2w" class="link-absolute" data-youtubelightbox>
-												<!-- img -->
-												<div class="card__img">
-													<picture>
-														<source srcset="./img/events/game-02.webp 1x, ./img/events/game-02@2x.webp 2x" type="image/webp" />
-														<source srcset="./img/events/game-02.jpg 1x, ./img/events/game-02@2x.jpg 2x" type="image/jpeg" />
-														<img src="./img/events/game-02.jpg" srcset="./img/events/game-02@2x.jpg" alt="citi-z:survivors" />
-													</picture>
-												</div>
-												<!--// img -->
-											</a>
-
-											<!-- fake play btn -->
-											<div class="card__pulse-dot">
-												<div class="pulse-dot pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
+															<span class="slider-activity__social">
+																Instagram &#8594;
+															</span>
+														</div>
 													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-											<!-- fake play btn -->
+													<!--// text -->
+												</a>
+												<!--// slide -->
 
-											<!-- text -->
-											<div class="card__text">
-												<div class="card__title">
-													<h4>City Z: SURVIVORS</h4>
-												</div>
-
-												<ul class="card__details">
-													<li>Шутер</li>
-													<li>40 мин.</li>
-													<li>1-6 чел.</li>
-													<li>16+</li>
-												</ul>
-
-												<div class="card__buttons">
-													<a href="#!" class="button-solid-small">Забронировать</a>
-													<a href="#!" class="button-outline-small">Подробнее</a>
-												</div>
-											</div>
-											<!--// text -->
-										</div>
-										<!--// card -->
-
-										<!-- card -->
-										<div class="card">
-											<a href="https://www.youtube.com/watch?v=1N3_aUYlPcY" class="link-absolute" data-youtubelightbox>
-												<!-- img -->
-												<div class="card__img">
-													<picture>
-														<source srcset="./img/events/game-03.webp 1x, ./img/events/game-03@2x.webp 2x" type="image/webp" />
-														<source srcset="./img/events/game-03.jpg 1x, ./img/events/game-03@2x.jpg 2x" type="image/jpeg" />
-														<img src="./img/events/game-03.jpg" srcset="./img/events/game-03@2x.jpg" alt="city-z: antidote" />
-													</picture>
-												</div>
-												<!--// img -->
-											</a>
-
-											<!-- fake play btn -->
-											<div class="card__pulse-dot">
-												<div class="pulse-dot pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
+												<!-- slide -->
+												<a href="#!" title="Перейти к отзыву в инстаграм" class="swiper-slide slider-activity__item">
+													<!-- img -->
+													<div class="slider-activity__img">
+														<picture>
+															<source srcset="./img/sliders/activity/img-01.webp 1x, ./img/sliders/activity/img-01@2x.webp 2x" type="image/webp" />
+															<source srcset="./img/sliders/activity/img-01.jpg 1x, ./img/sliders/activity/img-01@2x.jpg 2x" type="image/jpeg" />
+															<img src="./img/sliders/activity/img-01.jpg" alt="Дети празднуют День Рождения" />
+														</picture>
 													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-											<!-- fake play btn -->
+													<!--// img -->
 
-											<!-- text -->
-											<div class="card__text">
-												<div class="card__title">
-													<h4>City Z: Antidote</h4>
-												</div>
+													<!-- text -->
+													<div class="slider-activity__text">
+														<div class="slider-activity__header">
+															<h4 class="slider-activity__title">ДЕНЬ РОЖДЕНИЯ САШИ, 13 ЛЕТ В&#160;ПРОШЛУЮ СУББОТУ</h4>
+														</div>
 
-												<ul class="card__details">
-													<li>Шутер</li>
-													<li>40 мин.</li>
-													<li>1-3 чел.</li>
-													<li>21+</li>
-												</ul>
+														<div class="slider-activity__desc">
+															<p>Отличное развлечение для всей компании. Лучший корпоратив в&#160;жизни&#8230;</p>
+														</div>
 
-												<div class="card__buttons">
-													<a href="#!" class="button-solid-small">Забронировать</a>
-													<a href="#!" class="button-outline-small">Подробнее</a>
-												</div>
-											</div>
-											<!--// text -->
-										</div>
-										<!--// card -->
-									</div>
+														<div class="slider-activity__feedback">
+															<div class="slider-activity__user">
+																<div class="slider-activity__user-img">
+																	<picture>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.webp 1x, ./img/sliders/activity/user-img-01@2x.webp 2x"
+																			type="image/webp"
+																		/>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.jpg 1x, ./img/sliders/activity/user-img-01@2x.jpg 2x"
+																			type="image/jpeg"
+																		/>
+																		<img src="./img/sliders/activity/user-img-01.jpg" alt="Фото автора комментария" />
+																	</picture>
+																</div>
+																<div class="slider-activity__user-name">
+																	<p>Александр Александров</p>
+																</div>
+															</div>
 
-									<div class="cards-wrapper">
-										<!-- card -->
-										<div class="card-wide">
-											<a href="https://www.youtube.com/watch?v=VfTpjo1-6vY" class="link-absolute" data-youtubelightbox>
-												<!-- img -->
-												<div class="card-wide__img">
-													<picture>
-														<source srcset="./img/events/game-04.webp 1x, ./img/events/game-04@2x.webp 2x" type="image/webp" />
-														<source srcset="./img/events/game-04.jpg 1x, ./img/events/game-04@2x.jpg 2x" type="image/jpeg" />
-														<img src="./img/events/game-04.jpg" srcset="./img/events/game-04@2x.jpg" alt="REVOLTA" />
-													</picture>
-												</div>
-												<!--// img -->
-											</a>
-
-											<!-- fake play btn -->
-											<div class="card__pulse-dot">
-												<div class="pulse-dot pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
+															<span class="slider-activity__social">
+																Instagram &#8594;
+															</span>
+														</div>
 													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
+													<!--// text -->
+												</a>
+												<!--// slide -->
 											</div>
-											<!-- fake play btn -->
-
-											<!-- text -->
-											<div class="card-wide__text">
-												<div class="card-wide__title">
-													<h4>REVOLTA</h4>
-												</div>
-
-												<ul class="card-wide__details">
-													<li>Шутер</li>
-													<li>40 мин.</li>
-													<li>1-8 чел.</li>
-													<li>16+</li>
-												</ul>
-
-												<div class="card-wide__buttons">
-													<a href="#!" class="button-solid-small">Забронировать</a>
-													<a href="#!" class="button-outline-small">Подробнее</a>
-												</div>
-											</div>
-											<!--// text -->
-										</div>
-										<!--// card -->
-									</div>
-
-									<div class="cards-wrapper">
-										<!-- card -->
-										<div class="card card--50vw">
-											<a href="https://www.youtube.com/watch?v=Qe0_hNUKRfM" class="link-absolute" data-youtubelightbox>
-												<!-- img -->
-												<div class="card__img">
-													<picture>
-														<source srcset="./img/events/game-05.webp 1x, ./img/events/game-05@2x.webp 2x" type="image/webp" />
-														<source srcset="./img/events/game-05.jpg 1x, ./img/events/game-05@2x.jpg 2x" type="image/jpeg" />
-														<img src="./img/events/game-05.jpg" srcset="./img/events/game-05@2x.jpg" alt="Station Zarya" />
-													</picture>
-												</div>
-												<!--// img -->
-											</a>
-
-											<!-- fake play btn -->
-											<div class="card__pulse-dot">
-												<div class="pulse-dot pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-											<!-- fake play btn -->
-
-											<!-- text -->
-											<div class="card__text">
-												<div class="card__title">
-													<h4>Station Zarya</h4>
-												</div>
-
-												<ul class="card__details">
-													<li>Шутер</li>
-													<li>40 мин.</li>
-													<li>1-8 чел.</li>
-													<li>16+</li>
-												</ul>
-
-												<div class="card__buttons">
-													<a href="#!" class="button-solid-small">Забронировать</a>
-													<a href="#!" class="button-outline-small">Подробнее</a>
-												</div>
-											</div>
-											<!--// text -->
-										</div>
-										<!--// card -->
-
-										<!-- card -->
-										<div class="card card--50vw">
-											<a href="https://www.youtube.com/watch?v=qTSaa_gFR-U" class="link-absolute" data-youtubelightbox>
-												<!-- img -->
-												<div class="card__img">
-													<picture>
-														<source srcset="./img/events/game-06.webp 1x, ./img/events/game-06@2x.webp 2x" type="image/webp" />
-														<source srcset="./img/events/game-06.jpg 1x, ./img/events/game-06@2x.jpg 2x" type="image/jpeg" />
-														<img src="./img/events/game-06.jpg" srcset="./img/events/game-06@2x.jpg" alt="lost sanctuary" />
-													</picture>
-												</div>
-												<!--// img -->
-											</a>
-
-											<!-- fake play btn -->
-											<div class="card__pulse-dot">
-												<div class="pulse-dot pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-											<!-- fake play btn -->
-
-											<!-- text -->
-											<div class="card__text">
-												<div class="card__title">
-													<h4>LOST SANCTUARY</h4>
-												</div>
-
-												<ul class="card__details">
-													<li>Шутер</li>
-													<li>40 мин.</li>
-													<li>1-8 чел.</li>
-													<li>16+</li>
-												</ul>
-
-												<div class="card__buttons">
-													<a href="#!" class="button-solid-small">Забронировать</a>
-													<a href="#!" class="button-outline-small">Подробнее</a>
-												</div>
-											</div>
-											<!--// text -->
-										</div>
-										<!--// card -->
-									</div>
-								</div>
-								<!--// cards  -->
-							</div>
-							<!--// tab block -->
-
-							<!-- tab block -->
-							<div class="tab__block events-tab-block" data-control="tab-block">
-								<div class="events-tab-block__row">
-									<!-- text -->
-									<div class="events-tab-block__text">
-										<!-- header -->
-										<div class="events-tab-block__header">
-											<h3 class="h3">Арена</h3>
-										</div>
-										<!--// header -->
-
-										<!-- flex row -->
-										<div class="events-tab-block__infobox">
-											<ul class="events-infobox">
-												<li class="events-infobox__item">
-													<svg class="icon icon--gamepad">
-														<use href="./img/svgsprite/sprite.symbol.svg#gamepad"></use>
-													</svg>
-
-													<div class="event-infobox__text">
-														<p>2-12</p>
-													</div>
-												</li>
-
-												<li class="events-infobox__item">
-													<svg class="icon icon--clock">
-														<use href="./img/svgsprite/sprite.symbol.svg#clock"></use>
-													</svg>
-
-													<div class="event-infobox__text">
-														<p>40 мин.</p>
-													</div>
-												</li>
-
-												<li class="events-infobox__item">
-													<svg class="icon icon--pay">
-														<use href="./img/svgsprite/sprite.symbol.svg#pay"></use>
-													</svg>
-
-													<div class="event-infobox__text">
-														<p>от&#160;500 ₽</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<!--// flex row -->
-
-										<div class="events-tab-block__desc">
-											<p>В&#160;нашем парке можно устроить праздник, который не&#160;забудется ни&#160;имененниками, ни&#160;их&#160;гостями.</p>
-										</div>
-
-										<div class="events-tab-block__buttons">
-											<a href="#!" class="button-solid">ЦЕНЫ</a>
-											<a href="#!" class="button-outline">ПОДРОБНЕЕ</a>
 										</div>
 									</div>
-									<!-- text -->
-
-									<!-- schema -->
-									<div class="events-tab-block__schema"></div>
-									<!-- schema -->
+									<!--// slider -->
 								</div>
 							</div>
 							<!--// tab block -->
+						</div>
+						<!--// tab content -->
 
+						<!-- tab content -->
+						<div class="tab__content" data-control="tab-content">
 							<!-- tab block -->
-							<div class="tab__block events-tab-block" data-control="tab-block">
-								<div class="events-tab-block__row">
+							<div class="tab__block tab__block--active activity-tab" data-control="tab-block">
+								<div class="activity-tab__content">
 									<!-- text -->
-									<div class="events-tab-block__text">
-										<!-- header -->
-										<div class="events-tab-block__header">
-											<h3 class="h3">Арена</h3>
+									<div class="activity-tab__text">
+										<div class="activity-tab__title">
+											<h3 class="h3">Самый незабываемый день рождения!</h3>
 										</div>
-										<!--// header -->
 
-										<!-- flex row -->
-										<div class="events-tab-block__infobox">
-											<ul class="events-infobox">
-												<li class="events-infobox__item">
-													<svg class="icon icon--gamepad">
-														<use href="./img/svgsprite/sprite.symbol.svg#gamepad"></use>
-													</svg>
-
-													<div class="event-infobox__text">
-														<p>2-12</p>
-													</div>
-												</li>
-
-												<li class="events-infobox__item">
-													<svg class="icon icon--clock">
-														<use href="./img/svgsprite/sprite.symbol.svg#clock"></use>
-													</svg>
-
-													<div class="event-infobox__text">
-														<p>40 мин.</p>
-													</div>
-												</li>
-
-												<li class="events-infobox__item">
-													<svg class="icon icon--pay">
-														<use href="./img/svgsprite/sprite.symbol.svg#pay"></use>
-													</svg>
-
-													<div class="event-infobox__text">
-														<p>от&#160;500 ₽</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<!--// flex row -->
-
-										<div class="events-tab-block__desc">
+										<div class="activity-tab__desc">
 											<p>В&#160;нашем парке можно устроить праздник, который не&#160;забудется ни&#160;имененниками, ни&#160;их&#160;гостями.</p>
 										</div>
 
-										<div class="events-tab-block__buttons">
-											<a href="#!" class="button-solid">ЦЕНЫ</a>
-											<a href="#!" class="button-outline">ПОДРОБНЕЕ</a>
+										<div class="activity-tab__button">
+											<a href="#!" class="button-solid" title="Перейти к расчету стоимости">РАССЧИТАТЬ СТОИМОСТЬ</a>
+											<svg class="icon icon--arrow-round">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-round"></use>
+											</svg>
+										</div>
+
+										<div class="activity-tab__link-row">
+											<a class="activity-tab__link" href="#!" title="Как организовать?">Как организовать?</a>
+											<a class="activity-tab__link" href="#!" title="Сколько стоит?">Сколько стоит?</a>
+											<a class="activity-tab__link" href="#!" title="А чем кормят?">А&#160;чем кормят?</a>
 										</div>
 									</div>
-									<!-- text -->
+									<!--// text -->
 
-									<!-- schema -->
-									<div class="events-tab-block__schema"></div>
-									<!-- schema -->
+									<!-- slider -->
+									<div class="activity-tab__slider">
+										<!-- swiper controls -->
+										<button class="slider-arrow slider-arrow__prev" id="slider-activity-prev">
+											<svg class="icon icon--arrow-half">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
+											</svg>
+										</button>
+										<button class="slider-arrow slider-arrow__next" id="slider-activity-next">
+											<svg class="icon icon--arrow-half">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
+											</svg>
+										</button>
+
+										<div class="swiper slider-activity" id="slider-activity">
+											<!-- Additional required wrapper -->
+											<div class="swiper-wrapper">
+												<!-- slide -->
+												<a href="#!" title="Перейти к отзыву в инстаграм" class="swiper-slide slider-activity__item">
+													<!-- img -->
+													<div class="slider-activity__img">
+														<picture>
+															<source srcset="./img/sliders/activity/img-01.webp 1x, ./img/sliders/activity/img-01@2x.webp 2x" type="image/webp" />
+															<source srcset="./img/sliders/activity/img-01.jpg 1x, ./img/sliders/activity/img-01@2x.jpg 2x" type="image/jpeg" />
+															<img src="./img/sliders/activity/img-01.jpg" alt="Дети празднуют День Рождения" />
+														</picture>
+													</div>
+													<!--// img -->
+
+													<!-- text -->
+													<div class="slider-activity__text">
+														<div class="slider-activity__header">
+															<h4 class="slider-activity__title">ДЕНЬ РОЖДЕНИЯ САШИ, 13 ЛЕТ В&#160;ПРОШЛУЮ СУББОТУ</h4>
+														</div>
+
+														<div class="slider-activity__desc">
+															<p>Отличное развлечение для всей компании. Лучший корпоратив в&#160;жизни&#8230;</p>
+														</div>
+
+														<div class="slider-activity__feedback">
+															<div class="slider-activity__user">
+																<div class="slider-activity__user-img">
+																	<picture>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.webp 1x, ./img/sliders/activity/user-img-01@2x.webp 2x"
+																			type="image/webp"
+																		/>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.jpg 1x, ./img/sliders/activity/user-img-01@2x.jpg 2x"
+																			type="image/jpeg"
+																		/>
+																		<img src="./img/sliders/activity/user-img-01.jpg" alt="Фото автора комментария" />
+																	</picture>
+																</div>
+																<div class="slider-activity__user-name">
+																	<p>Александр Александров</p>
+																</div>
+															</div>
+
+															<span class="slider-activity__social">
+																Instagram &#8594;
+															</span>
+														</div>
+													</div>
+													<!--// text -->
+												</a>
+												<!--// slide -->
+
+												<!-- slide -->
+												<a href="#!" title="Перейти к отзыву в инстаграм" class="swiper-slide slider-activity__item">
+													<!-- img -->
+													<div class="slider-activity__img">
+														<picture>
+															<source srcset="./img/sliders/activity/img-01.webp 1x, ./img/sliders/activity/img-01@2x.webp 2x" type="image/webp" />
+															<source srcset="./img/sliders/activity/img-01.jpg 1x, ./img/sliders/activity/img-01@2x.jpg 2x" type="image/jpeg" />
+															<img src="./img/sliders/activity/img-01.jpg" alt="Дети празднуют День Рождения" />
+														</picture>
+													</div>
+													<!--// img -->
+
+													<!-- text -->
+													<div class="slider-activity__text">
+														<div class="slider-activity__header">
+															<h4 class="slider-activity__title">ДЕНЬ РОЖДЕНИЯ САШИ, 13 ЛЕТ В&#160;ПРОШЛУЮ СУББОТУ</h4>
+														</div>
+
+														<div class="slider-activity__desc">
+															<p>Отличное развлечение для всей компании. Лучший корпоратив в&#160;жизни&#8230;</p>
+														</div>
+
+														<div class="slider-activity__feedback">
+															<div class="slider-activity__user">
+																<div class="slider-activity__user-img">
+																	<picture>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.webp 1x, ./img/sliders/activity/user-img-01@2x.webp 2x"
+																			type="image/webp"
+																		/>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.jpg 1x, ./img/sliders/activity/user-img-01@2x.jpg 2x"
+																			type="image/jpeg"
+																		/>
+																		<img src="./img/sliders/activity/user-img-01.jpg" alt="Фото автора комментария" />
+																	</picture>
+																</div>
+																<div class="slider-activity__user-name">
+																	<p>Александр Александров</p>
+																</div>
+															</div>
+
+															<span class="slider-activity__social">
+																Instagram &#8594;
+															</span>
+														</div>
+													</div>
+													<!--// text -->
+												</a>
+												<!--// slide -->
+											</div>
+										</div>
+									</div>
+									<!--// slider -->
 								</div>
 							</div>
 							<!--// tab block -->
+						</div>
+						<!--// tab content -->
 
+						<!-- tab content -->
+						<div class="tab__content" data-control="tab-content">
 							<!-- tab block -->
-							<div class="tab__block events-tab-block" data-control="tab-block">
-								<div class="events-tab-block__row">
+							<div class="tab__block tab__block--active activity-tab" data-control="tab-block">
+								<div class="activity-tab__content">
 									<!-- text -->
-									<div class="events-tab-block__text">
-										<!-- header -->
-										<div class="events-tab-block__header">
-											<h3 class="h3">Арена</h3>
+									<div class="activity-tab__text">
+										<div class="activity-tab__title">
+											<h3 class="h3">Самый незабываемый день!</h3>
 										</div>
-										<!--// header -->
 
-										<!-- flex row -->
-										<div class="events-tab-block__infobox">
-											<ul class="events-infobox">
-												<li class="events-infobox__item">
-													<svg class="icon icon--gamepad">
-														<use href="./img/svgsprite/sprite.symbol.svg#gamepad"></use>
-													</svg>
-
-													<div class="event-infobox__text">
-														<p>2-12</p>
-													</div>
-												</li>
-
-												<li class="events-infobox__item">
-													<svg class="icon icon--clock">
-														<use href="./img/svgsprite/sprite.symbol.svg#clock"></use>
-													</svg>
-
-													<div class="event-infobox__text">
-														<p>40 мин.</p>
-													</div>
-												</li>
-
-												<li class="events-infobox__item">
-													<svg class="icon icon--pay">
-														<use href="./img/svgsprite/sprite.symbol.svg#pay"></use>
-													</svg>
-
-													<div class="event-infobox__text">
-														<p>от&#160;500 ₽</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-										<!--// flex row -->
-
-										<div class="events-tab-block__desc">
+										<div class="activity-tab__desc">
 											<p>В&#160;нашем парке можно устроить праздник, который не&#160;забудется ни&#160;имененниками, ни&#160;их&#160;гостями.</p>
 										</div>
 
-										<div class="events-tab-block__buttons">
-											<a href="#!" class="button-solid">ЦЕНЫ</a>
-											<a href="#!" class="button-outline">ПОДРОБНЕЕ</a>
+										<div class="activity-tab__button">
+											<a href="#!" class="button-solid" title="Перейти к расчету стоимости">РАССЧИТАТЬ СТОИМОСТЬ</a>
+											<svg class="icon icon--arrow-round">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-round"></use>
+											</svg>
+										</div>
+
+										<div class="activity-tab__link-row">
+											<a class="activity-tab__link" href="#!" title="Как организовать?">Как организовать?</a>
+											<a class="activity-tab__link" href="#!" title="Сколько стоит?">Сколько стоит?</a>
+											<a class="activity-tab__link" href="#!" title="А чем кормят?">А&#160;чем кормят?</a>
 										</div>
 									</div>
-									<!-- text -->
+									<!--// text -->
 
-									<!-- schema -->
-									<div class="events-tab-block__schema"></div>
-									<!-- schema -->
+									<!-- slider -->
+									<div class="activity-tab__slider">
+										<!-- swiper controls -->
+										<button class="slider-arrow slider-arrow__prev" id="slider-activity-prev">
+											<svg class="icon icon--arrow-half">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
+											</svg>
+										</button>
+										<button class="slider-arrow slider-arrow__next" id="slider-activity-next">
+											<svg class="icon icon--arrow-half">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
+											</svg>
+										</button>
+
+										<div class="swiper slider-activity" id="slider-activity">
+											<!-- Additional required wrapper -->
+											<div class="swiper-wrapper">
+												<!-- slide -->
+												<a href="#!" title="Перейти к отзыву в инстаграм" class="swiper-slide slider-activity__item">
+													<!-- img -->
+													<div class="slider-activity__img">
+														<picture>
+															<source srcset="./img/sliders/activity/img-01.webp 1x, ./img/sliders/activity/img-01@2x.webp 2x" type="image/webp" />
+															<source srcset="./img/sliders/activity/img-01.jpg 1x, ./img/sliders/activity/img-01@2x.jpg 2x" type="image/jpeg" />
+															<img src="./img/sliders/activity/img-01.jpg" alt="Дети празднуют День Рождения" />
+														</picture>
+													</div>
+													<!--// img -->
+
+													<!-- text -->
+													<div class="slider-activity__text">
+														<div class="slider-activity__header">
+															<h4 class="slider-activity__title">ДЕНЬ РОЖДЕНИЯ САШИ, 13 ЛЕТ В&#160;ПРОШЛУЮ СУББОТУ</h4>
+														</div>
+
+														<div class="slider-activity__desc">
+															<p>Отличное развлечение для всей компании. Лучший корпоратив в&#160;жизни&#8230;</p>
+														</div>
+
+														<div class="slider-activity__feedback">
+															<div class="slider-activity__user">
+																<div class="slider-activity__user-img">
+																	<picture>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.webp 1x, ./img/sliders/activity/user-img-01@2x.webp 2x"
+																			type="image/webp"
+																		/>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.jpg 1x, ./img/sliders/activity/user-img-01@2x.jpg 2x"
+																			type="image/jpeg"
+																		/>
+																		<img src="./img/sliders/activity/user-img-01.jpg" alt="Фото автора комментария" />
+																	</picture>
+																</div>
+																<div class="slider-activity__user-name">
+																	<p>Александр Александров</p>
+																</div>
+															</div>
+
+															<span class="slider-activity__social">
+																Instagram &#8594;
+															</span>
+														</div>
+													</div>
+													<!--// text -->
+												</a>
+												<!--// slide -->
+
+												<!-- slide -->
+												<a href="#!" title="Перейти к отзыву в инстаграм" class="swiper-slide slider-activity__item">
+													<!-- img -->
+													<div class="slider-activity__img">
+														<picture>
+															<source srcset="./img/sliders/activity/img-01.webp 1x, ./img/sliders/activity/img-01@2x.webp 2x" type="image/webp" />
+															<source srcset="./img/sliders/activity/img-01.jpg 1x, ./img/sliders/activity/img-01@2x.jpg 2x" type="image/jpeg" />
+															<img src="./img/sliders/activity/img-01.jpg" alt="Дети празднуют День Рождения" />
+														</picture>
+													</div>
+													<!--// img -->
+
+													<!-- text -->
+													<div class="slider-activity__text">
+														<div class="slider-activity__header">
+															<h4 class="slider-activity__title">ДЕНЬ РОЖДЕНИЯ САШИ, 13 ЛЕТ В&#160;ПРОШЛУЮ СУББОТУ</h4>
+														</div>
+
+														<div class="slider-activity__desc">
+															<p>Отличное развлечение для всей компании. Лучший корпоратив в&#160;жизни&#8230;</p>
+														</div>
+
+														<div class="slider-activity__feedback">
+															<div class="slider-activity__user">
+																<div class="slider-activity__user-img">
+																	<picture>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.webp 1x, ./img/sliders/activity/user-img-01@2x.webp 2x"
+																			type="image/webp"
+																		/>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.jpg 1x, ./img/sliders/activity/user-img-01@2x.jpg 2x"
+																			type="image/jpeg"
+																		/>
+																		<img src="./img/sliders/activity/user-img-01.jpg" alt="Фото автора комментария" />
+																	</picture>
+																</div>
+																<div class="slider-activity__user-name">
+																	<p>Александр Александров</p>
+																</div>
+															</div>
+
+															<span class="slider-activity__social">
+																Instagram &#8594;
+															</span>
+														</div>
+													</div>
+													<!--// text -->
+												</a>
+												<!--// slide -->
+											</div>
+										</div>
+									</div>
+									<!--// slider -->
+								</div>
+							</div>
+							<!--// tab block -->
+						</div>
+						<!--// tab content -->
+
+						<!-- tab content -->
+						<div class="tab__content" data-control="tab-content">
+							<!-- tab block -->
+							<div class="tab__block tab__block--active activity-tab" data-control="tab-block">
+								<div class="activity-tab__content">
+									<!-- text -->
+									<div class="activity-tab__text">
+										<div class="activity-tab__title">
+											<h3 class="h3">Подарите самый незабываемый день!</h3>
+										</div>
+
+										<div class="activity-tab__desc">
+											<p>В&#160;нашем парке можно устроить праздник, который не&#160;забудется ни&#160;имененниками, ни&#160;их&#160;гостями.</p>
+										</div>
+
+										<div class="activity-tab__button">
+											<a href="#!" class="button-solid" title="Перейти к расчету стоимости">РАССЧИТАТЬ СТОИМОСТЬ</a>
+											<svg class="icon icon--arrow-round">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-round"></use>
+											</svg>
+										</div>
+
+										<div class="activity-tab__link-row">
+											<a class="activity-tab__link" href="#!" title="Как организовать?">Как организовать?</a>
+											<a class="activity-tab__link" href="#!" title="Сколько стоит?">Сколько стоит?</a>
+											<a class="activity-tab__link" href="#!" title="А чем кормят?">А&#160;чем кормят?</a>
+										</div>
+									</div>
+									<!--// text -->
+
+									<!-- slider -->
+									<div class="activity-tab__slider">
+										<!-- swiper controls -->
+										<button class="slider-arrow slider-arrow__prev" id="slider-activity-prev">
+											<svg class="icon icon--arrow-half">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
+											</svg>
+										</button>
+										<button class="slider-arrow slider-arrow__next" id="slider-activity-next">
+											<svg class="icon icon--arrow-half">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
+											</svg>
+										</button>
+
+										<div class="swiper slider-activity" id="slider-activity">
+											<!-- Additional required wrapper -->
+											<div class="swiper-wrapper">
+												<!-- slide -->
+												<a href="#!" title="Перейти к отзыву в инстаграм" class="swiper-slide slider-activity__item">
+													<!-- img -->
+													<div class="slider-activity__img">
+														<picture>
+															<source srcset="./img/sliders/activity/img-01.webp 1x, ./img/sliders/activity/img-01@2x.webp 2x" type="image/webp" />
+															<source srcset="./img/sliders/activity/img-01.jpg 1x, ./img/sliders/activity/img-01@2x.jpg 2x" type="image/jpeg" />
+															<img src="./img/sliders/activity/img-01.jpg" alt="Дети празднуют День Рождения" />
+														</picture>
+													</div>
+													<!--// img -->
+
+													<!-- text -->
+													<div class="slider-activity__text">
+														<div class="slider-activity__header">
+															<h4 class="slider-activity__title">ДЕНЬ РОЖДЕНИЯ САШИ, 13 ЛЕТ В&#160;ПРОШЛУЮ СУББОТУ</h4>
+														</div>
+
+														<div class="slider-activity__desc">
+															<p>Отличное развлечение для всей компании. Лучший корпоратив в&#160;жизни&#8230;</p>
+														</div>
+
+														<div class="slider-activity__feedback">
+															<div class="slider-activity__user">
+																<div class="slider-activity__user-img">
+																	<picture>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.webp 1x, ./img/sliders/activity/user-img-01@2x.webp 2x"
+																			type="image/webp"
+																		/>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.jpg 1x, ./img/sliders/activity/user-img-01@2x.jpg 2x"
+																			type="image/jpeg"
+																		/>
+																		<img src="./img/sliders/activity/user-img-01.jpg" alt="Фото автора комментария" />
+																	</picture>
+																</div>
+																<div class="slider-activity__user-name">
+																	<p>Александр Александров</p>
+																</div>
+															</div>
+
+															<span class="slider-activity__social">
+																Instagram &#8594;
+															</span>
+														</div>
+													</div>
+													<!--// text -->
+												</a>
+												<!--// slide -->
+
+												<!-- slide -->
+												<a href="#!" title="Перейти к отзыву в инстаграм" class="swiper-slide slider-activity__item">
+													<!-- img -->
+													<div class="slider-activity__img">
+														<picture>
+															<source srcset="./img/sliders/activity/img-01.webp 1x, ./img/sliders/activity/img-01@2x.webp 2x" type="image/webp" />
+															<source srcset="./img/sliders/activity/img-01.jpg 1x, ./img/sliders/activity/img-01@2x.jpg 2x" type="image/jpeg" />
+															<img src="./img/sliders/activity/img-01.jpg" alt="Дети празднуют День Рождения" />
+														</picture>
+													</div>
+													<!--// img -->
+
+													<!-- text -->
+													<div class="slider-activity__text">
+														<div class="slider-activity__header">
+															<h4 class="slider-activity__title">ДЕНЬ РОЖДЕНИЯ САШИ, 13 ЛЕТ В&#160;ПРОШЛУЮ СУББОТУ</h4>
+														</div>
+
+														<div class="slider-activity__desc">
+															<p>Отличное развлечение для всей компании. Лучший корпоратив в&#160;жизни&#8230;</p>
+														</div>
+
+														<div class="slider-activity__feedback">
+															<div class="slider-activity__user">
+																<div class="slider-activity__user-img">
+																	<picture>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.webp 1x, ./img/sliders/activity/user-img-01@2x.webp 2x"
+																			type="image/webp"
+																		/>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.jpg 1x, ./img/sliders/activity/user-img-01@2x.jpg 2x"
+																			type="image/jpeg"
+																		/>
+																		<img src="./img/sliders/activity/user-img-01.jpg" alt="Фото автора комментария" />
+																	</picture>
+																</div>
+																<div class="slider-activity__user-name">
+																	<p>Александр Александров</p>
+																</div>
+															</div>
+
+															<span class="slider-activity__social">
+																Instagram &#8594;
+															</span>
+														</div>
+													</div>
+													<!--// text -->
+												</a>
+												<!--// slide -->
+											</div>
+										</div>
+									</div>
+									<!--// slider -->
+								</div>
+							</div>
+							<!--// tab block -->
+						</div>
+						<!--// tab content -->
+
+						<!-- tab content -->
+						<div class="tab__content" data-control="tab-content">
+							<!-- tab block -->
+							<div class="tab__block tab__block--active activity-tab" data-control="tab-block">
+								<div class="activity-tab__content">
+									<!-- text -->
+									<div class="activity-tab__text">
+										<div class="activity-tab__title">
+											<h3 class="h3">Подарочные сертификаты</h3>
+										</div>
+
+										<div class="activity-tab__desc">
+											<p>
+												Мы&#160;разработали специальную систему подарочных карт. Теперь вы&#160;всегда можете сделать нестандартный и&#160;запоминающийся
+												подарок.
+											</p>
+										</div>
+
+										<div class="activity-tab__button">
+											<a href="#!" class="button-solid" title="Купить сертификат">Купить сертификат</a>
+											<a href="#!" class="button-outline" title="Подробнее">Подробнее</a>
+										</div>
+
+										<div class="activity-tab__link-row">
+											<a class="activity-tab__link" href="#!" title="Как организовать?">Как организовать?</a>
+											<a class="activity-tab__link" href="#!" title="Сколько стоит?">Сколько стоит?</a>
+											<a class="activity-tab__link" href="#!" title="А чем кормят?">А&#160;чем кормят?</a>
+										</div>
+									</div>
+									<!--// text -->
+
+									<!-- slider -->
+									<div class="activity-tab__slider">
+										<!-- swiper controls -->
+										<button class="slider-arrow slider-arrow__prev" id="slider-activity-prev">
+											<svg class="icon icon--arrow-half">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
+											</svg>
+										</button>
+										<button class="slider-arrow slider-arrow__next" id="slider-activity-next">
+											<svg class="icon icon--arrow-half">
+												<use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
+											</svg>
+										</button>
+
+										<div class="swiper slider-activity" id="slider-activity">
+											<!-- Additional required wrapper -->
+											<div class="swiper-wrapper">
+												<!-- slide -->
+												<a href="#!" title="Перейти к отзыву в инстаграм" class="swiper-slide slider-activity__item">
+													<!-- img -->
+													<div class="slider-activity__img">
+														<picture>
+															<source srcset="./img/sliders/activity/img-01.webp 1x, ./img/sliders/activity/img-01@2x.webp 2x" type="image/webp" />
+															<source srcset="./img/sliders/activity/img-01.jpg 1x, ./img/sliders/activity/img-01@2x.jpg 2x" type="image/jpeg" />
+															<img src="./img/sliders/activity/img-01.jpg" alt="Дети празднуют День Рождения" />
+														</picture>
+													</div>
+													<!--// img -->
+
+													<!-- text -->
+													<div class="slider-activity__text">
+														<div class="slider-activity__header">
+															<h4 class="slider-activity__title">ДЕНЬ РОЖДЕНИЯ САШИ, 13 ЛЕТ В&#160;ПРОШЛУЮ СУББОТУ</h4>
+														</div>
+
+														<div class="slider-activity__desc">
+															<p>Отличное развлечение для всей компании. Лучший корпоратив в&#160;жизни&#8230;</p>
+														</div>
+
+														<div class="slider-activity__feedback">
+															<div class="slider-activity__user">
+																<div class="slider-activity__user-img">
+																	<picture>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.webp 1x, ./img/sliders/activity/user-img-01@2x.webp 2x"
+																			type="image/webp"
+																		/>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.jpg 1x, ./img/sliders/activity/user-img-01@2x.jpg 2x"
+																			type="image/jpeg"
+																		/>
+																		<img src="./img/sliders/activity/user-img-01.jpg" alt="Фото автора комментария" />
+																	</picture>
+																</div>
+																<div class="slider-activity__user-name">
+																	<p>Александр Александров</p>
+																</div>
+															</div>
+
+															<span class="slider-activity__social">
+																Instagram &#8594;
+															</span>
+														</div>
+													</div>
+													<!--// text -->
+												</a>
+												<!--// slide -->
+
+												<!-- slide -->
+												<a href="#!" title="Перейти к отзыву в инстаграм" class="swiper-slide slider-activity__item">
+													<!-- img -->
+													<div class="slider-activity__img">
+														<picture>
+															<source srcset="./img/sliders/activity/img-01.webp 1x, ./img/sliders/activity/img-01@2x.webp 2x" type="image/webp" />
+															<source srcset="./img/sliders/activity/img-01.jpg 1x, ./img/sliders/activity/img-01@2x.jpg 2x" type="image/jpeg" />
+															<img src="./img/sliders/activity/img-01.jpg" alt="Дети празднуют День Рождения" />
+														</picture>
+													</div>
+													<!--// img -->
+
+													<!-- text -->
+													<div class="slider-activity__text">
+														<div class="slider-activity__header">
+															<h4 class="slider-activity__title">ДЕНЬ РОЖДЕНИЯ САШИ, 13 ЛЕТ В&#160;ПРОШЛУЮ СУББОТУ</h4>
+														</div>
+
+														<div class="slider-activity__desc">
+															<p>Отличное развлечение для всей компании. Лучший корпоратив в&#160;жизни&#8230;</p>
+														</div>
+
+														<div class="slider-activity__feedback">
+															<div class="slider-activity__user">
+																<div class="slider-activity__user-img">
+																	<picture>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.webp 1x, ./img/sliders/activity/user-img-01@2x.webp 2x"
+																			type="image/webp"
+																		/>
+																		<source
+																			srcset="./img/sliders/activity/user-img-01.jpg 1x, ./img/sliders/activity/user-img-01@2x.jpg 2x"
+																			type="image/jpeg"
+																		/>
+																		<img src="./img/sliders/activity/user-img-01.jpg" alt="Фото автора комментария" />
+																	</picture>
+																</div>
+																<div class="slider-activity__user-name">
+																	<p>Александр Александров</p>
+																</div>
+															</div>
+
+															<span class="slider-activity__social">
+																Instagram &#8594;
+															</span>
+														</div>
+													</div>
+													<!--// text -->
+												</a>
+												<!--// slide -->
+											</div>
+										</div>
+									</div>
+									<!--// slider -->
 								</div>
 							</div>
 							<!--// tab block -->
@@ -917,2612 +835,7 @@
 					<!-- tab wrapper -->
 				</div>
 			</section>
-			<section class="emotions">
-				<div class="container">
-					<div class="emotions__row">
-						<!-- header -->
-						<header class="emotions__header">
-							<h2 class="h2">Неподдельные эмоции наших гостей</h2>
-						</header>
-						<!-- header -->
-
-						<a href="#!" class="button-solid">КУПИТЬ БИЛЕТ В&#160;ПАРК</a>
-					</div>
-				</div>
-
-				<div class="container-right">
-					<div class="emotions__slider">
-						<!-- swiper controls -->
-						<button class="slider-arrow slider-arrow__prev" id="slider-emotions-prev">
-							<svg class="icon icon--slider-arrow">
-								<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-							</svg>
-						</button>
-						<button class="slider-arrow slider-arrow__next" id="slider-emotions-next">
-							<svg class="icon icon--slider-arrow">
-								<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-							</svg>
-						</button>
-
-						<div class="swiper slider-emotions" id="slider-emotions">
-							<!-- Additional required wrapper -->
-							<div class="swiper-wrapper">
-								<!-- Slides -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-emotions__item">
-									<!-- list -->
-									<ul class="slider-emotions__list slider-emotions__list--top">
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source srcset="./img/sliders/emotions/img-top-01.webp 1x, ./img/sliders/emotions/img-top-01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/sliders/emotions/img-top-01.jpg 1x, ./img/sliders/emotions/img-top-01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-top-01.jpg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source srcset="./img/sliders/emotions/img-top-02.webp 1x, ./img/sliders/emotions/img-top-02@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/sliders/emotions/img-top-02.jpg 1x, ./img/sliders/emotions/img-top-02@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-top-02.jpg" alt="img-02" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="https://www.youtube.com/watch?v=5wDp3oUGKXU" class="slider-emotions__link" data-youtubelightbox>
-												<picture>
-													<source srcset="./img/sliders/emotions/img-top-03.webp 1x, ./img/sliders/emotions/img-top-03@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/sliders/emotions/img-top-03.jpg 1x, ./img/sliders/emotions/img-top-03@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-top-03.jpg" alt="img-03" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-									</ul>
-									<!-- list -->
-
-									<!-- list -->
-									<ul class="slider-emotions__list slider-emotions__list--middle">
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-middle-01.webp 1x, ./img/sliders/emotions/img-middle-01@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source srcset="./img/sliders/emotions/img-middle-01.jpg 1x, ./img/sliders/emotions/img-middle-01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-middle-01.jpg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-middle-02.webp 1x, ./img/sliders/emotions/img-middle-02@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source
-														srcset="./img/sliders/emotions/img-middle-02.jpeg 1x, ./img/sliders/emotions/img-middle-02@2x.jpeg 2x"
-														type="image/jpeg"
-													/>
-													<img src="./img/sliders/emotions/img-middle-02.jpeg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-middle-03.webp 1x, ./img/sliders/emotions/img-middle-03@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source
-														srcset="./img/sliders/emotions/img-middle-03.jpeg 1x, ./img/sliders/emotions/img-middle-03@2x.jpeg 2x"
-														type="image/jpeg"
-													/>
-													<img src="./img/sliders/emotions/img-middle-03.jpeg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-middle-04.webp 1x, ./img/sliders/emotions/img-middle-04@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source
-														srcset="./img/sliders/emotions/img-middle-04.jpeg 1x, ./img/sliders/emotions/img-middle-04@2x.jpeg 2x"
-														type="image/jpeg"
-													/>
-													<img src="./img/sliders/emotions/img-middle-04.jpeg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-									</ul>
-									<!-- list -->
-
-									<!-- list -->
-									<ul class="slider-emotions__list slider-emotions__list--bottom">
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-bottom-01.webp 1x, ./img/sliders/emotions/img-bottom-01@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source srcset="./img/sliders/emotions/img-bottom-01.jpg 1x, ./img/sliders/emotions/img-bottom-01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-bottom-01.jpg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-bottom-02.webp 1x, ./img/sliders/emotions/img-bottom-02@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source srcset="./img/sliders/emotions/img-bottom-02.jpg 1x, ./img/sliders/emotions/img-bottom-02@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-bottom-02.jpg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-bottom-03.webp 1x, ./img/sliders/emotions/img-bottom-03@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source srcset="./img/sliders/emotions/img-bottom-03.jpg 1x, ./img/sliders/emotions/img-bottom-03@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-bottom-03.jpg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-									</ul>
-									<!-- list -->
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-emotions__item">
-									<!-- list -->
-									<ul class="slider-emotions__list slider-emotions__list--top">
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source srcset="./img/sliders/emotions/img-top-01.webp 1x, ./img/sliders/emotions/img-top-01@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/sliders/emotions/img-top-01.jpg 1x, ./img/sliders/emotions/img-top-01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-top-01.jpg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source srcset="./img/sliders/emotions/img-top-02.webp 1x, ./img/sliders/emotions/img-top-02@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/sliders/emotions/img-top-02.jpg 1x, ./img/sliders/emotions/img-top-02@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-top-02.jpg" alt="img-02" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="https://www.youtube.com/watch?v=5wDp3oUGKXU" class="slider-emotions__link" data-youtubelightbox>
-												<picture>
-													<source srcset="./img/sliders/emotions/img-top-03.webp 1x, ./img/sliders/emotions/img-top-03@2x.webp 2x" type="image/webp" />
-													<source srcset="./img/sliders/emotions/img-top-03.jpg 1x, ./img/sliders/emotions/img-top-03@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-top-03.jpg" alt="img-03" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-									</ul>
-									<!-- list -->
-
-									<!-- list -->
-									<ul class="slider-emotions__list slider-emotions__list--middle">
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-middle-01.webp 1x, ./img/sliders/emotions/img-middle-01@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source srcset="./img/sliders/emotions/img-middle-01.jpg 1x, ./img/sliders/emotions/img-middle-01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-middle-01.jpg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-middle-02.webp 1x, ./img/sliders/emotions/img-middle-02@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source
-														srcset="./img/sliders/emotions/img-middle-02.jpeg 1x, ./img/sliders/emotions/img-middle-02@2x.jpeg 2x"
-														type="image/jpeg"
-													/>
-													<img src="./img/sliders/emotions/img-middle-02.jpeg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-middle-03.webp 1x, ./img/sliders/emotions/img-middle-03@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source
-														srcset="./img/sliders/emotions/img-middle-03.jpeg 1x, ./img/sliders/emotions/img-middle-03@2x.jpeg 2x"
-														type="image/jpeg"
-													/>
-													<img src="./img/sliders/emotions/img-middle-03.jpeg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-middle-04.webp 1x, ./img/sliders/emotions/img-middle-04@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source
-														srcset="./img/sliders/emotions/img-middle-04.jpeg 1x, ./img/sliders/emotions/img-middle-04@2x.jpeg 2x"
-														type="image/jpeg"
-													/>
-													<img src="./img/sliders/emotions/img-middle-04.jpeg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-									</ul>
-									<!-- list -->
-
-									<!-- list -->
-									<ul class="slider-emotions__list slider-emotions__list--bottom">
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-bottom-01.webp 1x, ./img/sliders/emotions/img-bottom-01@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source srcset="./img/sliders/emotions/img-bottom-01.jpg 1x, ./img/sliders/emotions/img-bottom-01@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-bottom-01.jpg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-bottom-02.webp 1x, ./img/sliders/emotions/img-bottom-02@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source srcset="./img/sliders/emotions/img-bottom-02.jpg 1x, ./img/sliders/emotions/img-bottom-02@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-bottom-02.jpg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-
-										<li class="slider-emotions__figure">
-											<a href="#!" class="slider-emotions__link">
-												<picture>
-													<source
-														srcset="./img/sliders/emotions/img-bottom-03.webp 1x, ./img/sliders/emotions/img-bottom-03@2x.webp 2x"
-														type="image/webp"
-													/>
-													<source srcset="./img/sliders/emotions/img-bottom-03.jpg 1x, ./img/sliders/emotions/img-bottom-03@2x.jpg 2x" type="image/jpeg" />
-													<img src="./img/sliders/emotions/img-bottom-03.jpg" alt="img-01" />
-												</picture>
-											</a>
-											<div class="slider-emotions__pulse-dot">
-												<div class="pulse-dot pulse-dot--red pulse-dot--small">
-													<div class="pulse-dot__circle">
-														<svg class="icon icon--play">
-															<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-														</svg>
-													</div>
-													<div class="pulse-dot__radius"></div>
-												</div>
-											</div>
-										</li>
-									</ul>
-									<!-- list -->
-								</div>
-								<!--// slide -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<div class="activity-tab" data-control="tab">
-				<!-- tab -->
-				<div class="activity-tab__nav" data-control="tab-nav">
-					<button class="activity-tab__btn" type="button">АРЕНЫ</button>
-					<button class="activity-tab__btn" type="button">АТТРАКЦИОНЫ</button>
-					<button class="activity-tab__btn" type="button">СТЕНДЫ</button>
-					<button class="activity-tab__btn" type="button">КУБЫ</button>
-				</div>
-
-				<!-- tab content -->
-				<div class="activity-tab__content">
-					<!-- tab block -->
-					<div class="tab activity-tab-block">
-						<div class="activity-tab-block__row">
-							<!-- text -->
-							<div class="activity-tab-block__text">
-								<!-- header -->
-								<div class="activity-tab-block__header">
-									<h3 class="h3">Арена</h3>
-								</div>
-								<!--// header -->
-
-								<!-- flex row -->
-								<div class="activity-tab-block__infobox">
-									<ul class="activity-infobox">
-										<li class="activity-infobox__item">
-											<svg class="icon icon--gamepad">
-												<use href="./img/svgsprite/sprite.symbol.svg#gamepad"></use>
-											</svg>
-
-											<div class="event-infobox__text">
-												<p>2-12</p>
-											</div>
-										</li>
-
-										<li class="activity-infobox__item">
-											<svg class="icon icon--clock">
-												<use href="./img/svgsprite/sprite.symbol.svg#clock"></use>
-											</svg>
-
-											<div class="event-infobox__text">
-												<p>40 мин.</p>
-											</div>
-										</li>
-
-										<li class="activity-infobox__item">
-											<svg class="icon icon--pay">
-												<use href="./img/svgsprite/sprite.symbol.svg#pay"></use>
-											</svg>
-
-											<div class="event-infobox__text">
-												<p>от&#160;500 ₽</p>
-											</div>
-										</li>
-									</ul>
-								</div>
-								<!--// flex row -->
-
-								<div class="activity-tab-block__desc">
-									<p>В&#160;нашем парке можно устроить праздник, который не&#160;забудется ни&#160;имененниками, ни&#160;их&#160;гостями.</p>
-								</div>
-
-								<div class="activity-tab-block__buttons">
-									<a href="#!" class="button-solid">ЦЕНЫ</a>
-									<a href="#!" class="button-outline">ПОДРОБНЕЕ</a>
-								</div>
-							</div>
-							<!-- text -->
-
-							<!-- schema -->
-							<div class="activity-tab-block__schema"></div>
-							<!-- schema -->
-						</div>
-
-						<!-- cards -->
-						<div class="activity-tab-block__row">
-							<div class="cards-wrapper">
-								<!-- card -->
-								<div class="card">
-									<a href="https://www.youtube.com/watch?v=Coe9Pdsu_48" class="link-absolute" data-youtubelightbox>
-										<!-- img -->
-										<div class="card__img">
-											<picture>
-												<source srcset="./img/activity/game-01.webp 1x, ./img/activity/game-01@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/activity/game-01.jpg 1x, ./img/activity/game-01@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/activity/game-01.jpg" srcset="./img/activity/game-01@2x.jpg" alt="citi-z" />
-											</picture>
-										</div>
-										<!--// img -->
-									</a>
-
-									<!-- fake play btn -->
-									<div class="card__pulse-dot">
-										<div class="pulse-dot pulse-dot--small">
-											<div class="pulse-dot__circle">
-												<svg class="icon icon--play">
-													<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-												</svg>
-											</div>
-											<div class="pulse-dot__radius"></div>
-										</div>
-									</div>
-									<!-- fake play btn -->
-
-									<!-- text -->
-									<div class="card__text">
-										<div class="card__title">
-											<h4>City Z</h4>
-										</div>
-
-										<ul class="card__details">
-											<li>Шутер</li>
-											<li>30 мин.</li>
-											<li>1-4 чел.</li>
-											<li>12+</li>
-										</ul>
-
-										<div class="card__buttons">
-											<a href="#!" class="button-solid-small">Забронировать</a>
-											<a href="#!" class="button-outline-small">Подробнее</a>
-										</div>
-									</div>
-									<!--// text -->
-								</div>
-								<!--// card -->
-
-								<!-- card -->
-								<div class="card">
-									<a href="https://www.youtube.com/watch?v=WKYqeufKq2w" class="link-absolute" data-youtubelightbox>
-										<!-- img -->
-										<div class="card__img">
-											<picture>
-												<source srcset="./img/activity/game-02.webp 1x, ./img/activity/game-02@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/activity/game-02.jpg 1x, ./img/activity/game-02@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/activity/game-02.jpg" srcset="./img/activity/game-02@2x.jpg" alt="citi-z:survivors" />
-											</picture>
-										</div>
-										<!--// img -->
-									</a>
-
-									<!-- fake play btn -->
-									<div class="card__pulse-dot">
-										<div class="pulse-dot pulse-dot--small">
-											<div class="pulse-dot__circle">
-												<svg class="icon icon--play">
-													<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-												</svg>
-											</div>
-											<div class="pulse-dot__radius"></div>
-										</div>
-									</div>
-									<!-- fake play btn -->
-
-									<!-- text -->
-									<div class="card__text">
-										<div class="card__title">
-											<h4>City Z: SURVIVORS</h4>
-										</div>
-
-										<ul class="card__details">
-											<li>Шутер</li>
-											<li>40 мин.</li>
-											<li>1-6 чел.</li>
-											<li>16+</li>
-										</ul>
-
-										<div class="card__buttons">
-											<a href="#!" class="button-solid-small">Забронировать</a>
-											<a href="#!" class="button-outline-small">Подробнее</a>
-										</div>
-									</div>
-									<!--// text -->
-								</div>
-								<!--// card -->
-
-								<!-- card -->
-								<div class="card">
-									<a href="https://www.youtube.com/watch?v=1N3_aUYlPcY" class="link-absolute" data-youtubelightbox>
-										<!-- img -->
-										<div class="card__img">
-											<picture>
-												<source srcset="./img/activity/game-03.webp 1x, ./img/activity/game-03@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/activity/game-03.jpg 1x, ./img/activity/game-03@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/activity/game-03.jpg" srcset="./img/activity/game-03@2x.jpg" alt="city-z: antidote" />
-											</picture>
-										</div>
-										<!--// img -->
-									</a>
-
-									<!-- fake play btn -->
-									<div class="card__pulse-dot">
-										<div class="pulse-dot pulse-dot--small">
-											<div class="pulse-dot__circle">
-												<svg class="icon icon--play">
-													<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-												</svg>
-											</div>
-											<div class="pulse-dot__radius"></div>
-										</div>
-									</div>
-									<!-- fake play btn -->
-
-									<!-- text -->
-									<div class="card__text">
-										<div class="card__title">
-											<h4>City Z: Antidote</h4>
-										</div>
-
-										<ul class="card__details">
-											<li>Шутер</li>
-											<li>40 мин.</li>
-											<li>1-3 чел.</li>
-											<li>21+</li>
-										</ul>
-
-										<div class="card__buttons">
-											<a href="#!" class="button-solid-small">Забронировать</a>
-											<a href="#!" class="button-outline-small">Подробнее</a>
-										</div>
-									</div>
-									<!--// text -->
-								</div>
-								<!--// card -->
-							</div>
-
-							<div class="cards-wrapper">
-								<!-- card -->
-								<div class="card-wide">
-									<a href="https://www.youtube.com/watch?v=VfTpjo1-6vY" class="link-absolute" data-youtubelightbox>
-										<!-- img -->
-										<div class="card-wide__img">
-											<picture>
-												<source srcset="./img/activity/game-04.webp 1x, ./img/activity/game-04@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/activity/game-04.jpg 1x, ./img/activity/game-04@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/activity/game-04.jpg" srcset="./img/activity/game-04@2x.jpg" alt="REVOLTA" />
-											</picture>
-										</div>
-										<!--// img -->
-									</a>
-
-									<!-- fake play btn -->
-									<div class="card__pulse-dot">
-										<div class="pulse-dot pulse-dot--small">
-											<div class="pulse-dot__circle">
-												<svg class="icon icon--play">
-													<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-												</svg>
-											</div>
-											<div class="pulse-dot__radius"></div>
-										</div>
-									</div>
-									<!-- fake play btn -->
-
-									<!-- text -->
-									<div class="card-wide__text">
-										<div class="card-wide__title">
-											<h4>REVOLTA</h4>
-										</div>
-
-										<ul class="card-wide__details">
-											<li>Шутер</li>
-											<li>40 мин.</li>
-											<li>1-8 чел.</li>
-											<li>16+</li>
-										</ul>
-
-										<div class="card-wide__buttons">
-											<a href="#!" class="button-solid-small">Забронировать</a>
-											<a href="#!" class="button-outline-small">Подробнее</a>
-										</div>
-									</div>
-									<!--// text -->
-								</div>
-								<!--// card -->
-							</div>
-
-							<div class="cards-wrapper">
-								<!-- card -->
-								<div class="card card--50vw">
-									<a href="https://www.youtube.com/watch?v=Qe0_hNUKRfM" class="link-absolute" data-youtubelightbox>
-										<!-- img -->
-										<div class="card__img">
-											<picture>
-												<source srcset="./img/activity/game-05.webp 1x, ./img/activity/game-05@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/activity/game-05.jpg 1x, ./img/activity/game-05@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/activity/game-05.jpg" srcset="./img/activity/game-05@2x.jpg" alt="Station Zarya" />
-											</picture>
-										</div>
-										<!--// img -->
-									</a>
-
-									<!-- fake play btn -->
-									<div class="card__pulse-dot">
-										<div class="pulse-dot pulse-dot--small">
-											<div class="pulse-dot__circle">
-												<svg class="icon icon--play">
-													<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-												</svg>
-											</div>
-											<div class="pulse-dot__radius"></div>
-										</div>
-									</div>
-									<!-- fake play btn -->
-
-									<!-- text -->
-									<div class="card__text">
-										<div class="card__title">
-											<h4>Station Zarya</h4>
-										</div>
-
-										<ul class="card__details">
-											<li>Шутер</li>
-											<li>40 мин.</li>
-											<li>1-8 чел.</li>
-											<li>16+</li>
-										</ul>
-
-										<div class="card__buttons">
-											<a href="#!" class="button-solid-small">Забронировать</a>
-											<a href="#!" class="button-outline-small">Подробнее</a>
-										</div>
-									</div>
-									<!--// text -->
-								</div>
-								<!--// card -->
-
-								<!-- card -->
-								<div class="card card--50vw">
-									<a href="https://www.youtube.com/watch?v=qTSaa_gFR-U" class="link-absolute" data-youtubelightbox>
-										<!-- img -->
-										<div class="card__img">
-											<picture>
-												<source srcset="./img/activity/game-06.webp 1x, ./img/activity/game-06@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/activity/game-06.jpg 1x, ./img/activity/game-06@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/activity/game-06.jpg" srcset="./img/activity/game-06@2x.jpg" alt="lost sanctuary" />
-											</picture>
-										</div>
-										<!--// img -->
-									</a>
-
-									<!-- fake play btn -->
-									<div class="card__pulse-dot">
-										<div class="pulse-dot pulse-dot--small">
-											<div class="pulse-dot__circle">
-												<svg class="icon icon--play">
-													<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-												</svg>
-											</div>
-											<div class="pulse-dot__radius"></div>
-										</div>
-									</div>
-									<!-- fake play btn -->
-
-									<!-- text -->
-									<div class="card__text">
-										<div class="card__title">
-											<h4>LOST SANCTUARY</h4>
-										</div>
-
-										<ul class="card__details">
-											<li>Шутер</li>
-											<li>40 мин.</li>
-											<li>1-8 чел.</li>
-											<li>16+</li>
-										</ul>
-
-										<div class="card__buttons">
-											<a href="#!" class="button-solid-small">Забронировать</a>
-											<a href="#!" class="button-outline-small">Подробнее</a>
-										</div>
-									</div>
-									<!--// text -->
-								</div>
-								<!--// card -->
-							</div>
-						</div>
-						<!--// cards  -->
-					</div>
-					<!--// tab block -->
-				</div>
-				<!--// tab content -->
-			</div>
-			<section class="stars">
-				<div class="container">
-					<div class="stars__row">
-						<!-- header -->
-						<div class="impress__header">
-							<h2 class="h2">Впечатления звёздных гостей</h2>
-						</div>
-						<!-- header -->
-
-						<a href="#!" class="button-solid">КУПИТЬ БИЛЕТ В&#160;ПАРК</a>
-					</div>
-				</div>
-
-				<div class="container-right">
-					<div class="stars__slider">
-						<!-- swiper controls -->
-						<button class="slider-arrow slider-arrow__prev" id="slider-stars-prev">
-							<svg class="icon icon--slider-arrow">
-								<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-							</svg>
-						</button>
-						<button class="slider-arrow slider-arrow__next" id="slider-stars-next">
-							<svg class="icon icon--slider-arrow">
-								<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-							</svg>
-						</button>
-
-						<div class="swiper slider-stars" id="slider-stars">
-							<!-- Additional required wrapper -->
-							<div class="swiper-wrapper">
-								<!-- Slides -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-stars__item">
-									<div class="slider-stars__img">
-										<picture>
-											<source srcset="./img/sliders/stars/img-01.webp 1x, ./img/sliders/stars/img-01@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/sliders/stars/img-01.jpg 1x, ./img/sliders/stars/img-01@2x.jpg 2x" type="image/jpeg" />
-											<img src="./img/sliders/stars/img-01.jpg" alt="photo" />
-										</picture>
-										<div class="slider-stars__pulse-dot">
-											<div class="pulse-dot pulse-dot--red pulse-dot--small">
-												<div class="pulse-dot__circle">
-													<svg class="icon icon--play">
-														<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-													</svg>
-												</div>
-												<div class="pulse-dot__radius"></div>
-											</div>
-										</div>
-									</div>
-
-									<div class="slider-stars__text">
-										<p>Дэвид Бекхэм заглянул с&#160;сыновьями в&#160;лондонскую арену Anvio</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-stars__item">
-									<!-- img -->
-									<div class="slider-stars__img">
-										<picture>
-											<source srcset="./img/sliders/stars/img-02.webp 1x, ./img/sliders/stars/img-02@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/sliders/stars/img-02.jpg 1x, ./img/sliders/stars/img-02@2x.jpg 2x" type="image/jpeg" />
-											<img src="./img/sliders/stars/img-02.jpg" alt="photo" />
-										</picture>
-										<div class="slider-stars__pulse-dot">
-											<div class="pulse-dot pulse-dot--red pulse-dot--small">
-												<div class="pulse-dot__circle">
-													<svg class="icon icon--play">
-														<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-													</svg>
-												</div>
-												<div class="pulse-dot__radius"></div>
-											</div>
-										</div>
-									</div>
-									<!-- img -->
-
-									<div class="slider-stars__text">
-										<p>Полина Гагарина, Иван Ургант, Алла Михеева и&#160;Александр Гудков в&#160;ANVIO</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-stars__item">
-									<!-- img -->
-									<div class="slider-stars__img">
-										<picture>
-											<source srcset="./img/sliders/stars/img-03.webp 1x, ./img/sliders/stars/img-03@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/sliders/stars/img-03.jpg 1x, ./img/sliders/stars/img-03@2x.jpg 2x" type="image/jpeg" />
-											<img src="./img/sliders/stars/img-03.jpg" alt="photo" />
-										</picture>
-										<div class="slider-stars__pulse-dot">
-											<div class="pulse-dot pulse-dot--red pulse-dot--small">
-												<div class="pulse-dot__circle">
-													<svg class="icon icon--play">
-														<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-													</svg>
-												</div>
-												<div class="pulse-dot__radius"></div>
-											</div>
-										</div>
-									</div>
-									<!-- img -->
-
-									<div class="slider-stars__text">
-										<p>Валерий Меладзе посетил Anvio</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-stars__item">
-									<!-- img -->
-									<div class="slider-stars__img">
-										<picture>
-											<source srcset="./img/sliders/stars/img-04.webp 1x, ./img/sliders/stars/img-04@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/sliders/stars/img-04.jpg 1x, ./img/sliders/stars/img-04@2x.jpg 2x" type="image/jpeg" />
-											<img src="./img/sliders/stars/img-04.jpg" alt="photo" />
-										</picture>
-										<div class="slider-stars__pulse-dot">
-											<div class="pulse-dot pulse-dot--red pulse-dot--small">
-												<div class="pulse-dot__circle">
-													<svg class="icon icon--play">
-														<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-													</svg>
-												</div>
-												<div class="pulse-dot__radius"></div>
-											</div>
-										</div>
-									</div>
-									<!-- img -->
-
-									<div class="slider-stars__text">
-										<p>Звездное трио на&#160;арене Anvio</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-stars__item">
-									<div class="slider-stars__img">
-										<picture>
-											<source srcset="./img/sliders/stars/img-01.webp 1x, ./img/sliders/stars/img-01@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/sliders/stars/img-01.jpg 1x, ./img/sliders/stars/img-01@2x.jpg 2x" type="image/jpeg" />
-											<img src="./img/sliders/stars/img-01.jpg" alt="photo" />
-										</picture>
-										<div class="slider-stars__pulse-dot">
-											<div class="pulse-dot pulse-dot--red pulse-dot--small">
-												<div class="pulse-dot__circle">
-													<svg class="icon icon--play">
-														<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-													</svg>
-												</div>
-												<div class="pulse-dot__radius"></div>
-											</div>
-										</div>
-									</div>
-
-									<div class="slider-stars__text">
-										<p>Дэвид Бекхэм заглянул с&#160;сыновьями в&#160;лондонскую арену Anvio</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-stars__item">
-									<!-- img -->
-									<div class="slider-stars__img">
-										<picture>
-											<source srcset="./img/sliders/stars/img-02.webp 1x, ./img/sliders/stars/img-02@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/sliders/stars/img-02.jpg 1x, ./img/sliders/stars/img-02@2x.jpg 2x" type="image/jpeg" />
-											<img src="./img/sliders/stars/img-02.jpg" alt="photo" />
-										</picture>
-										<div class="slider-stars__pulse-dot">
-											<div class="pulse-dot pulse-dot--red pulse-dot--small">
-												<div class="pulse-dot__circle">
-													<svg class="icon icon--play">
-														<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-													</svg>
-												</div>
-												<div class="pulse-dot__radius"></div>
-											</div>
-										</div>
-									</div>
-									<!-- img -->
-
-									<div class="slider-stars__text">
-										<p>Полина Гагарина, Иван Ургант, Алла Михеева и&#160;Александр Гудков в&#160;ANVIO</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-stars__item">
-									<!-- img -->
-									<div class="slider-stars__img">
-										<picture>
-											<source srcset="./img/sliders/stars/img-03.webp 1x, ./img/sliders/stars/img-03@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/sliders/stars/img-03.jpg 1x, ./img/sliders/stars/img-03@2x.jpg 2x" type="image/jpeg" />
-											<img src="./img/sliders/stars/img-03.jpg" alt="photo" />
-										</picture>
-										<div class="slider-stars__pulse-dot">
-											<div class="pulse-dot pulse-dot--red pulse-dot--small">
-												<div class="pulse-dot__circle">
-													<svg class="icon icon--play">
-														<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-													</svg>
-												</div>
-												<div class="pulse-dot__radius"></div>
-											</div>
-										</div>
-									</div>
-									<!-- img -->
-
-									<div class="slider-stars__text">
-										<p>Валерий Меладзе посетил Anvio</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-stars__item">
-									<!-- img -->
-									<div class="slider-stars__img">
-										<picture>
-											<source srcset="./img/sliders/stars/img-04.webp 1x, ./img/sliders/stars/img-04@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/sliders/stars/img-04.jpg 1x, ./img/sliders/stars/img-04@2x.jpg 2x" type="image/jpeg" />
-											<img src="./img/sliders/stars/img-04.jpg" alt="photo" />
-										</picture>
-										<div class="slider-stars__pulse-dot">
-											<div class="pulse-dot pulse-dot--red pulse-dot--small">
-												<div class="pulse-dot__circle">
-													<svg class="icon icon--play">
-														<use href="./img/svgsprite/sprite.symbol.svg#play"></use>
-													</svg>
-												</div>
-												<div class="pulse-dot__radius"></div>
-											</div>
-										</div>
-									</div>
-									<!-- img -->
-
-									<div class="slider-stars__text">
-										<p>Звездное трио на&#160;арене Anvio</p>
-									</div>
-								</div>
-								<!--// slide -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="feedbacks">
-				<div class="container">
-					<!-- header -->
-					<div class="feedbacks__header">
-						<h2 class="h2">Отзывы</h2>
-					</div>
-					<!-- header -->
-				</div>
-
-				<div class="container-right">
-					<div class="feedbacks__slider">
-						<!-- swiper controls -->
-						<button class="slider-arrow slider-arrow__prev" id="slider-feedbacks-prev">
-							<svg class="icon icon--slider-arrow">
-								<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-							</svg>
-						</button>
-						<button class="slider-arrow slider-arrow__next" id="slider-feedbacks-next">
-							<svg class="icon icon--slider-arrow">
-								<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-							</svg>
-						</button>
-						<div class="swiper slider-feedbacks" id="slider-feedbacks">
-							<!-- Additional required wrapper -->
-							<div class="swiper-wrapper">
-								<!-- slide -->
-								<div class="swiper-slide slider-feedbacks__item ">
-									<div class="slider-feedbacks__header">
-										<div class="slider-feedbacks__img">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/user-01.webp 1x, ./img/sliders/feedbacks/user-01@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/user-01.jpg 1x, ./img/sliders/feedbacks/user-01@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/user-01.jpg" alt="user" />
-											</picture>
-										</div>
-
-										<!-- img -->
-
-										<div class="slider-feedbacks__hero">
-											<div class="slider-feedbacks__name">
-												<p>Дамир Айратов</p>
-											</div>
-
-											<div class="slider-feedbacks__meta">
-												<div class="slider-feedbacks__rate">
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-												</div>
-												<div class="slider-feedbacks__date" datetime="2021-11-03">3&#160;ноября 2021</div>
-											</div>
-										</div>
-
-										<div class="slider-feedbacks__logo">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/yandex.webp 1x, ./img/sliders/feedbacks/yandex@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/yandex.jpg 1x, ./img/sliders/feedbacks/yandex@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/yandex.jpg" alt="yandex" />
-											</picture>
-										</div>
-									</div>
-									<div class="slider-feedbacks__text text-fade">
-										<p>
-											Графика конечно приятная, картинки впечатляющие и&#160;эффект погружения есть. Но&#160;вообще-то в&#160;их&#160;рекламе первым
-											пунктом&#160;большими буквами написано &#171;оборудование full-body&#187;&#160;&#8212; а&#160;нам надели шлем и&#160;вручили контроллеры
-											в&#160;руки, и&#160;всё! Я&#160;специально выбирал виар с&#160;полным обмундированием, ради этого был готов переплатить, а&#160;получилось
-											то&#160;же самое что у&#160;других, но&#160;за&#160;гораздо большие деньги. По&#160;телефону записывались на&#160;часовую игру,
-											на&#160;месте оказалось, что получасовая. А&#160;на&#160;полчаса гораздо меньше выбор&#160;игр. Квест единственный. Сюжет простейший, тебе
-											в&#160;явном виде говорят что делать, и&#160;ты&#160;это делаешь, никаких загадок или задач. В&#160;итоге получасовую игру мы&#160;прошли
-											за&#160;20 с&#160;небольшим минут. Возможно было&#160;бы лучше, если&#160;бы мы&#160;выбрали шутер, но&#160;нам больше нравятся квесты,
-											и&#160;по&#160;их&#160;сайту мы&#160;были уверены, что квестов у&#160;них навалом. В&#160;общем как-то даже обидно, помещение большое,
-											графика классная, эффект погружения неплохой, а&#160;игра простая и&#160;короткая. Вроде и&#160;прикольно, но&#160;за&#160;такие деньги
-											и&#160;по&#160;их&#160;рекламе я&#160;ожидал гораздо большего.
-										</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-feedbacks__item">
-									<div class="slider-feedbacks__header">
-										<div class="slider-feedbacks__img">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/user-02.webp 1x, ./img/sliders/feedbacks/user-02@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/user-02.jpg 1x, ./img/sliders/feedbacks/user-02@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/user-02.jpg" alt="user" />
-											</picture>
-										</div>
-
-										<!-- img -->
-
-										<div class="slider-feedbacks__hero">
-											<div class="slider-feedbacks__name">
-												<p>Алиса Колычева</p>
-											</div>
-
-											<div class="slider-feedbacks__meta">
-												<div class="slider-feedbacks__rate">
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-												</div>
-												<div class="slider-feedbacks__date" datetime="2021-04-25">25&#160;апреля 2021</div>
-											</div>
-										</div>
-
-										<div class="slider-feedbacks__logo">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/yandex.webp 1x, ./img/sliders/feedbacks/yandex@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/yandex.jpg 1x, ./img/sliders/feedbacks/yandex@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/yandex.jpg" alt="yandex" />
-											</picture>
-										</div>
-									</div>
-									<div class="slider-feedbacks__text text-fade">
-										<p>
-											Отличное место, весело задорно! Покупала 2 сеанса для родителей + брат с&#160;сестрой и&#160;играли они вместе, все остались
-											в&#160;восторге не&#160;смотря на&#160;то, что родители уже в&#160;возрасте, мама с&#160;удовольствием убивала зомби  Все очень
-											понравилось, спасибо!
-										</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-feedbacks__item">
-									<div class="slider-feedbacks__header">
-										<div class="slider-feedbacks__img">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/user-03.webp 1x, ./img/sliders/feedbacks/user-03@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/user-03.jpg 1x, ./img/sliders/feedbacks/user-03@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/user-03.jpg" alt="user" />
-											</picture>
-										</div>
-
-										<!-- img -->
-
-										<div class="slider-feedbacks__hero">
-											<div class="slider-feedbacks__name">
-												<p>Дарья Арипова</p>
-											</div>
-
-											<div class="slider-feedbacks__meta">
-												<div class="slider-feedbacks__rate">
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-												</div>
-												<div class="slider-feedbacks__date" datetime="2021-11-03">3&#160;ноября 2021</div>
-											</div>
-										</div>
-
-										<div class="slider-feedbacks__logo">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/yandex.webp 1x, ./img/sliders/feedbacks/yandex@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/yandex.jpg 1x, ./img/sliders/feedbacks/yandex@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/yandex.jpg" alt="yandex" />
-											</picture>
-										</div>
-									</div>
-									<div class="slider-feedbacks__text text-fade">
-										<p>
-											Графика конечно приятная, картинки впечатляющие и&#160;эффект погружения есть. Но&#160;вообще-то в&#160;их&#160;рекламе первым пунктом
-											большими буквами написано &#171;оборудование full-body&#187;&#160;&#8212; а&#160;нам надели шлем и&#160;вручили контроллеры в&#160;руки,
-											и&#160;всё! Я&#160;специально выбирал виар с&#160;полным обмундированием, ради этого был готов переплатить, а&#160;получилось то&#160;же
-											самое что у&#160;других, но&#160;за&#160;гораздо большие деньги. По&#160;телефону записывались на&#160;часовую игру, на&#160;месте
-											оказалось, что получасовая. А&#160;на&#160;полчаса гораздо меньше выбор&#160;игр. Квест единственный. Сюжет простейший, тебе в&#160;явном
-											виде говорят что делать, и&#160;ты&#160;это делаешь, никаких загадок или задач. В&#160;итоге получасовую игру мы&#160;прошли за&#160;20
-											с&#160;небольшим минут. Возможно было&#160;бы лучше, если&#160;бы мы&#160;выбрали шутер, но&#160;нам больше нравятся квесты,
-											и&#160;по&#160;их&#160;сайту мы&#160;были уверены, что квестов у&#160;них навалом. В&#160;общем как-то даже обидно, помещение большое,
-											графика классная, эффект погружения неплохой, а&#160;игра простая и&#160;короткая. Вроде и&#160;прикольно, но&#160;за&#160;такие деньги
-											и&#160;по&#160;их&#160;рекламе я&#160;ожидал гораздо большего.
-										</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-feedbacks__item">
-									<div class="slider-feedbacks__header">
-										<div class="slider-feedbacks__img">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/user-05.webp 1x, ./img/sliders/feedbacks/user-05@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/user-05.jpg 1x, ./img/sliders/feedbacks/user-05@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/user-05.jpg" alt="user" />
-											</picture>
-										</div>
-
-										<!-- img -->
-
-										<div class="slider-feedbacks__hero">
-											<div class="slider-feedbacks__name">
-												<p>Полина Ануфриева</p>
-											</div>
-
-											<div class="slider-feedbacks__meta">
-												<div class="slider-feedbacks__rate">
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-												</div>
-												<div class="slider-feedbacks__date" datetime="2022-01-09">9&#160;января 2022</div>
-											</div>
-										</div>
-
-										<div class="slider-feedbacks__logo">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/yandex.webp 1x, ./img/sliders/feedbacks/yandex@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/yandex.jpg 1x, ./img/sliders/feedbacks/yandex@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/yandex.jpg" alt="yandex" />
-											</picture>
-										</div>
-									</div>
-									<div class="slider-feedbacks__text text-fade">
-										<p>
-											С&#160;удовольствием поиграли. И&#160;просто хорошо провели время. Приветливый персонал и&#160;хорошая обстановка. К&#160;сожалению прошли
-											почти все игры, а&#160;новые выходят не&#160;часто&#8230;
-										</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-feedbacks__item">
-									<div class="slider-feedbacks__header">
-										<div class="slider-feedbacks__img">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/user-01.webp 1x, ./img/sliders/feedbacks/user-01@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/user-01.jpg 1x, ./img/sliders/feedbacks/user-01@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/user-01.jpg" alt="user" />
-											</picture>
-										</div>
-
-										<!-- img -->
-
-										<div class="slider-feedbacks__hero">
-											<div class="slider-feedbacks__name">
-												<p>Дамир Айратов</p>
-											</div>
-
-											<div class="slider-feedbacks__meta">
-												<div class="slider-feedbacks__rate">
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-												</div>
-												<div class="slider-feedbacks__date" datetime="2021-11-03">3&#160;ноября 2021</div>
-											</div>
-										</div>
-
-										<div class="slider-feedbacks__logo">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/yandex.webp 1x, ./img/sliders/feedbacks/yandex@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/yandex.jpg 1x, ./img/sliders/feedbacks/yandex@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/yandex.jpg" alt="yandex" />
-											</picture>
-										</div>
-									</div>
-									<div class="slider-feedbacks__text text-fade">
-										<p>
-											Графика конечно приятная, картинки впечатляющие и&#160;эффект погружения есть. Но&#160;вообще-то в&#160;их&#160;рекламе первым
-											пунктом&#160;большими буквами написано &#171;оборудование full-body&#187;&#160;&#8212; а&#160;нам надели шлем и&#160;вручили контроллеры
-											в&#160;руки, и&#160;всё! Я&#160;специально выбирал виар с&#160;полным обмундированием, ради этого был готов переплатить, а&#160;получилось
-											то&#160;же самое что у&#160;других, но&#160;за&#160;гораздо большие деньги. По&#160;телефону записывались на&#160;часовую игру,
-											на&#160;месте оказалось, что получасовая. А&#160;на&#160;полчаса гораздо меньше выбор&#160;игр. Квест единственный. Сюжет простейший, тебе
-											в&#160;явном виде говорят что делать, и&#160;ты&#160;это делаешь, никаких загадок или задач. В&#160;итоге получасовую игру мы&#160;прошли
-											за&#160;20 с&#160;небольшим минут. Возможно было&#160;бы лучше, если&#160;бы мы&#160;выбрали шутер, но&#160;нам больше нравятся квесты,
-											и&#160;по&#160;их&#160;сайту мы&#160;были уверены, что квестов у&#160;них навалом. В&#160;общем как-то даже обидно, помещение большое,
-											графика классная, эффект погружения неплохой, а&#160;игра простая и&#160;короткая. Вроде и&#160;прикольно, но&#160;за&#160;такие деньги
-											и&#160;по&#160;их&#160;рекламе я&#160;ожидал гораздо большего.
-										</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-feedbacks__item">
-									<div class="slider-feedbacks__header">
-										<div class="slider-feedbacks__img">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/user-02.webp 1x, ./img/sliders/feedbacks/user-02@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/user-02.jpg 1x, ./img/sliders/feedbacks/user-02@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/user-02.jpg" alt="user" />
-											</picture>
-										</div>
-
-										<!-- img -->
-
-										<div class="slider-feedbacks__hero">
-											<div class="slider-feedbacks__name">
-												<p>Алиса Колычева</p>
-											</div>
-
-											<div class="slider-feedbacks__meta">
-												<div class="slider-feedbacks__rate">
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-												</div>
-												<div class="slider-feedbacks__date" datetime="2021-04-25">25&#160;апреля 2021</div>
-											</div>
-										</div>
-
-										<div class="slider-feedbacks__logo">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/yandex.webp 1x, ./img/sliders/feedbacks/yandex@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/yandex.jpg 1x, ./img/sliders/feedbacks/yandex@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/yandex.jpg" alt="yandex" />
-											</picture>
-										</div>
-									</div>
-									<div class="slider-feedbacks__text text-fade">
-										<p>
-											Отличное место, весело задорно! Покупала 2 сеанса для родителей + брат с&#160;сестрой и&#160;играли они вместе, все остались
-											в&#160;восторге не&#160;смотря на&#160;то, что родители уже в&#160;возрасте, мама с&#160;удовольствием убивала зомби  Все очень
-											понравилось, спасибо!
-										</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-feedbacks__item">
-									<div class="slider-feedbacks__header">
-										<div class="slider-feedbacks__img">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/user-03.webp 1x, ./img/sliders/feedbacks/user-03@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/user-03.jpg 1x, ./img/sliders/feedbacks/user-03@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/user-03.jpg" alt="user" />
-											</picture>
-										</div>
-
-										<!-- img -->
-
-										<div class="slider-feedbacks__hero">
-											<div class="slider-feedbacks__name">
-												<p>Дарья Арипова</p>
-											</div>
-
-											<div class="slider-feedbacks__meta">
-												<div class="slider-feedbacks__rate">
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-												</div>
-												<div class="slider-feedbacks__date" datetime="2021-11-03">3&#160;ноября 2021</div>
-											</div>
-										</div>
-
-										<div class="slider-feedbacks__logo">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/yandex.webp 1x, ./img/sliders/feedbacks/yandex@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/yandex.jpg 1x, ./img/sliders/feedbacks/yandex@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/yandex.jpg" alt="yandex" />
-											</picture>
-										</div>
-									</div>
-									<div class="slider-feedbacks__text text-fade">
-										<p>
-											Графика конечно приятная, картинки впечатляющие и&#160;эффект погружения есть. Но&#160;вообще-то в&#160;их&#160;рекламе первым пунктом
-											большими буквами написано &#171;оборудование full-body&#187;&#160;&#8212; а&#160;нам надели шлем и&#160;вручили контроллеры в&#160;руки,
-											и&#160;всё! Я&#160;специально выбирал виар с&#160;полным обмундированием, ради этого был готов переплатить, а&#160;получилось то&#160;же
-											самое что у&#160;других, но&#160;за&#160;гораздо большие деньги. По&#160;телефону записывались на&#160;часовую игру, на&#160;месте
-											оказалось, что получасовая. А&#160;на&#160;полчаса гораздо меньше выбор&#160;игр. Квест единственный. Сюжет простейший, тебе в&#160;явном
-											виде говорят что делать, и&#160;ты&#160;это делаешь, никаких загадок или задач. В&#160;итоге получасовую игру мы&#160;прошли за&#160;20
-											с&#160;небольшим минут. Возможно было&#160;бы лучше, если&#160;бы мы&#160;выбрали шутер, но&#160;нам больше нравятся квесты,
-											и&#160;по&#160;их&#160;сайту мы&#160;были уверены, что квестов у&#160;них навалом. В&#160;общем как-то даже обидно, помещение большое,
-											графика классная, эффект погружения неплохой, а&#160;игра простая и&#160;короткая. Вроде и&#160;прикольно, но&#160;за&#160;такие деньги
-											и&#160;по&#160;их&#160;рекламе я&#160;ожидал гораздо большего.
-										</p>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-feedbacks__item">
-									<div class="slider-feedbacks__header">
-										<div class="slider-feedbacks__img">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/user-05.webp 1x, ./img/sliders/feedbacks/user-05@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/user-05.jpg 1x, ./img/sliders/feedbacks/user-05@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/user-05.jpg" alt="user" />
-											</picture>
-										</div>
-
-										<!-- img -->
-
-										<div class="slider-feedbacks__hero">
-											<div class="slider-feedbacks__name">
-												<p>Полина Ануфриева</p>
-											</div>
-
-											<div class="slider-feedbacks__meta">
-												<div class="slider-feedbacks__rate">
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate icon--star-rate--fill">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-
-													<svg class="icon icon--star-rate">
-														<use href="./img/svgsprite/sprite.symbol.svg#star-rate"></use>
-													</svg>
-												</div>
-												<div class="slider-feedbacks__date" datetime="2022-01-09">9&#160;января 2022</div>
-											</div>
-										</div>
-
-										<div class="slider-feedbacks__logo">
-											<picture>
-												<source srcset="./img/sliders/feedbacks/yandex.webp 1x, ./img/sliders/feedbacks/yandex@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/feedbacks/yandex.jpg 1x, ./img/sliders/feedbacks/yandex@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/feedbacks/yandex.jpg" alt="yandex" />
-											</picture>
-										</div>
-									</div>
-									<div class="slider-feedbacks__text text-fade">
-										<p>
-											С&#160;удовольствием поиграли. И&#160;просто хорошо провели время. Приветливый персонал и&#160;хорошая обстановка. К&#160;сожалению прошли
-											почти все игры, а&#160;новые выходят не&#160;часто&#8230;
-										</p>
-									</div>
-								</div>
-								<!--// slide -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="promo">
-				<div class="container">
-					<div class="promo__row">
-						<!-- header -->
-						<div class="promo__header">
-							<h2 class="h2">Акции</h2>
-						</div>
-						<!-- header -->
-
-						<a href="#!" class="button-solid">Все акции</a>
-					</div>
-				</div>
-
-				<div class="container-right">
-					<div class="promo__slider">
-						<!-- swiper controls -->
-						<button class="slider-arrow slider-arrow__prev" id="slider-promo-prev">
-							<svg class="icon icon--slider-arrow">
-								<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-							</svg>
-						</button>
-
-						<button class="slider-arrow slider-arrow__next" id="slider-promo-next">
-							<svg class="icon icon--slider-arrow">
-								<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-							</svg>
-						</button>
-
-						<div class="swiper slider-promo" id="slider-promo">
-							<!-- Additional required wrapper -->
-							<div class="swiper-wrapper">
-								<!-- slide -->
-								<div class="swiper-slide slider-promo__item slider-promo__item--img">
-									<div class="slider-promo__content">
-										<div class="slider-promo__deadline">
-											<p>3 дня</p>
-										</div>
-
-										<div class="slider-promo__img">
-											<picture>
-												<source srcset="./img/sliders/promo/img-01.webp 1x, ./img/sliders/promo/img-01@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/promo/img-01.jpg 1x, ./img/sliders/promo/img-01@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/promo/img-01.jpg" alt="promo" />
-											</picture>
-										</div>
-
-										<div class="slider-promo__header">
-											<div class="slider-promo__title">
-												<h4 class="h4 h4--light">Турнир в&#160;подарок</h4>
-											</div>
-
-											<div class="slider-promo__percent">
-												<svg class="icon icon--percent">
-													<use href="./img/svgsprite/sprite.symbol.svg#percent"></use>
-												</svg>
-											</div>
-										</div>
-
-										<div class="slider-promo__text">
-											<p>Купите билет в&#160;парк и&#160;получите&#160;50% скидку на&#160;организацию&#160;турнира до&#160;конца месяца.</p>
-										</div>
-									</div>
-
-									<div class="slider-promo__link">
-										<a href="#!" class="button-outline-slider">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-promo__item">
-									<div class="slider-promo__content">
-										<div class="slider-promo__deadline">
-											<p>3 дня</p>
-										</div>
-
-										<div class="slider-promo__header">
-											<div class="slider-promo__title">
-												<h4 class="h4 h4--light">Скидка 50% на&#160;игру City Z</h4>
-											</div>
-
-											<div class="slider-promo__percent">
-												<svg class="icon icon--percent">
-													<use href="./img/svgsprite/sprite.symbol.svg#percent"></use>
-												</svg>
-											</div>
-										</div>
-
-										<div class="slider-promo__text">
-											<p>Купите билет в&#160;парк и&#160;получите&#160;50% скидку на&#160;организацию&#160;турнира до&#160;конца месяца.</p>
-										</div>
-									</div>
-
-									<div class="slider-promo__link">
-										<a href="#!" class="button-outline-slider">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-promo__item slider-promo__item--img">
-									<div class="slider-promo__content">
-										<div class="slider-promo__deadline">
-											<p>3 дня</p>
-										</div>
-
-										<div class="slider-promo__img">
-											<picture>
-												<source srcset="./img/sliders/promo/img-02.webp 1x, ./img/sliders/promo/img-02@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/promo/img-02.jpg 1x, ./img/sliders/promo/img-02@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/promo/img-02.jpg" alt="promo" />
-											</picture>
-										</div>
-
-										<div class="slider-promo__header">
-											<div class="slider-promo__title">
-												<h4 class="h4 h4--light">Турнир в&#160;подарок</h4>
-											</div>
-
-											<div class="slider-promo__percent">
-												<svg class="icon icon--percent">
-													<use href="./img/svgsprite/sprite.symbol.svg#percent"></use>
-												</svg>
-											</div>
-										</div>
-
-										<div class="slider-promo__text">
-											<p>Купите билет в&#160;парк и&#160;получите&#160;50% скидку на&#160;организацию&#160;турнира до&#160;конца месяца.</p>
-										</div>
-									</div>
-
-									<div class="slider-promo__link">
-										<a href="#!" class="button-outline-slider">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-promo__item">
-									<div class="slider-promo__content">
-										<div class="slider-promo__deadline">
-											<p>3 дня</p>
-										</div>
-
-										<div class="slider-promo__header">
-											<div class="slider-promo__title">
-												<h4 class="h4 h4--light">Скидка 50% на&#160;игру City Z</h4>
-											</div>
-
-											<div class="slider-promo__percent">
-												<svg class="icon icon--percent">
-													<use href="./img/svgsprite/sprite.symbol.svg#percent"></use>
-												</svg>
-											</div>
-										</div>
-
-										<div class="slider-promo__text">
-											<p>Купите билет в&#160;парк и&#160;получите&#160;50% скидку на&#160;организацию&#160;турнира до&#160;конца месяца.</p>
-										</div>
-									</div>
-
-									<div class="slider-promo__link">
-										<a href="#!" class="button-outline-slider">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-promo__item slider-promo__item--img">
-									<div class="slider-promo__content">
-										<div class="slider-promo__deadline">
-											<p>3 дня</p>
-										</div>
-
-										<div class="slider-promo__img">
-											<picture>
-												<source srcset="./img/sliders/promo/img-03.webp 1x, ./img/sliders/promo/img-03@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/promo/img-03.jpg 1x, ./img/sliders/promo/img-03@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/promo/img-03.jpg" alt="promo" />
-											</picture>
-										</div>
-
-										<div class="slider-promo__header">
-											<div class="slider-promo__title">
-												<h4 class="h4 h4--light">Турнир в&#160;подарок</h4>
-											</div>
-
-											<div class="slider-promo__percent">
-												<svg class="icon icon--percent">
-													<use href="./img/svgsprite/sprite.symbol.svg#percent"></use>
-												</svg>
-											</div>
-										</div>
-
-										<div class="slider-promo__text">
-											<p>Купите билет в&#160;парк и&#160;получите&#160;50% скидку на&#160;организацию&#160;турнира до&#160;конца месяца.</p>
-										</div>
-									</div>
-
-									<div class="slider-promo__link">
-										<a href="#!" class="button-outline-slider">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-promo__item slider-promo__item--img">
-									<div class="slider-promo__content">
-										<div class="slider-promo__deadline">
-											<p>3 дня</p>
-										</div>
-
-										<div class="slider-promo__img">
-											<picture>
-												<source srcset="./img/sliders/promo/img-01.webp 1x, ./img/sliders/promo/img-01@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/promo/img-01.jpg 1x, ./img/sliders/promo/img-01@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/promo/img-01.jpg" alt="promo" />
-											</picture>
-										</div>
-
-										<div class="slider-promo__header">
-											<div class="slider-promo__title">
-												<h4 class="h4 h4--light">Турнир в&#160;подарок</h4>
-											</div>
-
-											<div class="slider-promo__percent">
-												<svg class="icon icon--percent">
-													<use href="./img/svgsprite/sprite.symbol.svg#percent"></use>
-												</svg>
-											</div>
-										</div>
-
-										<div class="slider-promo__text">
-											<p>Купите билет в&#160;парк и&#160;получите&#160;50% скидку на&#160;организацию&#160;турнира до&#160;конца месяца.</p>
-										</div>
-									</div>
-
-									<div class="slider-promo__link">
-										<a href="#!" class="button-outline-slider">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-promo__item slider-promo__item--img">
-									<div class="slider-promo__content">
-										<div class="slider-promo__deadline">
-											<p>3 дня</p>
-										</div>
-
-										<div class="slider-promo__img">
-											<picture>
-												<source srcset="./img/sliders/promo/img-01.webp 1x, ./img/sliders/promo/img-01@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/promo/img-01.jpg 1x, ./img/sliders/promo/img-01@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/promo/img-01.jpg" alt="promo" />
-											</picture>
-										</div>
-
-										<div class="slider-promo__header">
-											<div class="slider-promo__title">
-												<h4 class="h4 h4--light">Турнир в&#160;подарок</h4>
-											</div>
-
-											<div class="slider-promo__percent">
-												<svg class="icon icon--percent">
-													<use href="./img/svgsprite/sprite.symbol.svg#percent"></use>
-												</svg>
-											</div>
-										</div>
-
-										<div class="slider-promo__text">
-											<p>Купите билет в&#160;парк и&#160;получите&#160;50% скидку на&#160;организацию&#160;турнира до&#160;конца месяца.</p>
-										</div>
-									</div>
-
-									<div class="slider-promo__link">
-										<a href="#!" class="button-outline-slider">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="cta">
-				<div class="cta__container">
-					<div class="cta__content">
-						<div class="cta__img">
-							<picture>
-								<source srcset="./img/cta/bg-img.webp 1x, ./img/cta/bg-img@2x.webp 2x" type="image/webp" />
-								<source srcset="./img/cta/bg-img.jpg 1x, ./img/cta/bg-img@2x.jpg 2x" type="image/jpeg" />
-								<img src="./img/cta/bg-img.jpg" alt="img" />
-							</picture>
-						</div>
-
-						<div class="cta__row">
-							<div class="cta__column">
-								<div class="cta__text">
-									<!-- header -->
-									<div class="cta__header">
-										<h2 class="h2">Остались вопросы?</h2>
-									</div>
-									<!--// header -->
-
-									<div class="cta__desc">
-										<p>Задайте вопрос нашему менеджеру Виктории</p>
-									</div>
-								</div>
-
-								<div class="cta__contact">
-									<div class="cta__tip">
-										<p>Или позвоните по&#160;номеру</p>
-									</div>
-
-									<div class="cta__phone">
-										<span class="cta__phone-img">
-											<svg class="icon icon--phone">
-												<use href="./img/svgsprite/sprite.symbol.svg#phone"></use>
-											</svg>
-										</span>
-										<a class="cta__phone-link" href="tel:74996819529">+7&#160;499&#160;681-95-29</a>
-									</div>
-								</div>
-							</div>
-
-							<div class="cta__form">
-								<form class="cta-form">
-									<h3 class="cta-form__title">Задать вопрос</h3>
-									<fieldset class="cta-form__group">
-										<div class="cta-form__input-wrapper">
-											<input class="cta-form__input" type="text" placeholder="Телефон" />
-										</div>
-
-										<div class="cta-form__textarea-wrapper">
-											<textarea class="cta-form__textarea" name="" id="" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
-										</div>
-									</fieldset>
-
-									<div class="cta-form__button">
-										<button class="button-solid">Отправить</button>
-									</div>
-
-									<div class="cta-form__user-agreement">
-										<p>Нажимая на&#160;кнопку вы&#160;соглашаетесь с&#160;<a href="#!">условиями пользовательского соглашения</a></p>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="news">
-				<div class="container">
-					<div class="news__row">
-						<!-- header -->
-						<div class="news__header">
-							<h2 class="h2">Новости</h2>
-						</div>
-						<!-- header -->
-
-						<a href="#!" class="button-outline">Все новости</a>
-					</div>
-				</div>
-
-				<div class="container-right">
-					<div class="news__slider">
-						<!-- swiper controls -->
-						<button class="slider-arrow slider-arrow__prev" id="slider-news-prev">
-							<svg class="icon icon--slider-arrow">
-								<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-							</svg>
-						</button>
-						<button class="slider-arrow slider-arrow__next" id="slider-news-next">
-							<svg class="icon icon--slider-arrow">
-								<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-							</svg>
-						</button>
-
-						<div class="swiper slider-news" id="slider-news">
-							<!-- Additional required wrapper -->
-							<div class="swiper-wrapper">
-								<!-- slide -->
-								<div class="swiper-slide slider-news__item slider-news__item--img">
-									<div class="slider-news__content">
-										<div class="slider-news__date">
-											<p>21&#160;апреля 2022</p>
-										</div>
-
-										<div class="slider-news__img">
-											<picture>
-												<source srcset="./img/sliders/news/img-01.webp 1x, ./img/sliders/news/img-01@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/news/img-01.jpg 1x, ./img/sliders/news/img-01@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/news/img-01.jpg" alt="news" />
-											</picture>
-										</div>
-
-										<div class="slider-news__title">
-											<h4 class="h4">Мы&#160;выпустили новую игру</h4>
-										</div>
-
-										<div class="slider-news__text">
-											<p>
-												Хороший клуб, о&#160;после замены оборудования, были реальные автоматы, контроллеры на&#160;руках-ногах, и&#160;погружение было очень
-												глубоким, теперь в&#160;руках джойстики, эффекта стрельбы почти нет, друзей в&#160;игре вечно дергает, перекашивает, ноги заплетаются.
-											</p>
-										</div>
-									</div>
-
-									<div class="slider-news__link">
-										<a href="#!" class="button-outline-small">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-news__item">
-									<div class="slider-news__content">
-										<div class="slider-news__date">
-											<p>16&#160;марта 2022</p>
-										</div>
-
-										<div class="slider-news__title">
-											<h4 class="h4">Мы&#160;выпустили новую игру</h4>
-										</div>
-
-										<div class="slider-news__text">
-											<p>
-												Хороший клуб, о&#160;после замены оборудования, были реальные автоматы, контроллеры на&#160;руках-ногах, и&#160;погружение было очень
-												глубоким, теперь в&#160;руках джойстики, эффекта стрельбы почти нет, друзей в&#160;игре вечно дергает, перекашивает, ноги заплетаются.
-											</p>
-										</div>
-									</div>
-
-									<div class="slider-news__link">
-										<a href="#!" class="button-outline-small">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-news__item slider-news__item--img">
-									<div class="slider-news__content">
-										<div class="slider-news__date">
-											<p>21&#160;апреля 2022</p>
-										</div>
-
-										<div class="slider-news__img">
-											<picture>
-												<source srcset="./img/sliders/news/img-02.webp 1x, ./img/sliders/news/img-02@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/news/img-02.jpg 1x, ./img/sliders/news/img-02@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/news/img-02.jpg" alt="news" />
-											</picture>
-										</div>
-
-										<div class="slider-news__title">
-											<h4 class="h4">Мы&#160;выпустили новую игру</h4>
-										</div>
-
-										<div class="slider-news__text">
-											<p>
-												Хороший клуб, о&#160;после замены оборудования, были реальные автоматы, контроллеры на&#160;руках-ногах, и&#160;погружение было очень
-												глубоким, теперь в&#160;руках джойстики, эффекта стрельбы почти нет, друзей в&#160;игре вечно дергает, перекашивает, ноги заплетаются.
-											</p>
-										</div>
-									</div>
-
-									<div class="slider-news__link">
-										<a href="#!" class="button-outline-small">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-news__item">
-									<div class="slider-news__content">
-										<div class="slider-news__date">
-											<p>16&#160;марта 2022</p>
-										</div>
-
-										<div class="slider-news__title">
-											<h4 class="h4">Мы&#160;выпустили новую игру</h4>
-										</div>
-
-										<div class="slider-news__text">
-											<p>
-												Хороший клуб, о&#160;после замены оборудования, были реальные автоматы, контроллеры на&#160;руках-ногах, и&#160;погружение было очень
-												глубоким, теперь в&#160;руках джойстики, эффекта стрельбы почти нет, друзей в&#160;игре вечно дергает, перекашивает, ноги заплетаются.
-											</p>
-										</div>
-									</div>
-
-									<div class="slider-news__link">
-										<a href="#!" class="button-outline-small">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-news__item slider-news__item--img">
-									<div class="slider-news__content">
-										<div class="slider-news__date">
-											<p>21&#160;апреля 2022</p>
-										</div>
-
-										<div class="slider-news__img">
-											<picture>
-												<source srcset="./img/sliders/news/img-03.webp 1x, ./img/sliders/news/img-03@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/news/img-03.jpg 1x, ./img/sliders/news/img-03@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/news/img-03.jpg" alt="news" />
-											</picture>
-										</div>
-
-										<div class="slider-news__title">
-											<h4 class="h4">Мы&#160;выпустили новую игру</h4>
-										</div>
-
-										<div class="slider-news__text">
-											<p>
-												Хороший клуб, о&#160;после замены оборудования, были реальные автоматы, контроллеры на&#160;руках-ногах, и&#160;погружение было очень
-												глубоким, теперь в&#160;руках джойстики, эффекта стрельбы почти нет, друзей в&#160;игре вечно дергает, перекашивает, ноги заплетаются.
-											</p>
-										</div>
-									</div>
-
-									<div class="slider-news__link">
-										<a href="#!" class="button-outline-small">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-news__item">
-									<div class="slider-news__content">
-										<div class="slider-news__date">
-											<p>16&#160;марта 2022</p>
-										</div>
-
-										<div class="slider-news__title">
-											<h4 class="h4">Мы&#160;выпустили новую игру</h4>
-										</div>
-
-										<div class="slider-news__text">
-											<p>
-												Хороший клуб, о&#160;после замены оборудования, были реальные автоматы, контроллеры на&#160;руках-ногах, и&#160;погружение было очень
-												глубоким, теперь в&#160;руках джойстики, эффекта стрельбы почти нет, друзей в&#160;игре вечно дергает, перекашивает, ноги заплетаются.
-											</p>
-										</div>
-									</div>
-
-									<div class="slider-news__link">
-										<a href="#!" class="button-outline-small">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-news__item slider-news__item--img">
-									<div class="slider-news__content">
-										<div class="slider-news__date">
-											<p>21&#160;апреля 2022</p>
-										</div>
-
-										<div class="slider-news__img">
-											<picture>
-												<source srcset="./img/sliders/news/img-04.webp 1x, ./img/sliders/news/img-04@2x.webp 2x" type="image/webp" />
-												<source srcset="./img/sliders/news/img-04.jpg 1x, ./img/sliders/news/img-04@2x.jpg 2x" type="image/jpeg" />
-												<img src="./img/sliders/news/img-04.jpg" alt="news" />
-											</picture>
-										</div>
-
-										<div class="slider-news__title">
-											<h4 class="h4">Мы&#160;выпустили новую игру</h4>
-										</div>
-
-										<div class="slider-news__text">
-											<p>
-												Хороший клуб, о&#160;после замены оборудования, были реальные автоматы, контроллеры на&#160;руках-ногах, и&#160;погружение было очень
-												глубоким, теперь в&#160;руках джойстики, эффекта стрельбы почти нет, друзей в&#160;игре вечно дергает, перекашивает, ноги заплетаются.
-											</p>
-										</div>
-									</div>
-
-									<div class="slider-news__link">
-										<a href="#!" class="button-outline-small">Подробнее</a>
-									</div>
-								</div>
-								<!--// slide -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="offer">
-				<div class="container">
-					<div class="offer__slider">
-						<!-- swiper controls -->
-						<button class="slider-arrow slider-arrow__prev" id="slider-offers-wide-prev">
-							<svg class="icon icon--slider-arrow">
-								<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-							</svg>
-						</button>
-						<button class="slider-arrow slider-arrow__next" id="slider-offers-wide-next">
-							<svg class="icon icon--slider-arrow">
-								<use href="./img/svgsprite/sprite.symbol.svg#slider-arrow"></use>
-							</svg>
-						</button>
-
-						<div class="swiper slider-offers-wide" id="slider-offers-wide">
-							<!-- Additional required wrapper -->
-							<div class="swiper-wrapper">
-								<!-- Slides -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-offers__item slider-offers__item--wide">
-									<div class="slider-offers__title">
-										<p><span>скидка&#160;50%</span> на&#160;второй сеанс</p>
-									</div>
-
-									<a href="#!" class="slider-offers__link">Получить скидку</a>
-
-									<svg class="icon icon--percent-surround">
-										<use href="./img/svgsprite/sprite.symbol.svg#percent-surround"></use>
-									</svg>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-offers__item slider-offers__item--wide">
-									<div class="slider-offers__title">
-										<p>День&#160;рождения<span> от&#160;1490 ₽</span></p>
-									</div>
-
-									<a href="#!" class="slider-offers__link">рассчитать стоимость</a>
-
-									<svg class="icon icon--cheers">
-										<use href="./img/svgsprite/sprite.symbol.svg#cheers"></use>
-									</svg>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-offers__item slider-offers__item--wide">
-									<div class="slider-offers__title">
-										<p>Командный&#160;бонус <span>1000 ₽</span></p>
-									</div>
-
-									<a href="#!" class="slider-offers__link">Забрать бонус</a>
-
-									<svg class="icon icon--crowd">
-										<use href="./img/svgsprite/sprite.symbol.svg#crowd"></use>
-									</svg>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-offers__item slider-offers__item--wide">
-									<div class="slider-offers__title">
-										<p><span>скидка&#160;50%</span> на&#160;второй сеанс</p>
-									</div>
-
-									<a href="#!" class="slider-offers__link">Получить скидку</a>
-
-									<svg class="icon icon--percent-surround">
-										<use href="./img/svgsprite/sprite.symbol.svg#percent-surround"></use>
-									</svg>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-offers__item slider-offers__item--wide">
-									<div class="slider-offers__title">
-										<p>День&#160;рождения<span> от&#160;1490 ₽</span></p>
-									</div>
-
-									<a href="#!" class="slider-offers__link">рассчитать стоимость</a>
-
-									<svg class="icon icon--cheers">
-										<use href="./img/svgsprite/sprite.symbol.svg#cheers"></use>
-									</svg>
-								</div>
-								<!--// slide -->
-
-								<!-- slide -->
-								<div class="swiper-slide slider-offers__item slider-offers__item--wide">
-									<div class="slider-offers__title">
-										<p>Командный&#160;бонус <span>1000 ₽</span></p>
-									</div>
-
-									<a href="#!" class="slider-offers__link">Забрать бонус</a>
-
-									<svg class="icon icon--crowd">
-										<use href="./img/svgsprite/sprite.symbol.svg#crowd"></use>
-									</svg>
-								</div>
-								<!--// slide -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
 		</main>
-		<footer class="footer">
-			<div class="footer-top">
-				<div class="container">
-					<!-- row -->
-					<div class="footer-top__row">
-						<!-- column -->
-						<div class="footer-top__column">
-							<div class="footer-top__logo">
-								<picture>
-									<source srcset="./img/logo-horizontal-red.webp 1x, ./img/logo-horizontal-red@2x.webp 2x" type="image/webp" />
-									<source srcset="./img/logo-horizontal-red.png 1x, ./img/logo-horizontal-red@2x.png 2x" type="image/png" />
-									<img src="./img/logo-horizontal-red.png" alt="" class="logo" />
-								</picture>
-							</div>
-
-							<!-- nav -->
-							<div class="footer-top__nav">
-								<ul class="nav-footer">
-									<li class="nav-footer__item">
-										<a href="#!" class="nav-footer__link">Акции и&#160;новости</a>
-									</li>
-
-									<li class="nav-footer__item">
-										<a href="#!" class="nav-footer__link">Сертификаты</a>
-									</li>
-
-									<li class="nav-footer__item">
-										<a href="#!" class="nav-footer__link">Развлечения</a>
-										<ul class="nav-footer__sub-nav">
-											<li><a href="#!">Арена</a></li>
-											<li><a href="#!">Куб</a></li>
-											<li><a href="#!">Аттракционы</a></li>
-											<li><a href="#!">Стенды</a></li>
-											<li><a href="#!">PvP-соревнования</a></li>
-											<li><a href="#!">Билет в&#160;парк</a></li>
-										</ul>
-									</li>
-
-									<li class="nav-footer__item">
-										<a href="#!" class="nav-footer__link">Праздники</a>
-										<ul class="nav-footer__sub-nav">
-											<li><a href="#!">День рождения</a></li>
-											<li><a href="#!">Детский день рождения</a></li>
-											<li><a href="#!">Корпоратив</a></li>
-											<li><a href="#!">Нестандартное мероприятие</a></li>
-										</ul>
-									</li>
-
-									<li class="nav-footer__item">
-										<a href="#!" class="nav-footer__link">Контакты</a>
-									</li>
-								</ul>
-							</div>
-							<!--// nav -->
-						</div>
-						<!-- column -->
-
-						<!-- column -->
-						<div class="footer-top__column">
-							<!-- row -->
-							<div class="footer-top__row">
-								<ul class="footer-widgets">
-									<!-- widget -->
-									<li class="footer-widgets__item">
-										<p class="footer-widgets__title">Телефон</p>
-										<a class="footer-widgets__phone" href="tel:74951330243">+7&#160;495&#160;133-02-43</a>
-									</li>
-									<!--// widget -->
-
-									<!-- widget -->
-									<li class="footer-widgets__item">
-										<p class="footer-widgets__title">Почта</p>
-										<a class="footer-widgets__email" href="mailto:info@anviovr.com">info@anviovr.com</a>
-									</li>
-									<!-- widget -->
-
-									<!-- widget -->
-									<div class="footer-widgets__item">
-										<p class="footer-widgets__title">Следуйте за&#160;нами</p>
-										<div class="footer-widgets__socials">
-											<ul class="socials-list">
-												<li class="socials-list__item">
-													<a class="socials-list__link" href="#!">
-														<svg class="icon icon--telegram">
-															<use href="./img/svgsprite/sprite.symbol.svg#telegram"></use>
-														</svg>
-													</a>
-												</li>
-												<li>
-													<a class="socials-list__link socials-list__link--vk" href="#!">
-														<svg class="icon icon--vk">
-															<use href="./img/svgsprite/sprite.symbol.svg#vk"></use></svg
-													></a>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<!-- widget -->
-
-									<!-- widget -->
-									<div class="footer-widgets__item">
-										<p class="footer-widgets__title">Следуйте за&#160;нами</p>
-
-										<div class="footer-widgets__form-footer">
-											<!-- form -->
-											<form type="submit" class="form-footer" id="#form-footer">
-												<input type="text" class="form-footer__input" placeholder="Введите ваш E-mail адрес" />
-												<button class="button-solid button-solid-small" type="submit">Подписаться</button>
-											</form>
-											<!-- form -->
-										</div>
-									</div>
-									<!-- widget -->
-
-									<!-- widget -->
-									<div class="footer-widgets__item">
-										<p class="footer-widgets__title">Наш адрес</p>
-										<div class="footer-widgets__adress">
-											<p>Москва, Театральный пр-д 5/1, Центральный Детский Магазин</p>
-										</div>
-										<div class="footer-widgets__metro">
-											<div class="metro-line metro-line--red">
-												<svg class="icon icon--metro">
-													<use href="./img/svgsprite/sprite.symbol.svg#metro"></use>
-												</svg>
-												<div class="metro-line__text">
-													<p>Лубянка&#160;&#8212; 200&#160;м</p>
-												</div>
-											</div>
-											<div class="metro-line metro-line--violet">
-												<svg class="icon icon--metro">
-													<use href="./img/svgsprite/sprite.symbol.svg#metro"></use>
-												</svg>
-												<div class="metro-line__text">
-													<p>Кузнецкий мост&#160;&#8212; 120&#160;м</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- widget -->
-
-									<!-- widget -->
-									<div class="footer-widgets__item">
-										<p class="footer-widgets__title">оставьте заявку прямо сейчас!</p>
-
-										<div class="footer-widgets__cta">
-											<a href="#!" class="button-solid">Купить билет</a>
-											<a href="#!" class="button-outline button-outline--text-light">Заказать праздник</a>
-										</div>
-									</div>
-									<!-- widget -->
-								</ul>
-							</div>
-							<!--// row -->
-
-							<!-- row -->
-							<div class="footer-top__row">
-								<a href="https://yandex.ru/maps/-/CDVNb22i" class="footer__map"></a>
-							</div>
-							<!--// row -->
-						</div>
-						<!-- column -->
-					</div>
-					<!-- row -->
-				</div>
-			</div>
-
-			<div class="footer-bottom">
-				<div class="container">
-					<div class="footer-bottom__row">
-						<div class="footer-bottom__copyright">
-							&#169; 2017-2022 ANVIO LLC
-						</div>
-
-						<ul class="footer-bottom__terms">
-							<li><a href="#!">Политика конфиденциальности</a></li>
-							<li><a href="#!">Политика использования файлов cookie</a></li>
-							<li><a href="#!">Общие правила оказания услуг</a></li>
-						</ul>
-
-						<div class="footer-logo__dev">
-							<p>ADVCREATIVE</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
 
 		<!--=== libs ===-->
 		<!-- Youtube LightBox -->

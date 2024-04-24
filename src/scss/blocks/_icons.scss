@@ -9,11 +9,23 @@
 	stroke: transparent;
 }
 
-.icon--arrow-bottom {
+.icon--arrow-half {
     width: 17px;
     height: 8.5px;
 	stroke: #000;
-    fill: #000;
+}
+
+.slider-arrow .icon--arrow-half {
+    width: 20px;
+    height: 10px;
+    stroke-width: 2px;
+}
+
+.icon--arrow-round {
+    width: 80px;
+    height: 70px;
+    stroke: var(--accent);
+    fill: var(--accent);
 }
 
 .icon--baloons, .icon--dancing, .icon--cheers, .icon--star {
@@ -66,13 +78,13 @@
     fill: #fff;
 }
 
-.icon--slider-arrow {
+.icon--slider-arrow-half {
     width: 10px;
     height: 20px;
     stroke: #000;
 }
 
-.slider-arrow__next .icon--slider-arrow {
+.slider-arrow__next .icon--slider-arrow-half {
     transform: rotate(180deg);
 }
 

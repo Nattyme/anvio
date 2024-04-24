@@ -1,0 +1,54 @@
+<!-- tab content -->
+<div class="tab__content" data-control="tab-content">
+
+    <!-- tab block -->
+    <div class="tab__block tab__block--active activity-tab" data-control="tab-block">
+        <div class="activity-tab__content">
+            <!-- text -->
+            <div class="activity-tab__text">
+                <div class="activity-tab__title">
+                    <h3 class="h3">Самый незабываемый день!</h3>
+                </div>
+
+                <div class="activity-tab__desc">
+                    <p>В нашем парке можно устроить праздник, который не забудется ни имененниками, ни их гостями.</p>
+                </div>
+
+                <div class="activity-tab__button">
+                    <a href="#!" class="button-solid" title="Перейти к расчету стоимости">РАССЧИТАТЬ СТОИМОСТЬ</a>
+                    <svg class="icon icon--arrow-round">
+                        <use href="./img/svgsprite/sprite.symbol.svg#arrow-round"></use>
+                    </svg>
+                </div>
+
+                <div class="activity-tab__link-row">
+                    <a class="activity-tab__link" href="#!" title="Как организовать?">Как организовать?</a>
+                    <a class="activity-tab__link" href="#!" title="Сколько стоит?">Сколько стоит?</a>
+                    <a class="activity-tab__link" href="#!" title="А чем кормят?">А чем кормят?</a>
+                </div>
+            </div>
+            <!--// text -->
+
+            <!-- slider -->
+            <div class="activity-tab__slider">
+                    <!-- swiper controls -->
+                <button class="slider-arrow slider-arrow__prev" id="slider-activity-prev">
+                    <svg class="icon icon--arrow-half">
+                        <use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
+                    </svg>
+                </button>
+                <button class="slider-arrow slider-arrow__next" id="slider-activity-next">
+                    <svg class="icon icon--arrow-half">
+                        <use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
+                    </svg>
+                </button>
+
+                @@include('slider-activity.html')
+            </div>
+            <!--// slider -->
+        </div>
+    </div>
+    <!--// tab block -->
+
+</div>
+<!--// tab content -->

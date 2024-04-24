@@ -1,0 +1,74 @@
+
+.activity-tab {
+    background-color: #999;
+    background-image: url('./../../img/activity/balloon-bg.png'), url('./../../img/activity/balloon-bg.png');
+    background-position: left -373px top 29px, right -406px top 38px; // x y
+    background-size: 624px 636px, 624px 636px;
+    background-repeat: no-repeat, no-repeat;
+    
+}
+
+.activity-tab__content {
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1230px;
+}
+
+.activity-tab__text {
+    width: 550px;
+}
+
+.activity-tab__title {
+    margin-bottom: 30px;
+}
+
+.activity-tab__desc {
+    margin-bottom: 30px;
+
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.activity-tab__button {
+    margin-bottom: 30px;
+
+    position: relative;
+    display: inline-block;
+
+    svg {
+        position: absolute;
+        top: -17px;
+        right: -20px;
+        transform: translateX(100%);
+    }
+}
+
+.activity-tab__link-row {
+    display: flex;
+}
+
+.activity-tab__link {
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--accent);
+
+    transition: all 0.2s ease-in;
+
+    & + & {
+        margin-left: 40px;
+    }
+
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        text-decoration-color: var(--accent);
+    }
+}
+
+.activity-tab__slider {
+    position: relative;
+}
