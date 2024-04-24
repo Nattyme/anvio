@@ -9,7 +9,7 @@
 	stroke: transparent;
 }
 
-.icon--arrow-bottom {
+.icon--arrow-half {
     width: 17px;
     height: 8.5px;
 	stroke: #000;
@@ -66,13 +66,13 @@
     fill: #fff;
 }
 
-.icon--slider-arrow {
+.icon--slider-arrow-half {
     width: 10px;
     height: 20px;
     stroke: #000;
 }
 
-.slider-arrow__next .icon--slider-arrow {
+.slider-arrow__next .icon--slider-arrow-half {
     transform: rotate(180deg);
 }
 
