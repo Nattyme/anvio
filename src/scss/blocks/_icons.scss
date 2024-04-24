@@ -18,6 +18,14 @@
 .slider-arrow .icon--arrow-half {
     width: 20px;
     height: 10px;
+    stroke-width: 2px;
+}
+
+.icon--arrow-round {
+    width: 80px;
+    height: 70px;
+    stroke: var(--accent);
+    fill: var(--accent);
 }
 
 .icon--baloons, .icon--dancing, .icon--cheers, .icon--star {
