@@ -7,7 +7,23 @@
         <!--// header -->
 
         <!-- tab wrapper -->
-        @@include('activity-tab.html')
+        <div class="tab"  data-control="tab">
+
+            <!-- tab -->
+            <div class="tab__nav" data-control="tab-nav">
+                <button class="tab__nav-btn tab__nav-btn--active events-tab__btn" type="button" data-control="tab-button">Детские дни рождения</button>
+                <button class="tab__nav-btn" type="button" data-control="tab-button">Взрослые дни рождения</button>
+                <button class="tab__nav-btn" type="button" data-control="tab-button">Корпоративы</button>
+                <button class="tab__nav-btn" type="button" data-control="tab-button">Нестандартное мроприятие</button>
+                <button class="tab__nav-btn" type="button" data-control="tab-button">Подарочные сертификаты</button>
+            </div>
+            
+            @@include('activity-tab-1.html')
+            @@include('activity-tab-2.html')
+            @@include('activity-tab-3.html')
+            @@include('activity-tab-4.html')
+            @@include('activity-tab-5.html')
+        </div>
         <!-- tab wrapper -->
 
     </div>
