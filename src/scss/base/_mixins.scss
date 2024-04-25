@@ -42,3 +42,123 @@
         rgba(0, 0, 0, 0.2) 100%
         );
 }
+
+// Buttons
+$clr-primary: var(--accent);
+$clr-accent: var(--accent);
+$clr-neutral-light: #fff;
+$clr-neutral-dark: #000;
+$clr-none: transparent;
+
+$scheme-solid: $clr-neutral-light, $clr-primary;
+$scheme-outline-light: $clr-neutral-light, $clr-none;
+$scheme-outline-accent: $clr-neutral-dark, $clr-none;
+
+@mixin color-scheme ($text, $bg) {
+    color: $text;
+    background-color: $bg;
+}
+
+%btn-60 {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    height: 60px;
+    display: inline-block;
+    border-radius: 50px;
+    
+    line-height: 60px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+
+%btn-40 {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    height: 40px;
+    display: inline-block;
+    
+    line-height: 40px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+%btn-40-narrow {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: inline-block;
+    height: 40px;
+    border-radius: 50px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.button-solid-s {
+    @extend %btn-40;
+    @include color-scheme ($scheme-solid...);
+
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.button-solid-m {
+    @extend %btn-60;
+    @include color-scheme ($scheme-solid...);
+
+    text-transform: uppercase;
+}
+
+.button-solid-xs {
+    @extend %btn-40-narrow;
+    @include color-scheme ($scheme-solid...);
+}
+
+.button-outline {
+    @extend %btn-60;
+    @include color-scheme ($scheme-outline-accent...);
+
+    border: 2px solid $clr-accent;
+
+    &--light {
+        border-color: #fff;
+    }
+
+    &--text-light {
+        color: #fff;
+    }
+}
+
+//высота 40px
+
+.button-outline-slider {
+    @extend %btn-40;
+    @include color-scheme ($scheme-outline-light...);
+
+    border: 2px solid #fff;
+    border-radius: 50px;
+
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
+.button-outline-small {
+    @extend %btn-40-narrow;
+    @include color-scheme($scheme-outline-accent...);
+
+    border: 2px solid $clr-accent;
+
+    &--light {
+        border-color: #fff;
+        color: #fff;
+    }
+}
+

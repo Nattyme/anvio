@@ -1,18 +1,3 @@
-.btn-buy {
-    display: inline-block;
-    height: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
-
-    border-radius: 30px;
-    background-color: var(--btn-solid-bg);
-
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 0.05em;
-    color: var(--btn-solid-text);
-}
-
 .slider-arrow {
     position: absolute;
     top: 66px;
@@ -82,23 +67,6 @@
     }
 }
 
-.button-solid {
-    padding-left: 40px;
-    padding-right: 40px;
-
-    display: inline-block;
-    height: 60px;
-    border-radius: 50px;
-    background-color: var(--accent);
-
-    line-height: 60px;
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #fff;
-}
-
 .button-outline {
     display: inline-block;
     padding-left: 40px;
@@ -122,23 +90,6 @@
     &--text-light {
         color: #fff;
     }
-}
-
-.button-solid-small {
-    padding-left: 20px;
-    padding-right: 20px;
-
-    height: 40px;
-    display: inline-block;
-    border-radius: 50px;
-    background-color: var(--accent);
-
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 40px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #fff;
 }
 
 .button-outline-small {
