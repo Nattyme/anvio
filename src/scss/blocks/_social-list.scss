@@ -15,6 +15,8 @@
     align-items: center;
     justify-content: center;
 
+    transition: opacity 0.2s ease-in;
+
     &--tg {
         background-color: #37aee2;
 
@@ -61,6 +63,10 @@
         img {
             width: 41px;
         }
+    }
+
+    &:hover {
+        opacity: 0.8;
     }
 }
 
