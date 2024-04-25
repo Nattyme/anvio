@@ -25,3 +25,15 @@
     --page-bg: #252526;
     --text-color: #fff;
 }
+
+// Buttons
+$clr-primary: var(--accent);
+$clr-accent: var(--accent);
+$clr-neutral-light: #fff;
+$clr-neutral-dark: #000;
+$clr-none: transparent;
+
+$scheme-solid: $clr-neutral-light, $clr-primary;
+$scheme-outline-light: $clr-neutral-light, $clr-none;
+$scheme-outline-accent: $clr-neutral-dark, $clr-none;
+$scheme-outline-solid: $clr-neutral-dark, $clr-neutral-light;

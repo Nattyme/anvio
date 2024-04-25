@@ -43,18 +43,6 @@
         );
 }
 
-// Buttons
-$clr-primary: var(--accent);
-$clr-accent: var(--accent);
-$clr-neutral-light: #fff;
-$clr-neutral-dark: #000;
-$clr-none: transparent;
-
-$scheme-solid: $clr-neutral-light, $clr-primary;
-$scheme-outline-light: $clr-neutral-light, $clr-none;
-$scheme-outline-accent: $clr-neutral-dark, $clr-none;
-$scheme-outline-solid: $clr-neutral-dark, $clr-neutral-light;
-
 @mixin color-scheme ($text, $bg) {
     color: $text;
     background-color: $bg;
@@ -98,77 +86,5 @@ $scheme-outline-solid: $clr-neutral-dark, $clr-neutral-light;
     letter-spacing: 0.05em;
     text-align: center;
     text-transform: uppercase;
-}
-
-.button-solid-s {
-    @extend %btn-40;
-    @include color-scheme ($scheme-solid...);
-
-    line-height: 40px;
-    border-radius: 30px;
-    font-size: 16px;
-}
-
-.button-solid-m {
-    @extend %btn-60;
-    @include color-scheme ($scheme-solid...);
-
-    line-height: 60px;
-    text-transform: uppercase;
-}
-
-.button-solid-xs {
-    @extend %btn-40-narrow;
-    @include color-scheme ($scheme-solid...);
-
-    line-height: 40px;
-}
-
-.button-outline-m {
-    @extend %btn-60;
-    @include color-scheme ($scheme-outline-accent...);
-
-    border: 2px solid $clr-accent;
-    line-height: 58px;
-    text-transform: uppercase;
-
-    &--mono {
-        border-color: #fff;
-        color: #fff;
-    }
-
-    &--light {
-        color: #fff;
-    }
-}
-
-.button-outline-s {
-    @extend %btn-40;
-    @include color-scheme ($scheme-outline-light...);
-
-    border: 2px solid #fff;
-    line-height: 38px;
-    border-radius: 50px;
-
-    font-size: 14px;
-    text-transform: uppercase;
-
-    &--accent {
-        border-color: $clr-accent;
-        @include color-scheme ($scheme-outline-solid...);
-    }
-}
-
-.button-outline-xs {
-    @extend %btn-40-narrow;
-    @include color-scheme($scheme-outline-accent...);
-
-    line-height: 38px;
-    border: 2px solid $clr-accent;
-
-    &--light {
-        border-color: #fff;
-        color: #fff;
-    }
 }
 
