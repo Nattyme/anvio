@@ -75,17 +75,3 @@
     color: rgba(255, 255, 255, 0.45);
 }
 
-.socials-list__link {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    &--vk {
-        background-color: #0077ff;
-    }
-}

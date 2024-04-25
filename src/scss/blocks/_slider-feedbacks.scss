@@ -1,6 +1,6 @@
 .slider-feedbacks {
-    height: 554px;
-    width: 100%;
+    height: 634px;
+    width: 1890px;
 }
 
 .swiper-wrapper.slider-feedbacks {
@@ -8,7 +8,6 @@
 } 
 
 .swiper-slide.slider-feedbacks__item {
-    flex-shrink: 1;
     padding: 50px;
 
     width: 443px;
@@ -22,7 +21,7 @@
     transition: all 0.2s ease-in;
 }
 
-.slider-feedbacks__item.swiper-slide-active {
+.slider-feedbacks__item:hover {
     width: 443px;
     height: 502px;
 
