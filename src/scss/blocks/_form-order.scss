@@ -1,0 +1,141 @@
+.form-order {
+    width: 916px;
+    counter-reset: ordered-list;
+}
+
+.form-order__group {
+    padding-left: 110px;
+    padding-top: 16px;
+
+    position: relative;
+   
+
+    height: 429px;
+    width: 916px;
+
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+
+    &::before {
+        counter-increment: ordered-list;
+        content: counter(ordered-list);
+        width: 80px;
+        height: 80px;
+        background-color: var(--accent);
+        border-radius: 50%;
+
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        color: #fff;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateX(50%);
+        height: 100%;
+        width: 75px;
+
+        border-left: 5px dotted var(--accent);
+    }
+}
+
+.form-order__title {
+    margin-bottom: 30px;
+}
+
+.form-order__row {
+    display: block;
+}
+
+.form-order__row + .form-order__row {
+    margin-top: 5px;
+}
+
+
+.form-card {
+    position: relative;
+
+    width: 200px;
+    height: 200px;
+
+    background-color: #999;
+    background-position: center center; // x y
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+
+    border-radius: 30px;
+
+    &::before {
+        padding: 10px 20px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        content: "Выбрать";
+
+        width: 118px;
+        height: 40px;
+        border-radius: 50px;
+        border: 5px solid #fff;
+
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--accent);
+    }
+
+    &::after {
+        @extend %card-overlay;
+    
+    }
+}
+
+.form-card__title {
+    width: 160px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10px);
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.form-card__info-mark {
+    width: 40px;
+    height: 40px;
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

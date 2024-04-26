@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anvio - купить билет</title>
+    <!-- custom style -->
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+    <!-- header-top -->
+    @@include('./blocks/header-top.html')
+    <!-- header-top -->
+
+    <main class="inner-page">
+        <section class="booking">
+            <div class="container">
+
+                <!-- header -->
+                <header class="booking__title">
+                    <h1 class="h2">Бронирование сеанса</h1>
+                </header>
+                <!-- header -->
+
+                <div class="booking__form">
+                    <form action="#!" class="form-order">
+
+                        <!-- form group -->
+                        <div class="form-order__group">
+                            <div class="form-order__title">
+                                <h3 class="h3">Выберите место игры</h3>
+                            </div>
+
+                            <label class="form-order__row">
+                                <input type="radio" name="category"
+                                value="Москва, Театральный проезд, дом 5/1" class="real-radio"> 
+                                <div class="custom-radio-text">Москва, Театральный проезд, дом 5/1</div>
+                            </label>
+
+                            <label class="form-order__row">
+                                <input type="radio" name="category"
+                                value="Москва, Театральный проезд, дом 5/1" class="real-radio"> 
+                                <div class="custom-radio-text">  Москва, Театральный проезд, дом 12</div>
+                            </label>
+                        </div>
+                        <!-- form group -->
+
+                        <!-- form group -->
+                        <div class="form-order__group">
+                            <div class="form-order__title">
+                                <h3 class="h3">Выберите игру</h3>
+                            </div>
+
+                            <label>
+                                <input type="radio" name="category"
+                                value="Выберу
+                                на месте" class="real-radio">
+
+                                <div class="form-card" style = "background-image: url(./../img/form-order/img-01.jpg)";>
+                                    <h4 class="form-card__title">Выберу на месте</h4>
+                                    <div class="form-card__info-mark">
+                                        <svg width="4" height="16" class="icon icon--info">
+                                            <use href="./img/svgsprite/sprite.symbol.svg#info"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                               
+                            </label>
+
+                            <label>
+                                <input type="radio" name="category"
+                                value="Выберу
+                                на месте" class="real-radio">
+
+                                <div class="form-card" style = "background-image: url(./../img/form-order/img-01.jpg)";>
+                                    <h4 class="form-card__title">Выберу на месте</h4>
+                                    <div class="form-card__info-mark">
+                                        <svg width="4" height="16" class="icon icon--info">
+                                            <use href="./img/svgsprite/sprite.symbol.svg#info"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                               
+                            </label>
+
+                        
+                        </div>
+                        <!-- form group -->
+
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    @@include('blocks/footer.html')
+    <!-- footer -->
+</body>
+</html>
