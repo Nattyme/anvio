@@ -4,8 +4,6 @@
     background-repeat: no-repeat, no-repeat;
     
     &--01 {
-        background-image: url('./../../img/activity/balloon-bg.png'), url('./../../img/activity/balloon-bg.png');
-
         @media (min-resolution: 2dppx) {
             background-image: url("./../../img/activity/balloon-bg@2x.png"), url("./../../img/activity/balloon-bg@2x.png");
         }
@@ -14,7 +12,6 @@
     }
 
     &--02 {
-        background-image: url('./../../img/activity/champagne-bg.png'), url('./../../img/activity/glasses.png');
         @media (min-resolution: 2dppx) {
             background-image: url("./../../img/activity/champagne-bg@2x.png"), url("./../../img/activity/glasses-bg@2x.png");
         }
@@ -24,7 +21,6 @@
     }
 
     &--03 {
-        background-image: url('./../../img/activity/petard-bg.png'), url('./../../img/activity/women-bg.png');
         background-size: 584px 584px, 375px 594px;
         background-position: left -70px top 42px, right -120px top 79px; // x y
 
@@ -34,8 +30,6 @@
     }
 
     &--04 {
-        background-image: url('./../../img/activity/disco-bg.png'), url('./../../img/activity/disco-bg.png');
-
         @media (min-resolution: 2dppx) {
             background-image: url("./../../img/activity/disco-bg@2x.png"), url("./../../img/activity/disco-bg@2x.png");
         }
@@ -45,7 +39,6 @@
     }
 
     &--05 {
-        background-image: url('./../../img/activity/bow-bg.png'), url('./../../img/activity/present-bg.png');
         @media (min-resolution: 2dppx) {
             background-image: url("./../../img/activity/bow-bg@2x.png"), url("./../../img/activity/present-bg@2x.png");
         }
