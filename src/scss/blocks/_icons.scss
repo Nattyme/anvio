@@ -11,7 +11,7 @@
 
 .icon--arrow-half {
     width: 17px;
-    height: 8.5px;
+    height: 9px;
 	stroke: #000;
 }
 
@@ -188,4 +188,10 @@
     path.tg-bg {
         fill: #37AEE2;
     }
+}
+
+.icon--info {
+    width: 4px;
+    height: 16px;
+    fill: var(--accent);
 }
