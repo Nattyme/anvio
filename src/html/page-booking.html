@@ -51,39 +51,7 @@
                                 <h3 class="h3">Выберите игру</h3>
                             </div>
 
-                            <label>
-                                <input type="radio" name="category"
-                                value="Выберу
-                                на месте" class="real-radio">
-
-                                <div class="form-card" style = "background-image: url(./../img/form-order/img-01.jpg)";>
-                                    <h4 class="form-card__title">Выберу на месте</h4>
-                                    <div class="form-card__info-mark">
-                                        <svg width="4" height="16" class="icon icon--info">
-                                            <use href="./img/svgsprite/sprite.symbol.svg#info"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                               
-                            </label>
-
-                            <label>
-                                <input type="radio" name="category"
-                                value="Выберу
-                                на месте" class="real-radio">
-
-                                <div class="form-card" style = "background-image: url(./../img/form-order/img-01.jpg)";>
-                                    <h4 class="form-card__title">Выберу на месте</h4>
-                                    <div class="form-card__info-mark">
-                                        <svg width="4" height="16" class="icon icon--info">
-                                            <use href="./img/svgsprite/sprite.symbol.svg#info"></use>
-                                        </svg>
-                                    </div>
-                                </div>
-                               
-                            </label>
-
-                        
+                            @@include('blocks/slider-form-order.html')
                         </div>
                         <!-- form group -->
 
@@ -96,5 +64,11 @@
     <!-- footer -->
     @@include('blocks/footer.html')
     <!-- footer -->
+
+    <!-- swiper -->
+    <script src="./libs/swiper-11.0.7/package/swiper-bundle.min.js"></script>
+    <!--=== libs ===-->
+
+	<script src="./js/index.bundle.js"></script>
 </body>
 </html>

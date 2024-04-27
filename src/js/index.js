@@ -23,6 +23,7 @@ import sliderFeedbacks from './modules/slider-feedbacks.js';
 import sliderPromo from './modules/slider-promo.js';
 import sliderNews from './modules/slider-news.js';
 import sliderOffersWide from './modules/slider-offers-wide.js';
+import sliderFormOrder from './modules/slider-form-order.js';
 sliderOffers();
 sliderEmotions();
 sliderActivity();
@@ -31,4 +32,5 @@ sliderFeedbacks();
 sliderPromo();
 sliderNews();
 sliderOffersWide();
+sliderFormOrder();
 
