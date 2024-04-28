@@ -1,17 +1,25 @@
-.swiper.slider-form-order {
-}
+// .swiper.slider-form-order {
+//     background: linear-gradient(90deg, rgba(255,255,255,0) 87%, rgba(255,255,255,1) 97%);
+  
+// }
 
 .slider-form-order {
     width: 815px;
     height: 200px;
 }
 
-.slider-form-order .swiper-wrapper {
-
-}
-
-.swiper-slide {
-}
+.swiper.slider-form-order .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    // background: linear-gradient(90deg, rgba(255,255,255,0) 87%, rgba(255,255,255,1) 97%);
+    background-color: red;
+  }
 
 .swiper-slide.slider-form-order__item {
     width: 200px;
