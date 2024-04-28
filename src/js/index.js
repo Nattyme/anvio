@@ -6,14 +6,6 @@ Fancybox.bind('[data-fancybox]', {
 	// Your custom options
 });
 
-// core version + navigation, pagination modules:
-import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
-// import Swiper and modules styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
 // Мобильная навигация
 // import mobileNav from './modules/mobile-nav.js';
 // mobileNav();
