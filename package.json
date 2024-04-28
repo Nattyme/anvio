@@ -43,10 +43,11 @@
 		"last 5 versions"
 	],
 	"dependencies": {
+		"@easepick/bundle": "^1.2.1",
 		"@fancyapps/fancybox": "^3.5.7",
 		"@fancyapps/ui": "^5.0.35",
 		"avif-webp-checker": "^1.0.0",
 		"gulp-file-include": "^2.3.0",
-		"swiper": "^11.0.6"
+		"swiper": "^11.1.1"
 	}
 }
