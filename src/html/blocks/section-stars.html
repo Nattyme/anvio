@@ -2,9 +2,9 @@
     <div class="container">
         <div class="stars__row">
             <!-- header -->
-            <div class="impress__header">
+            <header class="impress__header">
                 <h2 class="h2">Впечатления звёздных гостей</h2>
-            </div>
+            </header>
             <!-- header -->
             
             <a href="#!" class="button-solid-m">КУПИТЬ БИЛЕТ В ПАРК</a>
@@ -26,7 +26,14 @@
                 </svg>
             </button>
 
-            @@include('slider-stars.html')
+            <div class="swiper slider-stars" id="slider-stars">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides --> 
+                    @@loop('blocks/slide-stars.html', './data/slider-stars.json')
+                    <!-- slides -->
+                </div>
+            </div>
         </div>
     </div>
 
