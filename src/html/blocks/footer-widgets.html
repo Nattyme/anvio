@@ -17,7 +17,9 @@
     <div class="footer-widgets__item">
         <p class="footer-widgets__title">Следуйте за нами</p>
         <div class="footer-widgets__socials">
-            @@include('social-list.html')
+            <ul class="socials-list">
+                @@loop('blocks/social-list.html', './data/social-list.json')
+            </ul>
         </div>
     </div>
     <!-- widget -->

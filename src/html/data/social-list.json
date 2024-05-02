@@ -1,0 +1,49 @@
+[
+    {
+        "social": "telegram",
+        "title": "Перейти на страницу в Телеграм",
+        "width": "42",
+        "height": "42",
+        "alt": "Телеграм"
+    },
+
+    {
+        "social": "vk",
+        "title": "Перейти на страницу ВКонтакте",
+        "width": "40",
+        "height": "40",
+        "alt": "ВКонтакте"
+    },
+
+    {
+        "social": "whatsapp",
+        "title": "Перейти в профиль Ватсапп",
+        "width": "35",
+        "height": "35",
+        "alt": "Whatsapp"
+    },
+
+    {
+        "social": "ydzen",
+        "title": "Перейти на страницу в Яндекс Дзен",
+        "width": "100%",
+        "height": "100%",
+        "alt": "Яндекс Дзен"
+    },
+
+    {
+        "social": "tiktok",
+        "title": "Перейти на страницу в ТикТок",
+        "width": "50",
+        "height": "50",
+        "alt": "TikTok"
+    },
+
+    {
+        "social": "youtube",
+        "title": "Перейти в профиль на YouTube",
+        "width": "41",
+        "height": "41",
+        "alt": "YouTube"
+    }
+]

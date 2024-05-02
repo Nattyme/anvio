@@ -2,6 +2,11 @@
     margin-bottom: 30px;
 
     display: flex;
+    justify-content: center;
+
+    & > * {
+        flex-grow: 1;
+    }
 }
 
 .tab__nav-btn {
@@ -15,7 +20,7 @@
     justify-content: center;
     column-gap: 20px;
     
-    width: 461px;
+    // width: 461px;
     border: 5px solid #fff;
     border-radius: 20px;
     background-color: #eee;
@@ -27,10 +32,6 @@
     color: var(--text-accent);
 
     transition: all 0.2s ease;
-
-    & > * {
-        flex-shrink: 0;
-    }
 
     &:not(:first-child) {
         margin-left: 5px;
