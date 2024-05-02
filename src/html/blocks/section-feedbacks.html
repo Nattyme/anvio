@@ -20,7 +20,14 @@
                     <use href="./img/svgsprite/sprite.symbol.svg#arrow-half"></use>
                 </svg>
             </button>
-                @@include('slider-feedbacks.html')
+
+            <!-- slider -->
+            <div class="swiper slider-feedbacks" id="slider-feedbacks">
+                <div class="swiper-wrapper">
+                   @@loop('./blocks/slide-feedback.html', './data/slider-feedbacks.json')
+                </div>
+            </div>
+             <!-- slider -->
         </div>
     </div>
 </section>
