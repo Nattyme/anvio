@@ -27,7 +27,15 @@
                 </svg>
             </button>
 
-            @@include('slider-news.html')
+            <!-- slider -->
+            <div class="swiper slider-news" id="slider-news">
+    
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    @@loop('blocks/slide-news.html', './data/slider-news.json')
+                </div>
+            </div>
+            <!--// slider -->
         </div>
     </div>
 </section>
