@@ -4,6 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Anvio&#160;&#8212; купить билет</title>
+
+		<!-- swiper-slider -->
+		<link rel="stylesheet" href="./libs/swiper-11.0.7/css/swiper.min.css" />
+		<!-- swiper-slider -->
+
 		<!-- custom style -->
 		<link rel="stylesheet" href="./css/main.css" />
 	</head>
@@ -23,6 +28,7 @@
 							</a>
 						</div>
 
+						<!-- nav list -->
 						<ul class="nav-list">
 							<li class="nav-list__item">
 								<a href="#!" class="nav-list__link arrow-dropdown" title="Развлечения">Развлечения</a>
@@ -146,11 +152,13 @@
 								<a href="#!" class="nav-list__link" title="Контакты">Контакты</a>
 							</li>
 						</ul>
+						<!-- nav list -->
 
 						<button class="nav__btn">
 							<a href="./page-booking.html" class="button-solid-s">КУПИТЬ БИЛЕТ</a>
 						</button>
 
+						<!-- nav-user -->
 						<div class="nav-user">
 							<a class="nav-user__phone" href="tel:74951330243" title="Контактный телефон">+7 (495) 133&#8211;02&#8211;43</a>
 
@@ -160,6 +168,7 @@
 
 							<button class="btn-lang arrow-dropdown">RU</button>
 						</div>
+						<!-- nav-user -->
 					</nav>
 				</div>
 			</div>
@@ -191,12 +200,12 @@
 								</div>
 
 								<label class="form-order__row">
-									<input type="radio" name="category" value="Москва, Театральный проезд, дом 5/1" class="real-radio" />
+									<input type="radio" name="adress" value="Москва, Театральный проезд, дом 5/1" class="real-radio" />
 									<div class="custom-radio-text">Москва, Театральный проезд, дом&#160;5/1</div>
 								</label>
 
 								<label class="form-order__row">
-									<input type="radio" name="category" value="Москва, Театральный проезд, дом 5/1" class="real-radio" />
+									<input type="radio" name="adress" value="Москва, Театральный проезд, дом 5/1" class="real-radio" />
 									<div class="custom-radio-text">Москва, Театральный проезд, дом&#160;12</div>
 								</label>
 							</div>
@@ -208,43 +217,259 @@
 									<h3 class="h3">Выберите игру</h3>
 								</div>
 
-								<label>
-									<input
-										type="radio"
-										name="category"
-										value="Выберу
-    на месте"
-										class="real-radio"
-									/>
+								<div class="form-order__slider">
+									<div class="swiper slider-form-order " id="slider-form-order">
+										<!-- Additional required wrapper -->
+										<div class="swiper-wrapper">
+											<!-- slide -->
+											<div class="swiper-slide slider-form-order__item">
+												<label>
+													<input
+														type="radio"
+														name="category"
+														value="Выберу
+                на месте"
+														class="real-radio"
+													/>
 
-									<div class="form-card" style="background-image: url(./../img/form-order/img-01.jpg)" ;>
-										<h4 class="form-card__title">Выберу на&#160;месте</h4>
-										<div class="form-card__info-mark">
-											<svg width="4" height="16" class="icon icon--info">
-												<use href="./img/svgsprite/sprite.symbol.svg#info"></use>
-											</svg>
+													<div class="form-card" style="background-image: url(./../img/form-order/img-01.jpg)" ;>
+														<h4 class="form-card__title">Выберу на&#160;месте</h4>
+														<div class="form-card__info-mark">
+															<svg width="4" height="16" class="icon icon--info">
+																<use href="./img/svgsprite/sprite.symbol.svg#info"></use>
+															</svg>
+														</div>
+													</div>
+												</label>
+											</div>
+											<!--// slide -->
+
+											<!-- slide -->
+											<div class="swiper-slide slider-form-order__item">
+												<label>
+													<input
+														type="radio"
+														name="category"
+														value="Выберу
+                на месте"
+														class="real-radio"
+													/>
+
+													<div class="form-card" style="background-image: url(./../img/form-order/img-01.jpg)" ;>
+														<h4 class="form-card__title">Выберу на&#160;месте</h4>
+														<div class="form-card__info-mark">
+															<svg width="4" height="16" class="icon icon--info">
+																<use href="./img/svgsprite/sprite.symbol.svg#info"></use>
+															</svg>
+														</div>
+													</div>
+												</label>
+											</div>
+											<!--// slide -->
+
+											<!-- slide -->
+											<div class="swiper-slide slider-form-order__item">
+												<label>
+													<input
+														type="radio"
+														name="category"
+														value="Выберу
+                на месте"
+														class="real-radio"
+													/>
+
+													<div class="form-card" style="background-image: url(./../img/form-order/img-01.jpg)" ;>
+														<h4 class="form-card__title">Выберу на&#160;месте</h4>
+														<div class="form-card__info-mark">
+															<svg width="4" height="16" class="icon icon--info">
+																<use href="./img/svgsprite/sprite.symbol.svg#info"></use>
+															</svg>
+														</div>
+													</div>
+												</label>
+											</div>
+											<!--// slide -->
+
+											<!-- slide -->
+											<div class="swiper-slide slider-form-order__item">
+												<label>
+													<input
+														type="radio"
+														name="category"
+														value="Выберу
+                на месте"
+														class="real-radio"
+													/>
+
+													<div class="form-card" style="background-image: url(./../img/form-order/img-01.jpg)" ;>
+														<h4 class="form-card__title">Выберу на&#160;месте</h4>
+														<div class="form-card__info-mark">
+															<svg width="4" height="16" class="icon icon--info">
+																<use href="./img/svgsprite/sprite.symbol.svg#info"></use>
+															</svg>
+														</div>
+													</div>
+												</label>
+											</div>
+											<!--// slide -->
+
+											<!-- slide -->
+											<div class="swiper-slide slider-form-order__item">
+												<label>
+													<input
+														type="radio"
+														name="category"
+														value="Выберу
+                на месте"
+														class="real-radio"
+													/>
+
+													<div class="form-card" style="background-image: url(./../img/form-order/img-01.jpg)" ;>
+														<h4 class="form-card__title">Выберу на&#160;месте</h4>
+														<div class="form-card__info-mark">
+															<svg width="4" height="16" class="icon icon--info">
+																<use href="./img/svgsprite/sprite.symbol.svg#info"></use>
+															</svg>
+														</div>
+													</div>
+												</label>
+											</div>
+											<!--// slide -->
 										</div>
 									</div>
-								</label>
+								</div>
+							</div>
+							<!-- form group -->
 
-								<label>
-									<input
-										type="radio"
-										name="category"
-										value="Выберу
-    на месте"
-										class="real-radio"
-									/>
+							<!-- form group -->
+							<div class="form-order__group">
+								<div class="form-order__flex">
+									<div class="form-order__title">
+										<h3 class="h3">Выберите дату</h3>
+									</div>
+								</div>
 
-									<div class="form-card" style="background-image: url(./../img/form-order/img-01.jpg)" ;>
-										<h4 class="form-card__title">Выберу на&#160;месте</h4>
-										<div class="form-card__info-mark">
-											<svg width="4" height="16" class="icon icon--info">
-												<use href="./img/svgsprite/sprite.symbol.svg#info"></use>
-											</svg>
+								<div class="form-order__slider">
+									<div class="swiper slider-form-order " id="slider-form-order">
+										<!-- Additional required wrapper -->
+										<div class="swiper-wrapper">
+											<!-- slide -->
+											<div class="swiper-slide slider-form-order__item">
+												<label>
+													<input
+														type="radio"
+														name="category"
+														value="Выберу
+                на месте"
+														class="real-radio"
+													/>
+
+													<div class="form-card" style="background-image: url(./../img/form-order/img-01.jpg)" ;>
+														<h4 class="form-card__title">Выберу на&#160;месте</h4>
+														<div class="form-card__info-mark">
+															<svg width="4" height="16" class="icon icon--info">
+																<use href="./img/svgsprite/sprite.symbol.svg#info"></use>
+															</svg>
+														</div>
+													</div>
+												</label>
+											</div>
+											<!--// slide -->
+
+											<!-- slide -->
+											<div class="swiper-slide slider-form-order__item">
+												<label>
+													<input
+														type="radio"
+														name="category"
+														value="Выберу
+                на месте"
+														class="real-radio"
+													/>
+
+													<div class="form-card" style="background-image: url(./../img/form-order/img-01.jpg)" ;>
+														<h4 class="form-card__title">Выберу на&#160;месте</h4>
+														<div class="form-card__info-mark">
+															<svg width="4" height="16" class="icon icon--info">
+																<use href="./img/svgsprite/sprite.symbol.svg#info"></use>
+															</svg>
+														</div>
+													</div>
+												</label>
+											</div>
+											<!--// slide -->
+
+											<!-- slide -->
+											<div class="swiper-slide slider-form-order__item">
+												<label>
+													<input
+														type="radio"
+														name="category"
+														value="Выберу
+                на месте"
+														class="real-radio"
+													/>
+
+													<div class="form-card" style="background-image: url(./../img/form-order/img-01.jpg)" ;>
+														<h4 class="form-card__title">Выберу на&#160;месте</h4>
+														<div class="form-card__info-mark">
+															<svg width="4" height="16" class="icon icon--info">
+																<use href="./img/svgsprite/sprite.symbol.svg#info"></use>
+															</svg>
+														</div>
+													</div>
+												</label>
+											</div>
+											<!--// slide -->
+
+											<!-- slide -->
+											<div class="swiper-slide slider-form-order__item">
+												<label>
+													<input
+														type="radio"
+														name="category"
+														value="Выберу
+                на месте"
+														class="real-radio"
+													/>
+
+													<div class="form-card" style="background-image: url(./../img/form-order/img-01.jpg)" ;>
+														<h4 class="form-card__title">Выберу на&#160;месте</h4>
+														<div class="form-card__info-mark">
+															<svg width="4" height="16" class="icon icon--info">
+																<use href="./img/svgsprite/sprite.symbol.svg#info"></use>
+															</svg>
+														</div>
+													</div>
+												</label>
+											</div>
+											<!--// slide -->
+
+											<!-- slide -->
+											<div class="swiper-slide slider-form-order__item">
+												<label>
+													<input
+														type="radio"
+														name="category"
+														value="Выберу
+                на месте"
+														class="real-radio"
+													/>
+
+													<div class="form-card" style="background-image: url(./../img/form-order/img-01.jpg)" ;>
+														<h4 class="form-card__title">Выберу на&#160;месте</h4>
+														<div class="form-card__info-mark">
+															<svg width="4" height="16" class="icon icon--info">
+																<use href="./img/svgsprite/sprite.symbol.svg#info"></use>
+															</svg>
+														</div>
+													</div>
+												</label>
+											</div>
+											<!--// slide -->
 										</div>
 									</div>
-								</label>
+								</div>
 							</div>
 							<!-- form group -->
 						</form>

@@ -8,120 +8,18 @@
                     </a>
                 </div>
 
-                <ul class="nav-list">
-                    <li class="nav-list__item">
-                        <a href="#!" class="nav-list__link arrow-dropdown" title="Развлечения">Развлечения</a>
-
-                        <!-- sub-nav -->
-                        <div class="nav-list__sub-nav">
-                            <ul class="sub-nav-img">
-                                <li class="sub-nav-img__item">
-                                    <a href="#!" class="sub-nav-img__link" title="Арена">
-                                        <span class="sub-nav-img__text">Арена</span>
-                                        <img src="./../../img/header-nav/img-01.jpg" srcset="./../../img/header-nav/img-01@2x.jpg" alt="arena">
-                                    </a>
-                                </li>
-                                <li class="sub-nav-img__item">
-                                    <a href="#!" class="sub-nav-img__link" title="Куб">
-                                        <span class="sub-nav-img__text">Куб</span>
-                                        <img src="./../../img/header-nav/img-02.jpg" srcset="./../../img/header-nav/img-02@2x.jpg" alt="arena">
-                                    </a>
-                                </li>
-                                <li class="sub-nav-img__item">
-                                    <a href="#!" class="sub-nav-img__link" title="Атракционы">
-                                        <span class="sub-nav-img__text">Атракционы</span>
-                                        <img src="./../../img/header-nav/img-03.jpg" srcset="./../../img/header-nav/img-03@2x.jpg" alt="arena">
-                                    </a>
-                                </li>
-                                <li class="sub-nav-img__item">
-                                    <a href="#!" class="sub-nav-img__link" title="Стенды">
-                                        <span class="sub-nav-img__text">Стенды</span>
-                                        <img src="./../../img/header-nav/img-04.jpg" srcset="./../../img/header-nav/img-04@2x.jpg" alt="arena">
-                                    </a>
-                                </li>
-                                <li class="sub-nav-img__item">
-                                    <a href="#!" class="sub-nav-img__link" title="PvP-соревнования">
-                                        <span class="sub-nav-img__text">PvP-соревнования</span>
-                                        <img src="./../../img/header-nav/img-05.jpg" srcset="./../../img/header-nav/img-05@2x.jpg" alt="arena">
-                                    </a>
-                                </li>
-                                <li class="sub-nav-img__item">
-                                    <a href="#!" class="sub-nav-img__link" title="Билет в парк">
-                                        <span class="sub-nav-img__text">Билет в парк</span>
-                                        <img src="./../../img/header-nav/img-06.jpg" srcset="./../../img/header-nav/img-06@2x.jpg" alt="arena">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- sub-nav -->
-                    </li>
-		            <li class="nav-list__item">
-                        <a href="#!" class="nav-list__link arrow-dropdown" title="Праздники">Праздники</a>
-                        
-                        <!-- sub-nav -->
-                        <div class="nav-list__sub-nav nav-list__sub-nav--less">
-                            <ul class="sub-nav-text">
-                                <li class="sub-nav-text__item">
-                                    <a href="#!" class="sub-nav-text__link" title="Детские дни рождения">
-                                        <svg class="icon icon--baloons">
-                                            <use href="./img/svgsprite/sprite.symbol.svg#baloons"></use>
-                                        </svg>
-                                        <span class="sub-nav-text__desc">Детские дни рождения</span>
-                                    </a>
-                                </li>
-
-                                <li class="sub-nav-text__item">
-                                    <a href="#!" class="sub-nav-text__link" title="Взрослые дни рождения">
-                                        <svg class="icon icon--cheers">
-                                            <use href="./img/svgsprite/sprite.symbol.svg#cheers"></use>
-                                        </svg>
-                                        <span class="sub-nav-text__desc">Взрослые дни рождения</span>
-                                    </a>
-                                </li>
-
-                                <li class="sub-nav-text__item">
-                                    <a href="#!" class="sub-nav-text__link" title="Корпоративы">
-                                        <svg class="icon icon--dancing">
-                                            <use href="./img/svgsprite/sprite.symbol.svg#dancing"></use>
-                                        </svg>
-                                        <span class="sub-nav-text__desc">Корпоративы</span>
-                                    </a>
-                                </li>
-
-                                <li class="sub-nav-text__item">
-                                    <a href="#!" class="sub-nav-text__link" title="Нестандартное мероприятие">
-                                        <svg class="icon icon--star">
-                                            <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
-                                        </svg>
-                                        <span class="sub-nav-text__desc">Нестандартное мероприятие</span>
-                                    </a>
-                                </li>
-                                
-                            </ul>
-                        </div>
-                        <!-- sub-nav -->
-                    </li>
-		            <li class="nav-list__item">
-                        <a href="#!" class="nav-list__link" title="Сертификаты">Сертификаты</a>
-                    </li>
-                    <li class="nav-list__item">
-                        <a href="#!" class="nav-list__link" title="Контакты">Контакты</a>
-                    </li>
-                </ul>
+                <!-- nav list -->
+                @@include('nav-list.html')
+                <!-- nav list -->
 
                 <button class="nav__btn">
                     <a href="./page-booking.html" class="button-solid-s">КУПИТЬ БИЛЕТ</a>
                 </button>
+
+                <!-- nav-user -->
+                @@include('nav-user.html')
+                <!-- nav-user -->
     
-                <div class="nav-user">
-                    <a class="nav-user__phone" href="tel:74951330243" title="Контактный телефон">+7 (495) 133&#8211;02&#8211;43</a>
-
-                    <a class="nav-user__city arrow-dropdown">МОСКВА</a>
-
-                    <button class="btn-login">ВОЙТИ</button>
-
-                    <button class="btn-lang arrow-dropdown">RU</button>
-                </div>
             </nav>
         </div>
     </div>
