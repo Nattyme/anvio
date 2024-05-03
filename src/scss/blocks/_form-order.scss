@@ -140,6 +140,29 @@
     justify-content: center;
 }
 
-.form-order__slider {
- 
+.form-order__header {
+    display: flex;
+    align-items: center;
+}
+
+.form-order__header {
+}
+
+.form-order__calendar {
+    margin-left: 20px;
+    
+    position: relative;
+    display: inline-block;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 100%;
+    border: 2px solid var(--accent);
+
+    & > * {
+        position: absolute;
+        inset: 0;
+        margin: auto;
+    }
 }

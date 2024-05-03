@@ -1,0 +1,71 @@
+:host {
+    --color-bg-default: #fff;
+    --color-fg-primary: red;
+    --color-fg-default: rgba(0, 0, 0, 0.3);
+    --color-fg-accent: #fff;
+    --color-bg-inrange: #333;
+    --day-width: 40px;
+    --day-height: 40px;
+  }
+  /* increase start and end */
+  .container.show {
+    padding: 0;
+    width: 348px ;
+    height: 335px;
+    background-color: #fff;
+  }
+
+  .container.show .previous-button,
+  .container.show .next-button {
+        width: 20px;
+        height: 10px;
+
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='18' height='10' viewBox='0 0 18 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0.492767 0.75L8.99277 9.25L17.4928 0.75' stroke='black'/%3e%3c/svg%3e");
+        background-position: center center; // x y
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        svg {
+            display: none;
+        }
+  }
+
+.container.show .previous-button {
+    transform: rotate(90deg);
+}
+
+.container.show .next-button {
+    transform: rotate(-90deg);
+}
+
+  .container.show .grid-1 {
+    border-radius: 20px;
+  }
+
+  .container.show .previous-button {
+    order: -1;
+  }
+
+  .calendar>.header .month-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+  }
+
+  .container.show .day.unit {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .container.show .day.today {
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    color: var(--accent);
+  }
+
+  .container.show .day.selected {
+    border-radius: 50%;
+    background-color: #000;
+
+    line-height: 40px;
+  }
