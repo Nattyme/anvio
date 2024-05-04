@@ -8,11 +8,16 @@
     --day-height: 40px;
   }
   /* increase start and end */
-  .container.show {
+  div.container.show {
+    top: 66px !important;
+    left: 30px !important;
+    transform: translateX(-100%);
     padding: 0;
     width: 348px ;
     height: 335px;
     background-color: #fff;
+
+    border-radius: 20px;
   }
 
   .container.show .previous-button,
@@ -39,7 +44,7 @@
 }
 
   .container.show .grid-1 {
-    border-radius: 20px;
+    
   }
 
   .container.show .previous-button {
