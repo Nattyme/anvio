@@ -3,22 +3,15 @@ import { Fancybox } from '@fancyapps/ui';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
 
 // calendar
-import { easepick } from '@easepick/core';
+// import { easepick } from '@easepick/core';
 
-const picker = new easepick.create({
-    element: document.getElementById('datepicker'),
-    css: [
-      'https://cdn.jsdelivr.net/npm/@easepick/core@1.2.1/dist/index.css',
-      './css/main.css',
-    ],
-
-    setup(picker) {
-        picker.on('view', (e) => {
-          const { view, date, target } = e.detail;
-          // do something
-        });
-      },
-  });
+// const picker = new easepick.create({
+//     element: document.getElementById('datepicker'),
+//     css: [
+//       'https://cdn.jsdelivr.net/npm/@easepick/core@1.2.1/dist/index.css',
+//       './css/main.css',
+//     ],
+//   });
 
 // Мобильная навигация
 // import mobileNav from './modules/mobile-nav.js';
